@@ -1,11 +1,14 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import javax.swing.table.TableCellRenderer;
 
 
 public class Frame implements ActionListener{
   JFrame a;
   JPanel panel;
+  int [] [] truthTableVal;
+  JButton [] [] truthTable;
   
   public static void main (String [] args){
     new Frame();
@@ -57,15 +60,47 @@ public class Frame implements ActionListener{
                       "Does nothing at all");
     tabbedPane.setMnemonicAt(3, KeyEvent.VK_4);
     panel.add(tabbedPane);
+    JLabel test = new JLabel ("Hello World.");
+    panel1.add(test);
+    /* Insert the rest of the code here. */
+    
+    /* 2 variable */
+    truthTable = new JButton[2][4];
+    truthTableVal = new int [2][4];
+    for(int x = 0; x < truthTable.length; x++){
+      for(int y = 0; y < truthTable[0].length; y++){
+        truthTable[x][y] = new JButton("0");
+        truthTableVal[x][y] = 0;
+        truthTable[x][y].setActionCommand("" + 4 * x + y);
+      }
+    }
   }
   
   
   public void actionPerformed(ActionEvent ae){
-    if (ae.equals("about")){
-      new About();
-      
+    int num = Integer.parseInt(ae.getActionCommand());
+    int x,y;
+    if (num > 4){
+      x = 1; 
+      y = num - 4;
+    }
+    else{
+      y = num;
+      x = 0;
+    }
+    
+    
+    
+    if (truthTableVal[x][y] == 0){
+      truthTableVal[x][y] = 1;
+      truthTable[x][y] = new JButton("1");
+    }
+    else{
+      truthTableVal[x][y] = 0;
+      truthTable[x][y] = new JButton("0");
     }
   }
+  
   
   
   public Frame(){
