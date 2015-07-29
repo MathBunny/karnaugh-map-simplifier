@@ -9,8 +9,6 @@ public class TruthTable extends JPanel{
   
   public void generateTable(){
     int [] arr = new int[variables];
-    
-    
   }
   
   
