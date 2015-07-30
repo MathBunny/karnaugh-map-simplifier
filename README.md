@@ -13,6 +13,7 @@ The purpose of this application is to simplify boolean expressions.
 ##Current Progress:
 * Step #1: Developing basic JFrame [DONE]
 * Step #2: Implement basic truth-table with buttons [DONE]
-* Step #3: Fix layout with truth-table
+* Step #3: Fix layout with truth-table [DONE]
 * Step #4: Make graphics for grid
+* Step #5: Outline for logic with the solving of K-Map
 

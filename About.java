@@ -17,8 +17,6 @@ import java.awt.Event;
 import java.awt.event.*;
 
 
-
-
 public class About{
   
   /** This is the class constructor */

@@ -4,9 +4,9 @@ import java.awt.*;
 
 /* Credits to: http://www.java2s.com/Code/Java/Swing-Components/ButtonTableExample.htm */
 
-class ButtonRenderer extends JButton implements TableCellRenderer {
+class KarnaughMapRenderer extends JButton implements TableCellRenderer {
   
-  public ButtonRenderer() {
+  public KarnaughMapRenderer() {
     setOpaque(true);
   }
   
