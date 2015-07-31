@@ -8,8 +8,7 @@ import javax.swing.table.*;
 public class Frame implements ActionListener{
   JFrame a;
   JPanel panel;
-  int [] [] truthTableVal;
-  JButton [] [] truthTable;
+  static int [] [] truthTableVal2;
   
   JComponent panel1;
   JComponent panel2;
@@ -48,6 +47,7 @@ public class Frame implements ActionListener{
     km.setDataVector(new Object[][]{{"", "", "0", "1"}, {"B", "0", "0", "0"},{"B", "1", "0", "0"}},new Object[]{"", "", "A", "A"});
     
     karnaugh = new JTable(km);
+    karnaugh.setRowHeight(karnaugh.getRowHeight() + 20);
     karnaugh.getTableHeader().setFont(new Font("SansSerif", Font.PLAIN, 40));
     karnaugh.setFont(new Font("Serif", Font.PLAIN, 35));
     //karnaugh.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
@@ -121,7 +121,6 @@ public class Frame implements ActionListener{
     
     panel2.add(scroll);
     
-    
     /* Adding 4 variable truth-table*/
     panel3.setLayout(null);
     
@@ -151,18 +150,15 @@ public class Frame implements ActionListener{
     ImageIcon icon = createImageIcon("images/middle.gif");
     
     panel1 = makeTextPanel("Panel #1");
-    tabbedPane.addTab("2 Variable", icon, panel1,
-                      "2 Variable Boolean Expression Simplification");
+    tabbedPane.addTab("2 Variable", icon, panel1,"2 Variable Boolean Expression Simplification");
     tabbedPane.setMnemonicAt(0, KeyEvent.VK_1);
     
     panel2 = makeTextPanel("Panel #2");
-    tabbedPane.addTab("3 Variable", icon, panel2,
-                      "3 Variable Boolean Expression Simplification");
+    tabbedPane.addTab("3 Variable", icon, panel2, "3 Variable Boolean Expression Simplification");
     tabbedPane.setMnemonicAt(1, KeyEvent.VK_2);
     
     panel3 = makeTextPanel("Panel #3");
-    tabbedPane.addTab("4 Variable", icon, panel3,
-                      "4 Variable Boolean Expression Simplification");
+    tabbedPane.addTab("4 Variable", icon, panel3,"4 Variable Boolean Expression Simplification");
     tabbedPane.setMnemonicAt(2, KeyEvent.VK_3);
     
     panel4 = makeTextPanel("Panel #4 (has a preferred size of 410 x 50).");
@@ -174,18 +170,14 @@ public class Frame implements ActionListener{
     
   }
   
-  
-  
   /* Generate truth table using bitmasking */
   private Object [] [] generateTruthTable(int variables){
     Object [] [] returnArray = new Object[(int)(Math.pow(2, variables))][variables +1];
     int num = (int)(Math.pow(2, variables));
     for(int i = 0; i < num; i++){
       int tempNum = i;
-      for(int x = variables-1; x >= 0; x--){
+      for(int x = variables-1; x >= 0; x--)
         returnArray[i][x] = (tempNum >> (variables-1-x) & 1);
-        System.out.println((tempNum >> (variables-1-x) & 1));
-      }
       returnArray[i][variables] = "0";
     }
     return returnArray;
@@ -203,11 +195,10 @@ public class Frame implements ActionListener{
     panel = new JPanel();
     
     JMenuBar bar = new JMenuBar();
-    
     JMenu file = new JMenu("File");
     JMenu help = new JMenu("Help");
-    
     JMenuItem quit = new JMenuItem("Quit");
+    
     file.add(quit);
     quit.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent evt) {
@@ -221,8 +212,8 @@ public class Frame implements ActionListener{
         new About();
       }
     });
-    help.add(about);
     
+    help.add(about);
     bar.add(file);
     bar.add(help);
     panel.add(bar);
@@ -231,7 +222,6 @@ public class Frame implements ActionListener{
     addKarnaughMaps();
     a.add(panel);
     a.setJMenuBar(bar);
-    
     
     a.setVisible(true);
     a.setSize(1024, 600);
