@@ -66,7 +66,32 @@ public class Frame implements ActionListener{
     scroll.setBounds(275 , 36, 300, 400); //set bounds...
     panel1.add(scroll);
     
+    panel1.repaint();
+    
     /* End of Karnaugh Map code */
+  }
+  
+  /* Draw the Karnaugh Map */
+  protected void paintComponent(Graphics g) {
+    System.out.println("Called!");
+    paintComponent(g);
+    Graphics2D g2d = (Graphics2D) g.create();
+    /* Populate chart */
+    Rectangle cell;
+    final  int TWO_VARIABLE = 4;
+    for(int x = 0; x < TWO_VARIABLE; x++){
+      for(int y = 0; y < TWO_VARIABLE; y++){
+        cell = new Rectangle(
+                                200 + x * 40,
+                                100 + y * 40,
+                                40,
+                                40);
+        g2d.fill(cell);
+        g2d.setColor(Color.BLUE);
+        g2d.draw(cell);
+      }
+      g2d.dispose();
+    }
   }
   
   /** This method adds truth tables to the panels. */
@@ -147,7 +172,7 @@ public class Frame implements ActionListener{
   /* Credits to Java Doc for code in using TabbedPanes */
   public void addTabs(){
     JTabbedPane tabbedPane = new JTabbedPane();
-    ImageIcon icon = createImageIcon("images/middle.gif");
+    ImageIcon icon = createImageIcon("middle.gif");
     
     panel1 = makeTextPanel("Panel #1");
     tabbedPane.addTab("2 Variable", icon, panel1,"2 Variable Boolean Expression Simplification");
@@ -189,6 +214,51 @@ public class Frame implements ActionListener{
   }
   
   
+  /** This method adds the GUI elements required to show the answer.
+    * Verify: Do you need seperate objects for the same thing? */
+  public void displayAnswerBox(){
+    JButton [] compute = new JButton[3]; 
+    JLabel [] label = new JLabel[3];
+    JTextField [] ans = new JTextField[3];
+    JLabel [] labelGiven = new JLabel[3];
+    JTextField [] givenEq = new JTextField[3];
+    
+    for(int i = 0; i < ans.length; i++){
+      ans[i] = new JTextField();
+      ans[i].setBounds(580, 465, 250, 30);
+      ans[i].setEditable(false);
+      label[i] = new JLabel("Simplified Expression:");
+      label[i].setBounds(430, 465, 150, 30);
+      compute[i] = new JButton("Simplify");
+      compute[i].setBounds(850, 465, 140, 30);
+      givenEq[i] = new JTextField();
+      givenEq[i].setBounds(140, 465, 270, 30);
+      givenEq[i].setEditable(false);
+      labelGiven[i] = new JLabel("Given Expression:");
+      labelGiven[i].setBounds(10, 465, 150, 30);
+    }
+    
+    
+    panel1.add(label[0]);
+    panel1.add(ans[0]);
+    panel1.add(labelGiven[0]);
+    panel1.add(givenEq[0]);
+    panel1.add(compute[0]);
+    
+    panel2.add(label[1]);
+    panel2.add(ans[1]);
+    panel2.add(labelGiven[1]);
+    panel2.add(givenEq[1]);
+    panel2.add(compute[1]);
+    
+    panel3.add(label[2]);
+    panel3.add(ans[2]);
+    panel3.add(labelGiven[2]);
+    panel3.add(givenEq[2]);
+    panel3.add(compute[2]);
+    
+    
+  }
   
   public Frame(){
     a = new JFrame("Karnaugh Map Simplification - Horatiu Lazu");
@@ -220,6 +290,8 @@ public class Frame implements ActionListener{
     addTabs();
     addTruthTables();
     addKarnaughMaps();
+    displayAnswerBox();
+    
     a.add(panel);
     a.setJMenuBar(bar);
     
@@ -228,6 +300,4 @@ public class Frame implements ActionListener{
     
     //new About(); //test
   }
-  
-  
 }
