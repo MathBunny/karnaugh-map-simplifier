@@ -5,15 +5,18 @@ import javax.swing.table.*;
 /** 
  * @author Horatiu Lazu */
 
-public class Frame implements ActionListener{
+public class Frame implements ActionListener{ //fix to extend JFrame
   JFrame a;
   JPanel panel;
-  static int [] [] truthTableVal2;
+  //static int [] [] truthTableVal2;
   
   JComponent panel1;
   JComponent panel2;
   JComponent panel3;
   JComponent panel4;
+  
+  static JTextField [] givenEq;
+  static JTextField [] ans;
   
   public static void main (String [] args){
     new Frame();
@@ -82,10 +85,10 @@ public class Frame implements ActionListener{
     for(int x = 0; x < TWO_VARIABLE; x++){
       for(int y = 0; y < TWO_VARIABLE; y++){
         cell = new Rectangle(
-                                200 + x * 40,
-                                100 + y * 40,
-                                40,
-                                40);
+                             200 + x * 40,
+                             100 + y * 40,
+                             40,
+                             40);
         g2d.fill(cell);
         g2d.setColor(Color.BLUE);
         g2d.draw(cell);
@@ -217,11 +220,11 @@ public class Frame implements ActionListener{
   /** This method adds the GUI elements required to show the answer.
     * Verify: Do you need seperate objects for the same thing? */
   public void displayAnswerBox(){
-    JButton [] compute = new JButton[3]; 
+    JButton[] compute = new JButton[3]; 
     JLabel [] label = new JLabel[3];
-    JTextField [] ans = new JTextField[3];
+    ans = new JTextField[3];
     JLabel [] labelGiven = new JLabel[3];
-    JTextField [] givenEq = new JTextField[3];
+    givenEq = new JTextField[3];
     
     for(int i = 0; i < ans.length; i++){
       ans[i] = new JTextField();
@@ -291,6 +294,7 @@ public class Frame implements ActionListener{
     addTruthTables();
     addKarnaughMaps();
     displayAnswerBox();
+    TruthTable.initializeTruthTableValues();
     
     a.add(panel);
     a.setJMenuBar(bar);

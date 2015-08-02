@@ -17,7 +17,24 @@ class ButtonRenderer extends JButton implements TableCellRenderer {
       //setForeground(table.getSelectionForeground());
       setForeground(Color.blue);
       setBackground(table.getSelectionBackground());
-    } else {
+      if (TruthTable.ignoreFlag == true){ //can get rid of this.
+        TruthTable.ignoreFlag = false;
+      }else{
+        System.out.println("ROW: " + row + " | COL: " + column + "VAL: " + value);
+        /* two variable */
+        if (column == 2){
+          TruthTable.twoVariableTruth[row] = Integer.valueOf((String) value);
+        }
+        else if (column == 3){
+          TruthTable.threeVariableTruth[row] = Integer.valueOf((String) value);
+        }
+        else{
+          TruthTable.fourVariableTruth[row] = Integer.valueOf((String) value);
+        }
+        TruthTable.updateGivenSOP(column); //update the SOP.
+      }
+    } 
+    else {
       setForeground(table.getForeground());
       setBackground(UIManager.getColor("Button.background"));
     }
