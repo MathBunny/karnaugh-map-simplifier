@@ -1,28 +1,31 @@
-import javax.swing.*;
 import java.util.*;
 
-
+/** The purpose of this class is to add functionality to the Truth Tables, which includes adding the original SOP equation into a textbox and making the buttons work.
+  * @author Horatiu Lazu */
 public class TruthTable{
   
+  /** @param twoVariableTruth int [] This variable stores the truth table of the two variable truth table. */
   public static int [] twoVariableTruth = new int [4];
+  /** @param threeVariableTruth int [] This variable stores the truth table of the three variable truth table. */
   public static int [] threeVariableTruth = new int [9];
+  /** @param fourVariableTruth int [] This variable stores the truth table of the four variable truth table. */
   public static int [] fourVariableTruth = new int [16]; /* 2D array? */
-  
+  /** @param ignoreFlag boolean This tells the ButtonRenderer if the execution should be ignored or not.*/
   static boolean ignoreFlag = false;
   
-  /* This method returns the boolean expression from the truthtable. */
+  /* This method returns the boolean expression from the truthtable. 
+   * @param bits int This stores the number of bits in the number.
+   * @param s int [] This stores the individual bits in an array.
+   * @param returnS String This stores the return string that will be displayed in the JTextField.
+   */
   public static String getInputEquation(int num, int variables){
     variables = variables * variables; //this is the max number... 
     int [] s;
     int bits = log2(variables) - 1; //why -1?
-    System.out.println("Bits: " + bits);
     s = new int[bits];
     for(int i = bits-1; i >= 0; i--){
       s[i] = (num >> (bits-1-i) & 1); //bits-1-i = i
-      System.out.println(s[i]);
     }
-    System.out.println();
-    
     String returnS = "";
     for(int i = 0; i < s.length; i++){
       if (s[i] == 0)
@@ -33,17 +36,24 @@ public class TruthTable{
     return returnS;
   }
   
-  /* Get the number of bits */
+  /** This method gets the number of bits 
+    * @return int The number of bits.
+    */
   static int log2(int value) {
     return Integer.SIZE-Integer.numberOfLeadingZeros(value);
   }
   
-  
+  /** This method fills the truth tables with 0 values. */
   public static void initializeTruthTableValues(){
     Arrays.fill(twoVariableTruth, 0);
     Arrays.fill(threeVariableTruth, 0);
     Arrays.fill(fourVariableTruth, 0);
   }
+  
+  /** This method updates the JTextField with the proper variables.
+    * @param variables int This gives the number of variables.
+    * @param output String This is the output.
+    * @param val int This is the output in the form of an integer. */
   
   public static void updateGivenSOP(int variables){
     String output = "";
@@ -62,7 +72,7 @@ public class TruthTable{
     if (output.length() >= 1)
       Frame.givenEq[variables-2].setText(output.substring(1)); //take off additional 
     else
-      Frame.givenEq[variables-2].setText("hi");
+      Frame.givenEq[variables-2].setText("");
   }
   
 }

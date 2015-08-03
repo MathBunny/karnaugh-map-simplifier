@@ -1,6 +1,5 @@
 import javax.swing.*;
 import java.awt.*;
-import javax.swing.table.*;
 import java.awt.event.*;
 
 /* Credits to: http://www.java2s.com/Code/Java/Swing-Components/ButtonTableExample.htm */

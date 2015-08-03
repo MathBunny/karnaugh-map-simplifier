@@ -5,15 +5,9 @@
  * 
  */
 
-import java.io.*;
-import java.util.*;
-import java.lang.*;
 import java.awt.*;
-import java.awt.geom.*;
-import java.math.*;
 
 import javax.swing.*;
-import java.awt.Event;
 import java.awt.event.*;
 
 
@@ -26,7 +20,6 @@ public class About{
     
     
     JButton done = new JButton("Quit");
-    JTextArea dev6 = new JTextArea("");
     
     JLabel dev = new JLabel("Application developed by: Horatiu Lazu");
     JLabel dev2 = new JLabel("Copyright: 2015 SoftwareEngenius");
@@ -42,9 +35,6 @@ public class About{
         j.setVisible(false);
       }
     });
-    
-    Insets insets = a.getInsets();
-    Dimension size = done.getPreferredSize();
     
     dev.setBounds(7, 5, 300, 20);
     dev2.setBounds(7, 25, 300, 20);

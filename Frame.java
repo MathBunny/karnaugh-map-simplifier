@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.table.*;
-/** 
+/** The purpose of this class is to setup the JFrame with all the assorted GUI elements.
  * @author Horatiu Lazu */
 
 public class Frame implements ActionListener{ //fix to extend JFrame
@@ -18,6 +18,8 @@ public class Frame implements ActionListener{ //fix to extend JFrame
   static JTextField [] givenEq;
   static JTextField [] ans;
   
+  /** This is the main program.
+    * @param args String [] This variable passes arguements into the main method. */
   public static void main (String [] args){
     new Frame();
   }
@@ -84,11 +86,7 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     final  int TWO_VARIABLE = 4;
     for(int x = 0; x < TWO_VARIABLE; x++){
       for(int y = 0; y < TWO_VARIABLE; y++){
-        cell = new Rectangle(
-                             200 + x * 40,
-                             100 + y * 40,
-                             40,
-                             40);
+        cell = new Rectangle(200 + x * 40,100 + y * 40,40,40);
         g2d.fill(cell);
         g2d.setColor(Color.BLUE);
         g2d.draw(cell);
@@ -212,9 +210,7 @@ public class Frame implements ActionListener{ //fix to extend JFrame
   }
   
   
-  public void actionPerformed(ActionEvent ae){
-    
-  }
+  public void actionPerformed(ActionEvent ae){}
   
   
   /** This method adds the GUI elements required to show the answer.

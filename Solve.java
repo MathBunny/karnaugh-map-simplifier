@@ -1,7 +1,7 @@
 
 
 public class Solve{
- 
   
- 
+  
+  
 }
