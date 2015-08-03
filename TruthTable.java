@@ -5,20 +5,23 @@ import java.util.*;
 public class TruthTable{
   
   public static int [] twoVariableTruth = new int [4];
-  public static int [] threeVariableTruth = new int [8];
+  public static int [] threeVariableTruth = new int [9];
   public static int [] fourVariableTruth = new int [16]; /* 2D array? */
   
   static boolean ignoreFlag = false;
   
   /* This method returns the boolean expression from the truthtable. */
-  public static String getInputEquation(int num){
+  public static String getInputEquation(int num, int variables){
+    variables = variables * variables; //this is the max number... 
     int [] s;
-    int bits = log2(num);
+    int bits = log2(variables) - 1; //why -1?
     System.out.println("Bits: " + bits);
     s = new int[bits];
     for(int i = bits-1; i >= 0; i--){
-      s[i] = num >> i;
+      s[i] = (num >> (bits-1-i) & 1); //bits-1-i = i
+      System.out.println(s[i]);
     }
+    System.out.println();
     
     String returnS = "";
     for(int i = 0; i < s.length; i++){
@@ -30,7 +33,7 @@ public class TruthTable{
     return returnS;
   }
   
-  
+  /* Get the number of bits */
   static int log2(int value) {
     return Integer.SIZE-Integer.numberOfLeadingZeros(value);
   }
@@ -53,7 +56,7 @@ public class TruthTable{
       else
         val = fourVariableTruth[x];
       if (val == 1){
-        output += "+" + getInputEquation(x);
+        output += "+" + getInputEquation(x, variables);
       }
     }
     if (output.length() >= 1)
