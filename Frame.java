@@ -10,10 +10,10 @@ public class Frame implements ActionListener{ //fix to extend JFrame
   JPanel panel;
   //static int [] [] truthTableVal2;
   
-  JComponent panel1;
-  JComponent panel2;
-  JComponent panel3;
-  JComponent panel4;
+  JPanel panel1;
+  JPanel panel2; //try JPanel?
+  JPanel panel3;
+  JPanel panel4;
   
   static JTextField [] givenEq;
   static JTextField [] ans;
@@ -24,13 +24,13 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     new Frame();
   }
   
-  protected JComponent makeTextPanel(String text) {
+  protected JPanel makeTextPanel(String text) { //JComponent
     JPanel panel = new JPanel(false);
     JLabel filler = new JLabel(text);
     filler.setHorizontalAlignment(JLabel.CENTER);
     panel.setLayout(new GridLayout(1, 1));
     panel.add(filler);
-    return panel;
+    return panel; //wtf why do I need this?
   }
   
   protected static ImageIcon createImageIcon(String path) {
@@ -72,6 +72,7 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     panel1.add(scroll);
     
     panel1.repaint();
+    panel1.revalidate();
     
     /* End of Karnaugh Map code */
   }
@@ -175,11 +176,12 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     JTabbedPane tabbedPane = new JTabbedPane();
     ImageIcon icon = createImageIcon("middle.gif");
     
-    panel1 = makeTextPanel("Panel #1");
+    //panel1 = makeTextPanel("Panel #1");
+    panel1 = new ContentPanel(2);
     tabbedPane.addTab("2 Variable", icon, panel1,"2 Variable Boolean Expression Simplification");
     tabbedPane.setMnemonicAt(0, KeyEvent.VK_1);
     
-    panel2 = makeTextPanel("Panel #2");
+    panel2 = new ContentPanel(3);
     tabbedPane.addTab("3 Variable", icon, panel2, "3 Variable Boolean Expression Simplification");
     tabbedPane.setMnemonicAt(1, KeyEvent.VK_2);
     
