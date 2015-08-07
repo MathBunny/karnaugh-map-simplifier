@@ -1,5 +1,5 @@
 /** The purpose of this class is to hold a cell in a table and give information to the program using accessor / mutator methods 
- * @author Horatiu Lazu
+  * @author Horatiu Lazu
   *  
   */
 

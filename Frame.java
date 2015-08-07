@@ -3,16 +3,15 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.table.*;
 /** The purpose of this class is to setup the JFrame with all the assorted GUI elements.
- * @author Horatiu Lazu */
+  * @author Horatiu Lazu */
 
 public class Frame implements ActionListener{ //fix to extend JFrame
   JFrame a;
   JPanel panel;
-  //static int [] [] truthTableVal2;
   
   JPanel panel1;
   JPanel panel2; //try JPanel?
-  JPanel panel3;
+  JPanel panel3; //try using an array?
   JPanel panel4;
   
   static JTextField [] givenEq;
@@ -24,14 +23,15 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     new Frame();
   }
   
-  protected JPanel makeTextPanel(String text) { //JComponent
-    JPanel panel = new JPanel(false);
-    JLabel filler = new JLabel(text);
-    filler.setHorizontalAlignment(JLabel.CENTER);
-    panel.setLayout(new GridLayout(1, 1));
-    panel.add(filler);
-    return panel; //wtf why do I need this?
-  }
+  /*protected JPanel makeTextPanel(String text) { //JComponent
+   JPanel panel = new JPanel(false);
+   JLabel filler = new JLabel(text);
+   filler.setHorizontalAlignment(JLabel.CENTER);
+   panel.setLayout(new GridLayout(1, 1));
+   panel.add(filler);
+   return panel; //wtf why do I need this?
+   }*/
+  
   
   protected static ImageIcon createImageIcon(String path) {
     java.net.URL imgURL = Frame.class.getResource(path);
@@ -77,24 +77,6 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     /* End of Karnaugh Map code */
   }
   
-  /* Draw the Karnaugh Map */
-  protected void paintComponent(Graphics g) {
-    System.out.println("Called!");
-    paintComponent(g);
-    Graphics2D g2d = (Graphics2D) g.create();
-    /* Populate chart */
-    Rectangle cell;
-    final  int TWO_VARIABLE = 4;
-    for(int x = 0; x < TWO_VARIABLE; x++){
-      for(int y = 0; y < TWO_VARIABLE; y++){
-        cell = new Rectangle(200 + x * 40,100 + y * 40,40,40);
-        g2d.fill(cell);
-        g2d.setColor(Color.BLUE);
-        g2d.draw(cell);
-      }
-      g2d.dispose();
-    }
-  }
   
   /** This method adds truth tables to the panels. */
   public void addTruthTables(){
@@ -185,11 +167,11 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     tabbedPane.addTab("3 Variable", icon, panel2, "3 Variable Boolean Expression Simplification");
     tabbedPane.setMnemonicAt(1, KeyEvent.VK_2);
     
-    panel3 = makeTextPanel("Panel #3");
+    panel3 = new ContentPanel(4);
     tabbedPane.addTab("4 Variable", icon, panel3,"4 Variable Boolean Expression Simplification");
     tabbedPane.setMnemonicAt(2, KeyEvent.VK_3);
     
-    panel4 = makeTextPanel("Panel #4 (has a preferred size of 410 x 50).");
+    panel4 = new JPanel(); //normal JPanel
     panel4.setPreferredSize(new Dimension(1000, 500));
     
     tabbedPane.addTab("Virtual Grid", icon, panel4,"Variety of functions");
@@ -290,7 +272,7 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     panel.add(bar);
     addTabs();
     addTruthTables();
-    addKarnaughMaps();
+    //addKarnaughMaps();
     displayAnswerBox();
     TruthTable.initializeTruthTableValues();
     

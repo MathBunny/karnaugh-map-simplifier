@@ -17,6 +17,7 @@ public class TruthTable{
    * @param bits int This stores the number of bits in the number.
    * @param s int [] This stores the individual bits in an array.
    * @param returnS String This stores the return string that will be displayed in the JTextField.
+   * @return String This is the input equation.
    */
   public static String getInputEquation(int num, int variables){
     variables = variables * variables; //this is the max number... 
@@ -37,6 +38,7 @@ public class TruthTable{
   }
   
   /** This method gets the number of bits 
+    * @param value int The value of the number.
     * @return int The number of bits.
     */
   static int log2(int value) {
