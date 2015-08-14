@@ -27,10 +27,6 @@ class ButtonEditor extends DefaultCellEditor {
     if (isSelected) {
       button.setForeground(table.getSelectionForeground());
       button.setBackground(table.getSelectionBackground());
-      
-      
-      
-      
     } else {
       button.setForeground(table.getForeground());
       button.setBackground(table.getBackground());
@@ -49,10 +45,7 @@ class ButtonEditor extends DefaultCellEditor {
         label = "1";
       else
         label = "0";
-      
-      
     }
-    
     isPushed = false;
     return label;
   }

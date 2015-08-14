@@ -28,9 +28,7 @@ public class About{
     JLabel dev5 = new JLabel("To be used for educational purposes. Do not edit source.");
     
     done.addActionListener(new ActionListener() {
-      public void actionPerformed(ActionEvent e)
-      {
-        //Execute when button is pressed
+      public void actionPerformed(ActionEvent e){
         j.dispose();
         j.setVisible(false);
       }
@@ -52,7 +50,7 @@ public class About{
     
     j.add(a);
     j.setSize(new Dimension(400, 170));
-    j.setDefaultCloseOperation(0xffffffff * 0 + JFrame.EXIT_ON_CLOSE);
+    j.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     j.setVisible(true);
     
     

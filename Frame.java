@@ -2,6 +2,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.table.*;
+import java.io.*;
+import javax.swing.border.*;
 /** The purpose of this class is to setup the JFrame with all the assorted GUI elements.
   * @author Horatiu Lazu */
 
@@ -10,7 +12,7 @@ public class Frame implements ActionListener{ //fix to extend JFrame
   JPanel panel;
   
   JPanel panel1;
-  JPanel panel2; //try JPanel?
+  JPanel panel2;
   JPanel panel3; //try using an array?
   JPanel panel4;
   
@@ -23,16 +25,6 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     new Frame();
   }
   
-  /*protected JPanel makeTextPanel(String text) { //JComponent
-   JPanel panel = new JPanel(false);
-   JLabel filler = new JLabel(text);
-   filler.setHorizontalAlignment(JLabel.CENTER);
-   panel.setLayout(new GridLayout(1, 1));
-   panel.add(filler);
-   return panel; //wtf why do I need this?
-   }*/
-  
-  
   protected static ImageIcon createImageIcon(String path) {
     java.net.URL imgURL = Frame.class.getResource(path);
     if (imgURL != null) {
@@ -42,41 +34,6 @@ public class Frame implements ActionListener{ //fix to extend JFrame
       return null;
     }
   }
-  
-  
-  public void addKarnaughMaps(){
-    /* Add Karnaugh map for 2 variables. */
-    JScrollPane scroll;
-    DefaultTableModel km = new DefaultTableModel();
-    JTable karnaugh;
-    km.setDataVector(new Object[][]{{"", "", "0", "1"}, {"B", "0", "0", "0"},{"B", "1", "0", "0"}},new Object[]{"", "", "A", "A"});
-    
-    karnaugh = new JTable(km);
-    karnaugh.setRowHeight(karnaugh.getRowHeight() + 20);
-    karnaugh.getTableHeader().setFont(new Font("SansSerif", Font.PLAIN, 40));
-    karnaugh.setFont(new Font("Serif", Font.PLAIN, 35));
-    //karnaugh.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
-    //karnaugh.getColumn("A").setCellRenderer(new ButtonRenderer());
-    //karnaugh.getColumn("A").setCellEditor(new ButtonEditor(new JCheckBox()));
-    
-    
-    scroll = new JScrollPane(karnaugh);
-    //panel1.add(truthTableText[2]);//same one? nope
-    //truthTableText[2].setBounds(47, 8, 100, 30); //35 prev
-    
-    karnaugh.setPreferredScrollableViewportSize(new Dimension(10,200)); //table.getPreferredSize()
-    
-    for(int i = 0; i < 4; i++)
-      karnaugh.getColumnModel().getColumn(i).setPreferredWidth(50);//so buttons will fit and not be shown butto..
-    scroll.setBounds(275 , 36, 300, 400); //set bounds...
-    panel1.add(scroll);
-    
-    panel1.repaint();
-    panel1.revalidate();
-    
-    /* End of Karnaugh Map code */
-  }
-  
   
   /** This method adds truth tables to the panels. */
   public void addTruthTables(){
@@ -156,9 +113,8 @@ public class Frame implements ActionListener{ //fix to extend JFrame
   /* Credits to Java Doc for code in using TabbedPanes */
   public void addTabs(){
     JTabbedPane tabbedPane = new JTabbedPane();
-    ImageIcon icon = createImageIcon("middle.gif");
+    ImageIcon icon = createImageIcon("middle.gif"); //get rid of ImageIcon...
     
-    //panel1 = makeTextPanel("Panel #1");
     panel1 = new ContentPanel(2);
     tabbedPane.addTab("2 Variable", icon, panel1,"2 Variable Boolean Expression Simplification");
     tabbedPane.setMnemonicAt(0, KeyEvent.VK_1);
@@ -195,6 +151,32 @@ public class Frame implements ActionListener{ //fix to extend JFrame
   
   
   public void actionPerformed(ActionEvent ae){}
+  
+  public void addExplanationBox(){
+    JEditorPane text [] = new JEditorPane [3];
+    for(int i = 0; i < 3; i++){
+      text[i] = new JEditorPane("Hi,","Hello World.");
+      text[i].setBorder(new LineBorder(Color.blue, 1));
+      text[i].setEditable(false);
+    }
+    
+    JLabel[] title = new JLabel [3];
+    for(int i =0; i < 3; i++)
+      title[i] = new JLabel("How K-maps work:");
+    
+    for(int i = 0; i < 3; i++){
+      text[i].setBounds(720, 35, 235, 330);
+      title[i].setBounds(780, 8, 270, 30);
+    }
+    
+    panel1.add(text[0]);
+    panel2.add(text[1]);
+    panel3.add(text[2]);
+    
+    panel1.add(title[0]);
+    panel2.add(title[1]);
+    panel3.add(title[2]);
+  }
   
   
   /** This method adds the GUI elements required to show the answer.
@@ -272,8 +254,8 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     panel.add(bar);
     addTabs();
     addTruthTables();
-    //addKarnaughMaps();
     displayAnswerBox();
+    addExplanationBox();
     TruthTable.initializeTruthTableValues();
     
     a.add(panel);
@@ -281,6 +263,7 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     
     a.setVisible(true);
     a.setSize(1024, 600);
+    a.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     
     //new About(); //test
   }
