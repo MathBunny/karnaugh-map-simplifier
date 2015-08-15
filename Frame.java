@@ -155,8 +155,8 @@ public class Frame implements ActionListener{ //fix to extend JFrame
   public void addExplanationBox(){
     JEditorPane text [] = new JEditorPane [3];
     for(int i = 0; i < 3; i++){
-      text[i] = new JEditorPane("Hi,","Hello World.");
-      text[i].setBorder(new LineBorder(Color.blue, 1));
+      text[i] = new JEditorPane("Hi,","Purpose: Simplify expressions.\n\nSOP: Sum of Products.\n\nPOS: Product of sums.");
+      text[i].setBorder(new LineBorder(new Color(0,191,255), 1));
       text[i].setEditable(false);
     }
     
