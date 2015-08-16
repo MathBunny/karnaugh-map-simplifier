@@ -8,6 +8,8 @@ public class ContentPanel extends JPanel{
   private int var;
   
   
+  
+  
   /** This method is the class constructor.
     * @param var int This is the number of variables. */
   public ContentPanel(int var){
@@ -18,6 +20,14 @@ public class ContentPanel extends JPanel{
     * @return int The number of variables. */
   public int getVar(){
     return var;
+  }
+  
+  public void setIncidenceArray(int [] [] incidence){
+     
+  }
+  
+  public void setGraphicsOutput(String [] [] gfx){
+    
   }
   
   /** This method draws the graphics. */
@@ -53,7 +63,8 @@ public class ContentPanel extends JPanel{
     g.drawString((var == 2) ? ("A") : ("AB"), START_X - 35, START_Y - 5);
     g.drawString((var == 2) ? ("B") : (var == 3) ? ("C") : ("CD"), START_X - 15, START_Y - 18);
     
-    /* Add the labelling for the sides. */
+    /* Add the labelling for the sides. 
+     * KISS this to a single algorithm? */
     for(int i = 0; i < COLS; i++){
       if (COLS == 2 || COLS == 3){
         g.drawString((i & 1) + "", START_X + i * WIDTH + WIDTH/2, START_Y - 10);
@@ -63,9 +74,12 @@ public class ContentPanel extends JPanel{
         for(int x = 0; x < i; x++){
           if (bits[1] == 0){
             bits[1] = 1;
-          }else{ //if (bits[1] == 1 && bits[0] == 0)
-            bits[1] = 0;
+          }else if (bits[0] == 0){ //if (bits[1] == 1 && bits[0] == 0)
+            bits[1] = 1;
             bits[0] = 1;
+          }
+          else{
+            bits[1] = 0; 
           }
         }
         outputString += bits[0];
@@ -83,9 +97,12 @@ public class ContentPanel extends JPanel{
         for(int x = 0; x < i; x++){
           if (bits[1] == 0){
             bits[1] = 1;
-          }else{ //if (bits[1] == 1 && bits[0] == 0)
-            bits[1] = 0;
+          }else if (bits[0] == 0){ //if (bits[1] == 1 && bits[0] == 0)
+            bits[1] = 1;
             bits[0] = 1;
+          }
+          else{
+            bits[1] = 0; 
           }
         }
         outputString += bits[0];
