@@ -23,7 +23,7 @@ public class ContentPanel extends JPanel{
   }
   
   public void setIncidenceArray(int [] [] incidence){
-     
+    
   }
   
   public void setGraphicsOutput(String [] [] gfx){

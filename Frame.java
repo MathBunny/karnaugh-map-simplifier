@@ -11,12 +11,17 @@ public class Frame implements ActionListener{ //fix to extend JFrame
   JFrame a;
   JPanel panel;
   
+  /** panel1 JPanel This is the JPanel with two variables. */
   JPanel panel1;
+  /** panel2 JPanel This is the JPanel with three variables. */
   JPanel panel2;
+  /** panel3 JPanel This is the JPanel with four variables. */
   JPanel panel3; //try using an array?
   JPanel panel4;
   
+  /** givenEq JTextField This is the array containing the given equation text fields for all JPanels */
   static JTextField [] givenEq;
+  /** ans JTextField This is the array containing the answer text fields for all JPanels */
   static JTextField [] ans;
   
   /** This is the main program.
@@ -136,7 +141,8 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     
   }
   
-  /* Generate truth table using bitmasking */
+  /** Generate truth table using bitmasking 
+    * @return Object [] [] This is the truth table.*/
   private Object [] [] generateTruthTable(int variables){
     Object [] [] returnArray = new Object[(int)(Math.pow(2, variables))][variables +1];
     int num = (int)(Math.pow(2, variables));
@@ -149,9 +155,11 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     return returnArray;
   }
   
-  
+  /** actionPerformed method overrides ActionListener
+    * @param ae ActionEvent ActionEvent reference variable. */
   public void actionPerformed(ActionEvent ae){}
   
+  /** This method adds an explanation box for how k-maps work. */
   public void addExplanationBox(){
     JEditorPane text [] = new JEditorPane [3];
     for(int i = 0; i < 3; i++){
@@ -225,6 +233,7 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     
   }
   
+  /** Class constructor, that sets up the frame and calls appropriate methods to add elements to the JFrame. */
   public Frame(){
     a = new JFrame("Karnaugh Map Simplification - Horatiu Lazu");
     panel = new JPanel();

@@ -6,8 +6,8 @@ import java.awt.event.*;
 class ButtonEditor extends DefaultCellEditor {
   
   protected JButton button;
-   String label;
-   boolean isPushed;
+  String label;
+  boolean isPushed;
   
   public ButtonEditor(JCheckBox checkBox) {
     super(checkBox);
