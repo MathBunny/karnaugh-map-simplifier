@@ -18,3 +18,5 @@ The purpose of this application is to simplify boolean expressions.
 * Step #5: Outline for logic with the solving of K-Map
 * Step #6: Get the SOP working for original equation [DONE]
 
+###Expected completion date: June, 2016
+
