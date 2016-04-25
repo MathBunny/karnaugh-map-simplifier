@@ -8,8 +8,6 @@ public class ContentPanel extends JPanel{
   private int var;
   
   
-  
-  
   /** This method is the class constructor.
     * @param var int This is the number of variables. */
   public ContentPanel(int var){

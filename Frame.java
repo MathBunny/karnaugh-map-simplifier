@@ -160,7 +160,7 @@ public class Frame implements ActionListener{ //fix to extend JFrame
   public void actionPerformed(ActionEvent ae){}
   
   /** This method adds an explanation box for how k-maps work. */
-  public void addExplanationBox(){
+  public void addExplanationBox(){ //remove and replace
     JEditorPane text [] = new JEditorPane [3];
     for(int i = 0; i < 3; i++){
       text[i] = new JEditorPane("Hi,","Purpose: Simplify expressions.\n\nSOP: Sum of Products.\n\nPOS: Product of sums.");
@@ -264,7 +264,7 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     addTabs();
     addTruthTables();
     displayAnswerBox();
-    addExplanationBox();
+    //addExplanationBox();
     TruthTable.initializeTruthTableValues();
     
     a.add(panel);
