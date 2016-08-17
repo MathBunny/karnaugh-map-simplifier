@@ -20,10 +20,8 @@ class ButtonEditor extends DefaultCellEditor {
       }
     });
   }
-  
-  @Override
-  public Component getTableCellEditorComponent(JTable table, Object value,
-                                               boolean isSelected, int row, int column) {
+
+  public Component getTableCellEditorComponent(JTable table, Object value, boolean isSelected, int row, int column) {
     if (isSelected) {
       button.setForeground(table.getSelectionForeground());
       button.setBackground(table.getSelectionBackground());
@@ -36,8 +34,7 @@ class ButtonEditor extends DefaultCellEditor {
     isPushed = true;
     return button;
   }
-  
-  @Override
+
   public Object getCellEditorValue() {
     if (isPushed) {
       //JOptionPane.showMessageDialog(button, label + ": Ouch!");
@@ -49,14 +46,12 @@ class ButtonEditor extends DefaultCellEditor {
     isPushed = false;
     return label;
   }
-  
-  @Override
+
   public boolean stopCellEditing() {
     isPushed = false;
     return super.stopCellEditing();
   }
-  
-  @Override
+
   protected void fireEditingStopped() {
     super.fireEditingStopped();
   }

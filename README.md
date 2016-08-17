@@ -1,8 +1,7 @@
 # Karnaugh-Map-Simplifier
-### Programmed by: Horatiu Lazu
 
 ##Purpose:
-The purpose of this application is to simplify boolean expressions.
+The purpose of this application is to simplify boolean expressions. It accomplishes the simplification using Quine-McClusky for expressions over 4 variables, and Karnaugh Map for expressions with 4 and less variables.
 
 ##Features proposed:
 * Allow simplification of boolean expressions from truth-table
@@ -10,13 +9,7 @@ The purpose of this application is to simplify boolean expressions.
 * Use Quine McCluskey method of simplification
 
 
-##Current Progress:
-* Step #1: Developing basic JFrame [DONE]
-* Step #2: Implement basic truth-table with buttons [DONE]
-* Step #3: Fix layout with truth-table [DONE]
-* Step #4: Make graphics for grid
-* Step #5: Outline for logic with the solving of K-Map
-* Step #6: Get the SOP working for original equation [DONE]
-
-###Expected completion date: June, 2016
+##Currently in development:
+* Implementation of Quine-McClusky to simplify expressions
+* Representations of groupings in Karnaugh-Map
 

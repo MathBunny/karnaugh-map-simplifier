@@ -13,7 +13,7 @@ public class TruthTable{
   /** @param ignoreFlag boolean This tells the ButtonRenderer if the execution should be ignored or not.*/
   static boolean ignoreFlag = false;
   
-  /* This method returns the boolean expression from the truthtable. 
+  /** This method returns the boolean expression from the truthtable.
    * @param bits int This stores the number of bits in the number.
    * @param s int [] This stores the individual bits in an array.
    * @param returnS String This stores the return string that will be displayed in the JTextField.
@@ -53,9 +53,7 @@ public class TruthTable{
   }
   
   /** This method updates the JTextField with the proper variables.
-    * @param variables int This gives the number of variables.
-    * @param output String This is the output.
-    * @param val int This is the output in the form of an integer. */
+    * @param variables int This gives the number of variables. */
   
   public static void updateGivenSOP(int variables){
     String output = "";

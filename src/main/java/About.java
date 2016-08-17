@@ -1,29 +1,26 @@
 /**
- * SyntheticApp - This class acts as the about class.
+ * About - This class acts as the about class.
  * @author Horatiu Lazu
  * @version 1.0.0.2
- * 
  */
 
 import java.awt.*;
-
 import javax.swing.*;
 import java.awt.event.*;
-
 
 public class About{
   
   /** This is the class constructor */
   public About(){
-    final JFrame j = new JFrame("About: Synthetic Divisor");
+    final JFrame j = new JFrame("About: Karnaugh Map Simplifier");
     Container a = new Container();
     
     
     JButton done = new JButton("Quit");
     
     JLabel dev = new JLabel("Application developed by: Horatiu Lazu");
-    JLabel dev2 = new JLabel("Copyright: 2015 SoftwareEngenius");
-    JLabel dev3 = new JLabel("Version: 1.0.0.0");
+    JLabel dev2 = new JLabel("Copyright: 2016 SoftwareEngenius");
+    JLabel dev3 = new JLabel("Version: 1.0.0.1");
     JLabel dev4 = new JLabel("Purpose: Simplify boolean expressions by using a k-map");
     JLabel dev5 = new JLabel("To be used for educational purposes. Do not edit source.");
     
@@ -52,7 +49,6 @@ public class About{
     j.setSize(new Dimension(400, 170));
     j.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     j.setVisible(true);
-    
     
   }
 }

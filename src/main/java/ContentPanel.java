@@ -1,6 +1,5 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.font.*;
 import java.awt.geom.*;
 
 
@@ -61,8 +60,7 @@ public class ContentPanel extends JPanel{
     g.drawString((var == 2) ? ("A") : ("AB"), START_X - 35, START_Y - 5);
     g.drawString((var == 2) ? ("B") : (var == 3) ? ("C") : ("CD"), START_X - 15, START_Y - 18);
     
-    /* Add the labelling for the sides. 
-     * KISS this to a single algorithm? */
+    /* Add the labelling for the sides. */
     for(int i = 0; i < COLS; i++){
       if (COLS == 2 || COLS == 3){
         g.drawString((i & 1) + "", START_X + i * WIDTH + WIDTH/2, START_Y - 10);

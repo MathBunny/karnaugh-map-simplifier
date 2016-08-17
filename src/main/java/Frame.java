@@ -64,7 +64,7 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     JScrollPane scroll = new JScrollPane(table);
     scroll.setBounds(25, 36, 120, 90);
     
-    table.setPreferredScrollableViewportSize(table.getPreferredSize());//thanks mKorbel +1 http://stackoverflow.com/questions/10551995/how-to-set-jscrollpane-layout-to-be-the-same-as-jtable
+    table.setPreferredScrollableViewportSize(table.getPreferredSize());
     
     for(int i = 0; i < 2; i++) 
       table.getColumnModel().getColumn(i).setPreferredWidth(20);

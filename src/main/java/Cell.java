@@ -8,7 +8,7 @@ public class Cell{
   private int col;
   private int status;
   
-  /* This is the class constructor for a cell
+  /** This is the class constructor for a cell
    * @param int row This is the row
    * @param int col This is the column
    * @param int status This is the temporary status in the cell */
@@ -41,6 +41,4 @@ public class Cell{
   public void setStatus(int status){
     this.status = status;
   }
-  
-  
 }

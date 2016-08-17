@@ -9,10 +9,8 @@ class KarnaughMapRenderer extends JButton implements TableCellRenderer {
   public KarnaughMapRenderer() {
     setOpaque(true);
   }
-  
-  @Override
-  public Component getTableCellRendererComponent(JTable table, Object value,
-                                                 boolean isSelected, boolean hasFocus, int row, int column) {
+
+  public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column) {
     if (isSelected) {
       //setForeground(table.getSelectionForeground());
       setForeground(Color.blue);
