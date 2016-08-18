@@ -1,6 +1,6 @@
 /** The purpose of this class is to hold a cell in a table and give information to the program using accessor / mutator methods 
   * @author Horatiu Lazu
-  *  
+  * @version 1.0
   */
 
 public class Cell{
@@ -9,9 +9,9 @@ public class Cell{
   private int status;
   
   /** This is the class constructor for a cell
-   * @param int row This is the row
-   * @param int col This is the column
-   * @param int status This is the temporary status in the cell */
+   * @param row int This is the row
+   * @param col int This is the column
+   * @param status int This is the temporary status in the cell */
   public Cell(int row, int col, int status){
     this.row = row;
     this.col = col;
@@ -37,7 +37,7 @@ public class Cell{
   }
   
   /** This method sets the status.
-    * @param int status This is the status that wants to be set. */
+    * @param status int This is the status that wants to be set. */
   public void setStatus(int status){
     this.status = status;
   }

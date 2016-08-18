@@ -2,10 +2,10 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.table.*;
-import java.io.*;
 import javax.swing.border.*;
 /** The purpose of this class is to setup the JFrame with all the assorted GUI elements.
-  * @author Horatiu Lazu */
+  * @author Horatiu Lazu
+  * @version 1.0 */
 
 public class Frame implements ActionListener{ //fix to extend JFrame
   JFrame a;
@@ -87,7 +87,7 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     table.setPreferredScrollableViewportSize(new Dimension(10,200)); //table.getPreferredSize()
     
     for(int i = 0; i < 3; i++)
-      table.getColumnModel().getColumn(i).setPreferredWidth(10);//so buttons will fit and not be shown butto..
+      table.getColumnModel().getColumn(i).setPreferredWidth(10);//so buttons will fit and not be shown button..
     scroll.setBounds(25 , 36, 125, 150); //set bounds...
     
     panel2.add(scroll);
@@ -229,8 +229,6 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     panel3.add(labelGiven[2]);
     panel3.add(givenEq[2]);
     panel3.add(compute[2]);
-    
-    
   }
   
   /** Class constructor, that sets up the frame and calls appropriate methods to add elements to the JFrame. */
@@ -253,7 +251,7 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     JMenuItem about = new JMenuItem("About");
     about.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent evt) {
-        new About();
+        new ScreenAbout();
       }
     });
     
@@ -273,7 +271,5 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     a.setVisible(true);
     a.setSize(1024, 600);
     a.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    
-    //new About(); //test
   }
 }

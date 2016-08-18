@@ -2,7 +2,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-/* Credits to: http://www.java2s.com/Code/Java/Swing-Components/ButtonTableExample.htm */
 class ButtonEditor extends DefaultCellEditor {
   
   protected JButton button;
@@ -37,7 +36,6 @@ class ButtonEditor extends DefaultCellEditor {
 
   public Object getCellEditorValue() {
     if (isPushed) {
-      //JOptionPane.showMessageDialog(button, label + ": Ouch!");
       if (label.equals("0"))
         label = "1";
       else

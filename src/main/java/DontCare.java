@@ -1,7 +1,8 @@
 import java.util.*;
 
 /** The purpose of this class is to add functionality to the Truth Tables, which includes adding the original SOP equation into a textbox and making the buttons work.
-  * @author Horatiu Lazu */
+  * @author Horatiu Lazu
+  * @version 1.0 */
 public class DontCare extends TruthTable{
   
   public static int [] twoVariableDontCare = new int [4];

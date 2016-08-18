@@ -14,9 +14,8 @@ public class TruthTable{
   static boolean ignoreFlag = false;
   
   /** This method returns the boolean expression from the truthtable.
-   * @param bits int This stores the number of bits in the number.
-   * @param s int [] This stores the individual bits in an array.
-   * @param returnS String This stores the return string that will be displayed in the JTextField.
+   * @param num int This is the number of numbers.
+   * @param variables int This is the number of variables.
    * @return String This is the input equation.
    */
   public static String getInputEquation(int num, int variables){
@@ -74,5 +73,4 @@ public class TruthTable{
     else
       Frame.givenEq[variables-2].setText("");
   }
-  
 }
