@@ -1,22 +1,21 @@
-# Karnaugh-Map-Simplifier
-### Programmed by: Horatiu Lazu
+#Karnaugh-Map-Simplifier
 
-##Purpose:
-The purpose of this application is to simplify boolean expressions.
+[![Build Status](https://travis-ci.org/MathBunny/karnaugh-map-simplifier.svg?branch=ProjectOrganization)](https://travis-ci.org/MathBunny/karnaugh-map-simplifier)
+[![GitHub issues](https://img.shields.io/github/issues/MathBunny/karnaugh-map-simplifier.svg)](https://github.com/MathBunny/karnaugh-map-simplifier/issues)
 
-##Features proposed:
+##Purpose
+The purpose of this application is to simplify boolean expressions. It accomplishes the simplification using Quine-McClusky for expressions over 4 variables, and Karnaugh Map for expressions with 4 or less variables. Feel free to contribute! 
+
+##Features proposed
 * Allow simplification of boolean expressions from truth-table
 * Permit SOP or POS conversion (possible)
-* Use Quine McCluskey method of simplification
+* Use Quine McCluskey method of simplification, with branch-and-bound method
+* Show pairing visualization for up to 4 variables
+* Allow for mapping of pairings and SOP determination
 
+##Completed
+* Truth Table to SOP expressions
+* Complete user interface with Swing
 
-##Current Progress:
-* Step #1: Developing basic JFrame [DONE]
-* Step #2: Implement basic truth-table with buttons [DONE]
-* Step #3: Fix layout with truth-table [DONE]
-* Step #4: Make graphics for grid
-* Step #5: Outline for logic with the solving of K-Map
-* Step #6: Get the SOP working for original equation [DONE]
-
-###Expected completion date: June, 2016
-
+##Screenshot
+![Screenshot](screenshots/KarnaughScreenshot.png "Screenshot")
