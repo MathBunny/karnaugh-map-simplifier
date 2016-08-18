@@ -27,7 +27,7 @@ public class ScreenAbout extends JFrame implements ActionListener{
     setVisible(true);
   }
 
-  /**®
+  /**
    * This method adds a button to quit.
    */
   private void addButton(){

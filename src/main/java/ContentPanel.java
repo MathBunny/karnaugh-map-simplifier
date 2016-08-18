@@ -1,10 +1,22 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.geom.*;
+import java.awt.geom.RoundRectangle2D.*;
+
 
 
 public class ContentPanel extends JPanel{
   private int var;
+  private Color [] colors = {
+    new Color(0x673ab7),
+    new Color(0x00e676),
+    new Color(0xe91e63),
+    new Color(0x2196f3),
+    new Color(0x009688),
+    new Color(0xff5722)
+  };
+  public static final int GROUPING_THICKNESS = 4;
+  private int tick = 0;
   
   
   /** This method is the class constructor.
@@ -24,7 +36,40 @@ public class ContentPanel extends JPanel{
   }
   
   public void setGraphicsOutput(String [] [] gfx){
-    
+
+  }
+
+  public void drawGroup(Graphics g2){
+    System.out.println(tick);
+
+    final int ROWS = (var % 2 == 0) ? (var) : (var + 1);
+    final int COLS = (var % 2 == 0) ? (var) : ((var-1)); //really?
+
+    final int START_X = 270;
+    final int START_Y = 50;
+    final int END_X = (COLS == ROWS) ? (670) : (START_X + WIDTH * COLS);
+    final int END_Y = 450;
+
+    final int DIST = (var == 2) ? (200) : (100); //size of box
+    final int CURVE = (var == 2) ? (100) : (50);
+
+    tick(g2);
+    ((Graphics2D)(g2)).setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+    ((Graphics2D)(g2)).setStroke(new BasicStroke(ContentPanel.GROUPING_THICKNESS));
+    ((Graphics2D)(g2)).draw(new RoundRectangle2D.Float(START_X, START_Y, DIST*2, DIST*2, CURVE, CURVE));
+    if (var == 4) {
+      tick(g2);
+      ((Graphics2D) (g2)).draw(new RoundRectangle2D.Float(START_X, START_Y + DIST*2, DIST * 4, DIST, CURVE, CURVE));
+
+      tick(g2);
+      ((Graphics2D) (g2)).draw(new RoundRectangle2D.Float(START_X+DIST*3, START_Y, DIST * 1, DIST * 4, CURVE, CURVE));
+
+    }
+  }
+
+  private void tick(Graphics g2){
+    tick = (tick+1)%colors.length;
+    g2.setColor(colors[tick]);
   }
   
   /** This method draws the graphics. */
@@ -106,6 +151,9 @@ public class ContentPanel extends JPanel{
         g.drawString(outputString, START_X - 24, START_Y + i * WIDTH + WIDTH/2 + 5); //+5?
       }
     }
+
+    //temporary
+    drawGroup(g);
   }
   
 }
