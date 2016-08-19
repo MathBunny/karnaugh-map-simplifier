@@ -14,6 +14,7 @@ public class ContentPanel extends JPanel{
     new Color(0x009688),
     new Color(0xff5722)
   };
+
   public static final int GROUPING_THICKNESS = 4;
   private int tick = 0;
   
@@ -29,20 +30,13 @@ public class ContentPanel extends JPanel{
   public int getVar(){
     return var;
   }
-  
-  public void setIncidenceArray(int [] [] incidence){
-    
-  }
-  
-  public void setGraphicsOutput(String [] [] gfx){
 
-  }
 
   public void drawGroup(Graphics g2){
     System.out.println(tick);
 
     final int ROWS = (var % 2 == 0) ? (var) : (var + 1);
-    final int COLS = (var % 2 == 0) ? (var) : ((var-1)); //really?
+    final int COLS = (var % 2 == 0) ? (var) : (var - 1); //really?
 
     final int START_X = 270;
     final int START_Y = 50;

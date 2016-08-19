@@ -2,10 +2,14 @@ import javax.swing.*;
 import javax.swing.table.*;
 import java.awt.*;
 
-/* Credits to: http://www.java2s.com/Code/Java/Swing-Components/ButtonTableExample.htm */
+/** This class is used to render the Karnaugh Map.
+ * @author Horatiu Lazu
+ * @version 1.0
+ */
 
-class KarnaughMapRenderer extends JButton implements TableCellRenderer {
-  
+public class KarnaughMapRenderer extends JButton implements TableCellRenderer {
+
+  /** This is the class constructor */
   public KarnaughMapRenderer() {
     setOpaque(true);
   }

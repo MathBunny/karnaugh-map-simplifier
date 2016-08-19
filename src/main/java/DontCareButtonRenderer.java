@@ -2,7 +2,11 @@ import javax.swing.*;
 import javax.swing.table.*;
 import java.awt.*;
 
-/* Credits to: http://www.java2s.com/Code/Java/Swing-Components/ButtonTableExample.htm */
+/**
+ * This class deals with the don't care button renderer, making a custom JButton UI component
+ * @author Horatiu Lazu
+ * @version 1.0
+ */
 
 class DontCareButtonRenderer extends JButton implements TableCellRenderer {
   
@@ -21,7 +25,6 @@ class DontCareButtonRenderer extends JButton implements TableCellRenderer {
         DontCare.ignoreFlag = false;
       }else{
         System.out.println("ROW: " + row + " | COL: " + column + "VAL: " + value);
-        /* two variable */
         if (column == 2){
           DontCare.twoVariableDontCare[row] = Integer.valueOf((String) value); //use SET/GET methods!
         }
