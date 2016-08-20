@@ -3,12 +3,15 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.table.*;
 import javax.swing.border.*;
+
 /** The purpose of this class is to setup the JFrame with all the assorted GUI elements.
   * @author Horatiu Lazu
   * @version 1.0 */
 
 public class Frame implements ActionListener{ //fix to extend JFrame
+  /** a JPanel This is the panel */
   JFrame a;
+  /** panel JPanel This is the panel */
   JPanel panel;
   
   /** panel1 JPanel This is the JPanel with two variables. */
@@ -155,9 +158,12 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     return returnArray;
   }
   
-  /** actionPerformed method overrides ActionListener
+  /** actionPerformed method overrides ActionListener. This is for solve.
     * @param ae ActionEvent ActionEvent reference variable. */
-  public void actionPerformed(ActionEvent ae){}
+  public void actionPerformed(ActionEvent ae){
+    //solve code here
+
+  }
   
   /** This method adds an explanation box for how k-maps work. */
   public void addExplanationBox(){ //remove and replace

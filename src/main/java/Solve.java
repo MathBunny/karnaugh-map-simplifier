@@ -1,10 +1,22 @@
 import java.util.LinkedList;
 import java.util.PriorityQueue;
 
+/**
+ * This class solves Karnaugh maps
+ * @author Horatiu Lazu
+ */
+
 public class Solve{
+  /** solution LinkedList This are the groupings */
   public static LinkedList<Grouping> solution;
+  /** matrix int [] [] This is the matrix */
   public static int [] [] matrix;
-  
+
+  /**
+   * This method solves the Karnaugh Map
+   * @param variables int This is the number of variables.
+   * @param dontCare boolean This indicates true/false for the don't care
+   */
   public static void solveKarnaughMap(int variables, boolean dontCare){
     if (!dontCare){
       int [] [] map = convertIncidenceArray((variables == 2) ? (TruthTable.twoVariableTruth) : (variables == 3) ? (TruthTable.threeVariableTruth) : (TruthTable.fourVariableTruth));
@@ -36,6 +48,12 @@ public class Solve{
     }
   }
 
+  /**
+   * This method is a solver helper, using prefix sums
+   * @param variables int This is the number of variables
+   * @param dontCare boolean This indicates if don't cares are taken into account
+   * @param map int [] [] This is the matrix.
+   */
   public static void solvingHelper(int variables, boolean dontCare, int [] [] map){
     if (!dontCare){
       PrefixSum pS = new PrefixSum(map);
@@ -91,6 +109,11 @@ public class Solve{
     }
   }
 
+  /**
+   * This method indicates if the equation is a valid size / geometry.
+   * @param size int This is the size of the square.
+   * @return int This is the return value.
+   */
   public static boolean isSquared(int size){
     if (size == 0)
       return true;
@@ -142,7 +165,7 @@ public class Solve{
   }
 
   /** This method is used for debugging and outputting the incidence array.
-   * @param map int [] [] This is the array to be outputted
+   * @param map int [] [] This is the array to be outputted.
    */
   public static void toStringMatrix(int [] [] map){
     for(int y = 0; y < map[0].length; y++){

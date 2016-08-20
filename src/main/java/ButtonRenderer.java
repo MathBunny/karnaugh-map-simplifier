@@ -2,13 +2,28 @@ import javax.swing.*;
 import javax.swing.table.*;
 import java.awt.*;
 
+/**
+ * This is the button renderer.
+ * @author Horatiu Lazu
+ * @version 1.0
+ */
 class ButtonRenderer extends JButton implements TableCellRenderer {
-  
+
+  /** This is the class constructor */
   public ButtonRenderer() {
     setOpaque(true);
   }
-  
 
+  /**
+   * This is the get table cell renderer component
+   * @param table JTable This is the table
+   * @param value Object This is the value of the table
+   * @param isSelected boolean This indicates if is selected
+   * @param hasFocus boolean This indicates if it has been focused
+   * @param row int This is the row
+   * @param column int This is the column
+   * @return Component
+   */
   public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column) {
     if (isSelected) {
       //setForeground(table.getSelectionForeground());

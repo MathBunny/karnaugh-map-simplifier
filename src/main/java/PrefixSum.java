@@ -4,8 +4,13 @@
  * @version 1.0
  */
 public class PrefixSum {
+    /** sum int [] [] This is the prefix sum array */
     private int [][] sum;
 
+    /** This class constructor creates the prefix sum
+     * @param matrix int [][] This is the input matrix.
+     *
+     */
     public PrefixSum(int[][] matrix) {
         if (matrix.length == 0 || matrix[0].length == 0)
             return;
@@ -19,6 +24,14 @@ public class PrefixSum {
         }
     }
 
+    /**
+     * This is the sum of the region.
+     * @param row1 int This is the first x value
+     * @param col1 int This is the first y value
+     * @param row2 int This is the ending x value
+     * @param col2 int This is the ending y value
+     * @return int This is the sum
+     */
     public int sumRegion(int row1, int col1, int row2, int col2) {
         if (sum.length == 0)
             return 0;

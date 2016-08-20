@@ -1,5 +1,4 @@
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.*;
 
 /**
@@ -9,7 +8,11 @@ import java.awt.event.*;
  */
 public class DontCareButtonEditor extends ButtonEditor{
   //private boolean isPushed;
-  
+
+  /**
+   * This is the editor for the dont care editor.
+   * @param checkBox JCheckBox
+   */
   public DontCareButtonEditor(JCheckBox checkBox) {
     super(checkBox);
     button = new JButton();
@@ -21,7 +24,11 @@ public class DontCareButtonEditor extends ButtonEditor{
       }
     });
   }
-  
+
+  /**
+   * This gets the cell editor value.
+   * @return Object This is the value.
+   */
   @Override
   public Object getCellEditorValue() { //update this
     if (isPushed) {

@@ -9,6 +9,7 @@ import java.io.*;
  * @author Horatiu Lazu
  * @version 1.1
  */
+
 public class ScreenAbout extends JFrame implements ActionListener{
   /** background Image This is the background image object */
   private Image background;
