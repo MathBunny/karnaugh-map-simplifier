@@ -1,15 +1,20 @@
-import javax.swing.*;
 import java.awt.*;
 import java.awt.geom.*;
 import java.util.*;
 
 /**
- * Created by horatiulazu on 2016-08-20.
+ * This class draws groups on the Karnaugh Map
+ * @author Horatiu Lazu
+ * @version 1.0
  */
 public class DrawGroupings {
+    /** groups LinkedList These are the groups */
     private LinkedList <Grouping> groups;
+    /** variables int This is the number of variables */
     private int variables;
+    /** g2 Graphics2D This is the graphics 2D object */
     private Graphics2D g2;
+    /** colors Color [] This is the colors array */
     private Color [] colors = {
             new Color(0x673ab7),
             new Color(0x00e676),
@@ -18,17 +23,30 @@ public class DrawGroupings {
             new Color(0x009688),
             new Color(0xff5722)
     };
+    /** GROUPING_THICKNESS int This is the thickness */
     public static final int GROUPING_THICKNESS = 2;
+    /** tick int This is the tick value */
     private int tick = 0;
+    /** START_X int This is the starting x value */
     final int START_X = 270;
+    /** START_Y int This is the starting y value */
     final int START_Y = 50;
 
+    /**
+     * This is the class constructor that gets the data.
+     * @param groups LinkedList This stores the groups
+     * @param variables variable The number of variables
+     * @param g2 Graphics2D This is the graphics reference
+     */
     public DrawGroupings(LinkedList<Grouping> groups, int variables, Graphics2D g2){
         this.groups = groups;
         this.variables = variables;
         this.g2 = g2;
     }
 
+    /**
+     * Draws the groups depending on the groups linked list.
+     */
     public void drawGroups(){
         g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
         g2.setStroke(new BasicStroke(DrawGroupings.GROUPING_THICKNESS));
@@ -50,6 +68,10 @@ public class DrawGroupings {
         drawMatrixLabelling();
     }
 
+
+    /**
+     * This method draws the 1 values (and don't cares) on the matrix.
+     */
     public void drawMatrixLabelling(){
         g2.setColor(Color.BLACK);
         final int DIST = (variables == 2) ? (200) : (100);
@@ -62,6 +84,10 @@ public class DrawGroupings {
         }
     }
 
+    /**
+     * This is the tick for the color of the groups.
+     * @param g2 Graphics This is the graphics reference.
+     */
     private void tick(Graphics g2){
         tick = (tick+1)%colors.length;
         g2.setColor(colors[tick]);

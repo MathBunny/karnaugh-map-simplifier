@@ -4,8 +4,11 @@
   */
 
 public class Cell{
+  /** row int This is the row */
   private int row;
+  /** col int This is the col */
   private int col;
+  /** status int This is the status */
   private int status; //-1 means not initialized!
   
   /** This is the class constructor for a cell

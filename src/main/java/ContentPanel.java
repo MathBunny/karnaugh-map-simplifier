@@ -3,21 +3,15 @@ import java.awt.*;
 import java.awt.geom.*;
 import java.util.*;
 
+/**
+ * This is the content panel drawing graphics
+ * @author Horatiu Lazu
+ * @version 1.0
+ */
 
 public class ContentPanel extends JPanel{
+  /** var int This is the number of variables */
   private int var;
-  private Color [] colors = {
-    new Color(0x673ab7),
-    new Color(0x00e676),
-    new Color(0xe91e63),
-    new Color(0x2196f3),
-    new Color(0x009688),
-    new Color(0xff5722)
-  };
-
-  public static final int GROUPING_THICKNESS = 4;
-  private int tick = 0;
-  
   
   /** This method is the class constructor.
     * @param var int This is the number of variables. */
@@ -32,46 +26,22 @@ public class ContentPanel extends JPanel{
   }
 
 
+  /**
+   * This method draws a group in the field by using DrawGroups
+   * @param g2 Graphics This is the graphics reference.
+   */
   public void drawGroup(Graphics g2){
-    //System.out.println(tick);
-
-    final int ROWS = (var % 2 == 0) ? (var) : (var + 1);
-    final int COLS = (var % 2 == 0) ? (var) : (var - 1); //really?
-
-    final int START_X = 270;
-    final int START_Y = 50;
-    final int END_X = (COLS == ROWS) ? (670) : (START_X + WIDTH * COLS);
-    final int END_Y = 450;
-
-    final int DIST = (var == 2) ? (200) : (100); //size of box
-    final int CURVE = (var == 2) ? (100) : (50);
-
-    /*tick(g2);
-    ((Graphics2D)(g2)).setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
-    ((Graphics2D)(g2)).setStroke(new BasicStroke(ContentPanel.GROUPING_THICKNESS));
-    ((Graphics2D)(g2)).draw(new RoundRectangle2D.Float(START_X, START_Y, DIST*2, DIST*2, CURVE, CURVE));
-    if (var == 4) {
-      tick(g2);
-      ((Graphics2D) (g2)).draw(new RoundRectangle2D.Float(START_X, START_Y + DIST*2, DIST * 4, DIST, CURVE, CURVE));
-
-      tick(g2);
-      ((Graphics2D) (g2)).draw(new RoundRectangle2D.Float(START_X+DIST*3, START_Y, DIST * 1, DIST * 4, CURVE, CURVE));
-    }*/
-
     Solve.solveKarnaughMap(var, false); //solve!
     LinkedList<Grouping> sol = Solve.solution;
     DrawGroupings dG = new DrawGroupings(sol, var, (Graphics2D)g2);
     dG.drawGroups();
-    repaint(); //NO!?!?!?
-    //DrawGroupings.drawGroups(sol, var, g2);
+    repaint(); //???
   }
 
-  private void tick(Graphics g2){
-    tick = (tick+1)%colors.length;
-    g2.setColor(colors[tick]);
-  }
-  
-  /** This method draws the graphics. */
+  /**
+   * This paints the components including the grid.
+   * @param g Graphics This it the graphics object.
+   */
   protected void paintComponent(Graphics g) {
     
     final int ROWS = (var % 2 == 0) ? (var) : (var + 1);
@@ -82,13 +52,10 @@ public class ContentPanel extends JPanel{
     g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING,RenderingHints.VALUE_ANTIALIAS_ON);
     
     final int WIDTH = (400 / ROWS);
-    
     final int START_X = 270;
     final int START_Y = 50;
     final int END_X = (COLS == ROWS) ? (670) : (START_X + WIDTH * COLS);
     final int END_Y = 450;
-    
-    
     
     for(int i = 0; i <= ROWS; i++){
       g2.draw(new Line2D.Double(START_X, START_Y + i * WIDTH, END_X, START_Y + i * WIDTH));

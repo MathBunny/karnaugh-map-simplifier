@@ -8,7 +8,7 @@ import java.util.*;
  */
 
 public class GraycodeMappingSOP {
-    /** convert HashMap This is used to convert binary graycode to its location. Cells are initialized to -1 in value. */
+    /**convert HashMap This is used to convert binary graycode to its location. Cells are initialized to -1 in value. */
     HashMap<String, Cell> convert = new HashMap<String, Cell>() {{
         //4 variable SOP
         put("0000",new Cell(0, 0, -1));

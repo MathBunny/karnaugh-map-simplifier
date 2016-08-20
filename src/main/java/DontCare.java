@@ -16,5 +16,4 @@ public class DontCare extends TruthTable{
     Arrays.fill(threeVariableDontCare, 0);
     Arrays.fill(fourVariableDontCare, 0);
   }
-  
 }

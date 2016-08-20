@@ -9,11 +9,23 @@ import java.awt.*;
  */
 
 class DontCareButtonRenderer extends JButton implements TableCellRenderer {
-  
+  /**
+   * This renders the Don't care buttons
+   */
   public DontCareButtonRenderer() {
     setOpaque(true);
   }
-  
+
+  /**
+   * This gets the table cell renderer.
+   * @param table JTable This is the table.
+   * @param value Object This is the value in the table.
+   * @param isSelected boolean This indicates if you selected it before.
+   * @param hasFocus boolean This indicates if the row has a focus.
+   * @param row int This is the row.
+   * @param column int This is the colum
+   * @return Component
+   */
   @Override
   public Component getTableCellRendererComponent(JTable table, Object value,
                                                  boolean isSelected, boolean hasFocus, int row, int column) {
