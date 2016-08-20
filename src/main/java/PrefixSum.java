@@ -1,9 +1,11 @@
 /**
  * This class calculates the sum between (x1, y1) and (x2, y2) in O(1) time with O(N*M) pre-process (N = rows, M = cols)
  * @author Horatiu Lazu
+ * @version 1.0
  */
 public class PrefixSum {
-    int [][] sum;
+    private int [][] sum;
+
     public PrefixSum(int[][] matrix) {
         if (matrix.length == 0 || matrix[0].length == 0)
             return;

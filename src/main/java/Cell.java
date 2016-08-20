@@ -6,13 +6,13 @@
 public class Cell{
   private int row;
   private int col;
-  private int status;
+  private int status; //-1 means not initialized!
   
   /** This is the class constructor for a cell
    * @param row int This is the row
    * @param col int This is the column
    * @param status int This is the temporary status in the cell */
-  public Cell(int row, int col, int status){
+  public Cell(int col, int row, int status){
     this.row = row;
     this.col = col;
     this.status = status;

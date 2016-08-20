@@ -72,5 +72,11 @@ public class TruthTable{
       Frame.givenEq[variables-2].setText(output.substring(1)); //take off additional 
     else
       Frame.givenEq[variables-2].setText("");
+
+    Solve.solveKarnaughMap(variables, false);
+  }
+
+  public static void populateMatrix(int num, int variables){
+
   }
 }

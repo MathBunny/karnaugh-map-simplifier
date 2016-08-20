@@ -2,6 +2,11 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
+/**
+ * This class extends the DontCare UI implementation
+ * @author Horatiu Lazu
+ * @version 1.0
+ */
 public class DontCareButtonEditor extends ButtonEditor{
   //private boolean isPushed;
   
@@ -18,7 +23,7 @@ public class DontCareButtonEditor extends ButtonEditor{
   }
   
   @Override
-  public Object getCellEditorValue() {
+  public Object getCellEditorValue() { //update this
     if (isPushed) {
       //JOptionPane.showMessageDialog(button, label + ": Ouch!");
       if (label.equals("N"))
