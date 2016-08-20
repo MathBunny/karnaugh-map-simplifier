@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.geom.*;
-
+import java.util.*;
 
 
 public class ContentPanel extends JPanel{
@@ -46,7 +46,7 @@ public class ContentPanel extends JPanel{
     final int DIST = (var == 2) ? (200) : (100); //size of box
     final int CURVE = (var == 2) ? (100) : (50);
 
-    tick(g2);
+    /*tick(g2);
     ((Graphics2D)(g2)).setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
     ((Graphics2D)(g2)).setStroke(new BasicStroke(ContentPanel.GROUPING_THICKNESS));
     ((Graphics2D)(g2)).draw(new RoundRectangle2D.Float(START_X, START_Y, DIST*2, DIST*2, CURVE, CURVE));
@@ -56,8 +56,14 @@ public class ContentPanel extends JPanel{
 
       tick(g2);
       ((Graphics2D) (g2)).draw(new RoundRectangle2D.Float(START_X+DIST*3, START_Y, DIST * 1, DIST * 4, CURVE, CURVE));
+    }*/
 
-    }
+    Solve.solveKarnaughMap(var, false); //solve!
+    LinkedList<Grouping> sol = Solve.solution;
+    DrawGroupings dG = new DrawGroupings(sol, var, (Graphics2D)g2);
+    dG.drawGroups();
+    repaint(); //NO!?!?!?
+    //DrawGroupings.drawGroups(sol, var, g2);
   }
 
   private void tick(Graphics g2){

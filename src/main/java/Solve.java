@@ -2,17 +2,22 @@ import java.util.LinkedList;
 import java.util.PriorityQueue;
 
 public class Solve{
+  public static LinkedList<Grouping> solution;
+  public static int [] [] matrix;
   
   public static void solveKarnaughMap(int variables, boolean dontCare){
     if (!dontCare){
       int [] [] map = convertIncidenceArray((variables == 2) ? (TruthTable.twoVariableTruth) : (variables == 3) ? (TruthTable.threeVariableTruth) : (TruthTable.fourVariableTruth));
-
+      matrix = map;
      // toStringMatrix(map);
-      if (variables == 2){
+
+      //if (variables == 2){
         solvingHelper(variables, dontCare, map);
         return;
-      }
-      PrefixSum pS = new PrefixSum(map);
+      //}
+
+
+      /*PrefixSum pS = new PrefixSum(map);
       PriorityQueue<Grouping> groupings = new PriorityQueue<Grouping>();
       for(int y = 0; y < map[0].length; y++){ //you should be able to start from -1 to deal with overlaps :-)
         for(int x = 0; x < map.length; x++){
@@ -25,7 +30,7 @@ public class Solve{
             }
           }
         }
-      }
+      }*/
       
       
     }
@@ -77,10 +82,11 @@ public class Solve{
         }
       }
       //OUTPUT GROUPINGS
-      System.out.println("PAIRINGS:");
+      solution = pairings;
+      /*System.out.println("PAIRINGS:");
       for(Grouping a : pairings){
         System.out.println(a);
-      }
+      }*/
 
     }
   }

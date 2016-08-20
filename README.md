@@ -20,17 +20,17 @@ This application makes use of algorithms and data-structures to power a pattern 
 4. Traverse through array, and for every `1` value execute the group finding algorithm
 5. Group finding algorithm involves going from `[-1, N]` where N = # of columns or rows, and checking to see if the prefix sum is equal to `x * y`.
 	* The reason we go from [-1, N] is because you can have overlap to the other side of the Karnaugh Map
-	* Prefix Sums are a powerful technique here because you can figure out if you can properly form a grouping in `O(1)` complexity since if there are pairs there, the following is true: `prefixSum(x1, y1, x2, y2) == abs(x1-x2)*abs(y1-y2)`!
+	* Prefix Sums are a powerful technique as you can figure out if you can form a grouping in `O(1)` complexity since if there are pairs there, the following is true: `prefixSum(x1, y1, x2, y2) == (abs(x1-x2)+1)*(abs(y1-y2)+1)`!
 	* Through some tricky careful implementation with prefix sums this will account for all cases
 	* Special note needs to be taken for the 4 corners case
 6. Store all the `groupings` in a special `disjoint set`
 	* The advantage of disjoint sets is that you can find duplicates quickly, and merge them quickly
 	* The ideal disjoint set used here is quick-union with path compression and union-by-rank
 	* Path compression allows to minimize the distance from the nodes to the root by making it a length of `1` upon a `merge` or `find`
-	* Union-by-rank helps decrease the depth of the tree by appending smaller trees below larger trees (hence rank)
+	* Union-by-rank decreases the depth of the tree by appending smaller trees below larger trees (hence rank)
 7. Store all `groupings` in a `PriorityQueue`
 	* Priority queue to store orders
-	* The ordering is established based off of the size of `abs(x1-x2)*abs(y1-y2)`, the size of the grouping
+	* The ordering is established based off of the size of `(abs(x1-x2)+1)*(abs(y1-y2)+1)`, the size of the grouping
 	* In case of ties, greedily assign them to squares
 8. Store a `hashset` that indicates if a grouping was already made, and if it was merge the current coordinate pointer to that disjoint set
 	* In case it was not made, push the new group and create disjoint set
