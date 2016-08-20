@@ -25,7 +25,6 @@ public class ContentPanel extends JPanel{
     return var;
   }
 
-
   /**
    * This method draws a group in the field by using DrawGroups
    * @param g2 Graphics This is the graphics reference.
@@ -35,7 +34,7 @@ public class ContentPanel extends JPanel{
     LinkedList<Grouping> sol = Solve.solution;
     DrawGroupings dG = new DrawGroupings(sol, var, (Graphics2D)g2);
     dG.drawGroups();
-    repaint(); //???
+    repaint(); // ???
   }
 
   /**
