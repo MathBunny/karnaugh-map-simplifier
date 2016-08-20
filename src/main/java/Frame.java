@@ -158,9 +158,12 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     return returnArray;
   }
   
-  /** actionPerformed method overrides ActionListener
+  /** actionPerformed method overrides ActionListener. This is for solve.
     * @param ae ActionEvent ActionEvent reference variable. */
-  public void actionPerformed(ActionEvent ae){}
+  public void actionPerformed(ActionEvent ae){
+    //solve code here
+
+  }
   
   /** This method adds an explanation box for how k-maps work. */
   public void addExplanationBox(){ //remove and replace

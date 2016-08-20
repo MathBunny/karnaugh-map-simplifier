@@ -15,7 +15,6 @@ public class Grouping implements Comparable<Grouping>{
     /** size int This is the size of the grid */
     private int size;
 
-
     /**
      * This constructor is used for Groupings to store their information
      * @param startX int This is the starting x value

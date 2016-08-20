@@ -1,8 +1,15 @@
 import java.util.LinkedList;
 import java.util.PriorityQueue;
 
+/**
+ * This class solves Karnaugh maps
+ * @author Horatiu Lazu
+ */
+
 public class Solve{
+  /** solution LinkedList This are the groupings */
   public static LinkedList<Grouping> solution;
+  /** matrix int [] [] This is the matrix */
   public static int [] [] matrix;
 
   /**

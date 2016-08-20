@@ -9,7 +9,8 @@ public class PrefixSum {
 
     /** This class constructor creates the prefix sum
      * @param matrix int [][] This is the input matrix.
-     * */
+     *
+     */
     public PrefixSum(int[][] matrix) {
         if (matrix.length == 0 || matrix[0].length == 0)
             return;
