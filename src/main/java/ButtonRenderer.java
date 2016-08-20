@@ -17,7 +17,6 @@ class ButtonRenderer extends JButton implements TableCellRenderer {
       if (TruthTable.ignoreFlag == true){ //can get rid of this.
         TruthTable.ignoreFlag = false;
       }else{
-        System.out.println("ROW: " + row + " | COL: " + column + "VAL: " + value);
         /* two variable */
         if (column == 2){
           TruthTable.twoVariableTruth[row] = Integer.valueOf((String) value);

@@ -15,6 +15,7 @@ public class Grouping implements Comparable<Grouping>{
         this.startY = startY;
         this.endX = endX;
         this.endY = endY;
+        this.size = (Math.abs(startX-endX)+1) * (Math.abs(startY - endY)+1);
     }
 
     public int getStartX(){
@@ -33,18 +34,24 @@ public class Grouping implements Comparable<Grouping>{
         return endY;
     }
 
+    public int getSize() {return size;}
+
     /** This method compares groupings for use in the priorityqueue.
      * Priority is set to those with larger groups, if equal, the ones that are square will take priority.
      * @param o Grouping This is the comparison grouping.
      * @return int This is the comparison value.
      */
     public int compareTo(Grouping o){
-        if ((Math.abs(o.getStartX()-o.getEndX()) * Math.abs(o.getStartY()-o.getEndY()) == (Math.abs(startX-endX) * Math.abs(startY-endY)))) {
+        if (getSize() == o.getSize()) {
             if (Math.abs(startX-endX) == Math.abs(startY-endY)){
                 return 1;
             }
             return -1;
         }
-        return (Math.abs(startX-endX) * Math.abs(startY-endY)) - (Math.abs(o.getStartX()-o.getEndX()) * Math.abs(o.getStartY()-o.getEndY()));
+        return o.getSize() - getSize();
+    }
+
+    public String toString(){
+        return "(" + startX + "," + startY + ") to (" + endX + "," + endY + ")";
     }
 }

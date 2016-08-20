@@ -33,7 +33,7 @@ public class ContentPanel extends JPanel{
 
 
   public void drawGroup(Graphics g2){
-    System.out.println(tick);
+    //System.out.println(tick);
 
     final int ROWS = (var % 2 == 0) ? (var) : (var + 1);
     final int COLS = (var % 2 == 0) ? (var) : (var - 1); //really?

@@ -1,4 +1,5 @@
-
+import java.util.LinkedList;
+import java.util.PriorityQueue;
 
 public class Solve{
   
@@ -6,15 +7,19 @@ public class Solve{
     if (!dontCare){
       int [] [] map = convertIncidenceArray((variables == 2) ? (TruthTable.twoVariableTruth) : (variables == 3) ? (TruthTable.threeVariableTruth) : (TruthTable.fourVariableTruth));
 
-      toStringMatrix(map);
-
+     // toStringMatrix(map);
+      if (variables == 2){
+        solvingHelper(variables, dontCare, map);
+        return;
+      }
       PrefixSum pS = new PrefixSum(map);
+      PriorityQueue<Grouping> groupings = new PriorityQueue<Grouping>();
       for(int y = 0; y < map[0].length; y++){ //you should be able to start from -1 to deal with overlaps :-)
         for(int x = 0; x < map.length; x++){
           if (map[x][y] == 1){
             //generate grouping
             for(int yy = y; yy < map[0].length; yy++){ //make sure both aren't -'ve??
-              for(int xx = x; xx < map[0].length; xx++){
+              for(int xx = x; xx < map.length; xx++){
                 //if ((Math.abs(xx-x) * ))
               }
             }
@@ -26,16 +31,64 @@ public class Solve{
     }
   }
 
-  /** This method is used for debugging and outputting the incidence array.
-   * @param map int [] [] This is the array to be outputted
-   */
-  public static void toStringMatrix(int [] [] map){
-    for(int y = 0; y < map[0].length; y++){
-      for(int x = 0; x < map.length; x++){
-        System.out.print(map[x][y] + " ");
+  public static void solvingHelper(int variables, boolean dontCare, int [] [] map){
+    if (!dontCare){
+      PrefixSum pS = new PrefixSum(map);
+      PriorityQueue<Grouping> groupings = new PriorityQueue<Grouping>(); //pairings
+      LinkedList<Grouping> pairings = new LinkedList<Grouping>(); //final ans
+      for(int y = 0; y < map[0].length; y++){
+        for(int x = 0; x < map.length; x++){
+          for(int yy = y; yy < map[0].length; yy++) {
+            for (int xx = x; xx < map.length; xx++) {
+              if ((!(x == xx && y == yy)) && (isSquared((Math.abs(x-xx)+1) * (Math.abs(y-yy)+1)) && (pS.sumRegion(x, y, xx, yy) == (Math.abs(x-xx)+1) * (Math.abs(y-yy)+1)) && pS.sumRegion(x, y, xx, yy) != 0)){
+                //add to groupings
+                //System.out.println("(" + x + "," + y + ") to (" + xx + "," + yy + ")");
+                //System.out.println("Is squared: " + (isSquared(Math.abs(x-xx) * Math.abs(y-yy))));
+                //System.out.println("Has 1s: " + (pS.sumRegion(x, y, xx, yy) + "vs: " +  Math.abs(x-xx) * Math.abs(y-yy)));
+                //System.out.println("Is singular: " + (x == xx && y == yy && map[x][y] == 1));
+                groupings.add(new Grouping(x, y, xx, yy));
+              }
+            }
+          }
+        }
       }
-      System.out.println();
+      boolean [] [] visited = new boolean[map.length][map[0].length];
+      while(!groupings.isEmpty()){
+        Grouping g = groupings.remove();
+        for(int y = g.getStartY(); y <= g.getEndY(); y++){ //<= ???
+          for(int x = g.getStartX(); x <= g.getEndX(); x++){
+            if (!visited[x][y]){//mark all as visited
+              pairings.add(g);
+              for(int yy = g.getStartY(); yy <= g.getEndY(); yy++){
+                for(int xx = g.getStartX(); xx <= g.getEndX(); xx++){
+                  visited[xx][yy] = true;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      for(int y = 0; y < map[0].length; y++){ //groups of 1
+        for(int x = 0; x < map.length; x++){
+          if (!visited[x][y] && map[x][y] == 1){
+            pairings.add(new Grouping(x, y, x, y)); //single one
+          }
+        }
+      }
+      //OUTPUT GROUPINGS
+      System.out.println("PAIRINGS:");
+      for(Grouping a : pairings){
+        System.out.println(a);
+      }
+
     }
+  }
+
+  public static boolean isSquared(int size){
+    if (size == 0)
+      return true;
+    return ((int)(Math.log(size)/Math.log(2))) == Math.log(size)/Math.log(2);
   }
 
   /** This method converts a truthtable to a matrix
@@ -80,5 +133,17 @@ public class Solve{
       }
     }
     return arrR;
+  }
+
+  /** This method is used for debugging and outputting the incidence array.
+   * @param map int [] [] This is the array to be outputted
+   */
+  public static void toStringMatrix(int [] [] map){
+    for(int y = 0; y < map[0].length; y++){
+      for(int x = 0; x < map.length; x++){
+        System.out.print(map[x][y] + " ");
+      }
+      System.out.println();
+    }
   }
 }
