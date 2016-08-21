@@ -34,7 +34,8 @@ public class ContentPanel extends JPanel{
     LinkedList<Grouping> sol = Solve.solution;
     DrawGroupings dG = new DrawGroupings(sol, var, (Graphics2D)g2);
     dG.drawGroups();
-    repaint(); // ???
+    if (Settings.getRealtime())
+      repaint();
   }
 
   /**
@@ -42,7 +43,6 @@ public class ContentPanel extends JPanel{
    * @param g Graphics This it the graphics object.
    */
   protected void paintComponent(Graphics g) {
-    
     final int ROWS = (var % 2 == 0) ? (var) : (var + 1);
     final int COLS = (var % 2 == 0) ? (var) : ((var-1)); //really?
     Graphics2D g2 = (Graphics2D) g.create();

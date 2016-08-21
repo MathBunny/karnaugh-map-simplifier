@@ -30,6 +30,12 @@ public class Frame implements ActionListener{ //fix to extend JFrame
   /** This is the main program.
     * @param args String [] This variable passes arguements into the main method. */
   public static void main (String [] args){
+    try {
+      UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
+      UIManager.setLookAndFeel("com.sun.java.swing.plaf.nimbus.NimbusLookAndFeel");
+    } catch(Exception e){
+
+    }
     new Frame();
   }
   
@@ -161,7 +167,10 @@ public class Frame implements ActionListener{ //fix to extend JFrame
   /** actionPerformed method overrides ActionListener. This is for solve.
     * @param ae ActionEvent ActionEvent reference variable. */
   public void actionPerformed(ActionEvent ae){
-    //solve code here
+    //solve and generate text
+    panel1.repaint();
+    panel2.repaint();
+    panel3.repaint();
 
   }
   
@@ -209,6 +218,7 @@ public class Frame implements ActionListener{ //fix to extend JFrame
       label[i] = new JLabel("Simplified Expression:");
       label[i].setBounds(430, 465, 150, 30);
       compute[i] = new JButton("Simplify");
+      compute[i].addActionListener(this);
       compute[i].setBounds(850, 465, 140, 30);
       givenEq[i] = new JTextField();
       givenEq[i].setBounds(140, 465, 270, 30);
@@ -244,6 +254,7 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     
     JMenuBar bar = new JMenuBar();
     JMenu file = new JMenu("File");
+    JMenu settings = new JMenu("Settings");
     JMenu help = new JMenu("Help");
     JMenuItem quit = new JMenuItem("Quit");
     
@@ -260,9 +271,20 @@ public class Frame implements ActionListener{ //fix to extend JFrame
         new ScreenAbout();
       }
     });
+
+    JCheckBoxMenuItem realtimeUpdate = new JCheckBoxMenuItem ("Update Realtime");
+    realtimeUpdate.setSelected(true);
+    realtimeUpdate.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent evt) {
+        Settings.toggleRealtime();
+      }
+    });
+
+    settings.add(realtimeUpdate);
     
     help.add(about);
     bar.add(file);
+    bar.add(settings);
     bar.add(help);
     panel.add(bar);
     addTabs();
