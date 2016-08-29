@@ -1,8 +1,6 @@
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
-import java.awt.*;
-import java.awt.Event;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -13,21 +11,18 @@ import java.awt.event.ActionListener;
  */
 
 public class FivePlusContentPanel extends JPanel implements ActionListener{
+    /** tableWidth int This is the width of the table, so the button and combobox can match its dimensions */
     private int tableWidth = 0;
-    public FivePlusContentPanel(){
-        super();
-        final int VARIABLE_NUMBER = 5;
-        /* Adding two variable truth-table */
-        setLayout(null);
-        setPreferredSize(new Dimension(1000, 500));
 
+    private void addTruthTable(int variableNumber){
+        removeAll();
         DefaultTableModel dm = new DefaultTableModel();
-        dm.setDataVector(generateTruthTable(VARIABLE_NUMBER), generateTableColumns(VARIABLE_NUMBER));
+        dm.setDataVector(generateTruthTable(variableNumber), generateTableColumns(variableNumber));
 
         JTable table = new JTable(dm);
 
-        table.getColumn(generateTableColumns(VARIABLE_NUMBER)[VARIABLE_NUMBER].toString()).setCellRenderer(new ButtonRenderer());
-        table.getColumn(generateTableColumns(VARIABLE_NUMBER)[VARIABLE_NUMBER].toString()).setCellEditor(new ButtonEditor(new JCheckBox()));
+        table.getColumn(generateTableColumns(variableNumber)[variableNumber].toString()).setCellRenderer(new ButtonRenderer());
+        table.getColumn(generateTableColumns(variableNumber)[variableNumber].toString()).setCellEditor(new ButtonEditor(new JCheckBox()));
 
         JLabel truthTableText = new JLabel("Truth Table");
         add(truthTableText);
@@ -39,18 +34,17 @@ public class FivePlusContentPanel extends JPanel implements ActionListener{
         scroll.setSize(new Dimension(175, 400));
         tableWidth = 175;
 
-        for(int i = 0; i < VARIABLE_NUMBER; i++)
-            table.getColumnModel().getColumn(i).setPreferredWidth(VARIABLE_NUMBER);
-        table.getColumnModel().getColumn(VARIABLE_NUMBER).setPreferredWidth(75);
+        for(int i = 0; i < variableNumber; i++)
+            table.getColumnModel().getColumn(i).setPreferredWidth(variableNumber);
+        table.getColumnModel().getColumn(variableNumber).setPreferredWidth(75);
         add(scroll);
+        getVariableSelection(variableNumber);
 
-
-        getVariableSelection();
     }
 
-    private void getVariableSelection(){
-        String[] variables = new String[24];
-        for(int x = 2; x <= 25; x++){
+    private void getVariableSelection(int variableNumber){
+        String[] variables = new String[14];
+        for(int x = 2; x <= 15; x++){
             variables[x-2] = x + " variables";
         }
 
@@ -60,22 +54,21 @@ public class FivePlusContentPanel extends JPanel implements ActionListener{
         }
 
         final JComboBox variableCombo = new JComboBox(variableSelection);
-        variableCombo.setSelectedIndex(4);
+        variableCombo.setSelectedIndex(variableNumber-2);
 
         variableCombo.setBounds(25, 36, 400, 90);
-        variableCombo.setSize(new Dimension(tableWidth, (int)variableCombo.getPreferredSize().getHeight()));
+        variableCombo.setSize(new Dimension(tableWidth, (int) variableCombo.getPreferredSize().getHeight()));
 
-        JButton showButton = new JButton("Show");
-
-        showButton.addActionListener(new ActionListener() {
+        variableCombo.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 //variableCombo.getSelectedIndex()
+                addTruthTable(variableCombo.getSelectedIndex()+2);
             }
         });
 
         add(variableCombo);
-        add(showButton);
     }
+
 
     private Object [] generateTableColumns (int variables){
         char s = 'A';
@@ -106,15 +99,25 @@ public class FivePlusContentPanel extends JPanel implements ActionListener{
     }
 
     /**
+     * This is the class constructor, that sets up the size and adds the default truth-table with 5 variables.
+     */
+    public FivePlusContentPanel(){
+        super();
+        setLayout(null);
+        setPreferredSize(new Dimension(1000, 500));
+        addTruthTable(5);
+    }
+
+    /**
      * This paints the components.
      * @param g Graphics This it the graphics object.
      */
-    protected void paintComponent(Graphics g) {
+    protected void paintComponent(Graphics g) {}
 
-    }
-
-    public void actionPerformed(ActionEvent e){
-
-    }
+    /**
+     * This is the action performed method, in case of any actions from clicks, etc.
+     * @param e ActionEvent This is the reference to ActionEvent.
+     */
+    public void actionPerformed(ActionEvent e){}
 
 }
