@@ -73,12 +73,15 @@ public class FivePlusContentPanel extends JPanel implements ActionListener{
         });
 
         add(variableCombo);
-        simplifyButton();
+        addSimplifyButton();
         repaint();
         revalidate();
     }
 
-    private void simplifyButton(){
+    /**
+     * This method adds the simplify button
+     */
+    private void addSimplifyButton(){
         JButton simplify = new JButton("Simplify");
         simplify.setBounds(25, 466, 400, 90);
         simplify.setSize(new Dimension(tableWidth, (int) simplify.getPreferredSize().getHeight()));

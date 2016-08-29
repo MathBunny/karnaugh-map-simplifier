@@ -6,19 +6,18 @@
 ##Purpose
 The purpose of this application is to simplify boolean expressions. It accomplishes the simplification using Quine-McClusky for expressions over 4 variables, and Karnaugh Map for expressions with 4 or less variables. Feel free to contribute! 
 
-##Features proposed
+##Features & Development
 * Allow simplification of boolean expressions from truth-table
-* Permit SOP or POS conversion (possible)
-* Use Quine McCluskey method of simplification, with branch-and-bound method
+* Converts truth-table to SOP (Sum of Product), then plots on Karnaugh-Map
+* Uses Quine McCluskey method of simplification of 5+ variables
+* Prime implicant matching is powered by branch-and-bound method
 * Show pairing visualization for up to 4 variables
 * Allow for mapping of pairings and SOP determination
+* Easy to use interface, with ability of real-time 
 
-##Completed
-* Truth Table to SOP expressions
-* Truth Table to matrix
-* Complete user interface with Swing
-* Basic grouping graphics
-* Algorithmic design for solving up to 4 variables
+##Future Plans
+* Ability to simulate grid by plotting disjoint sets on different levels
+
 
 
 ##Unique Karnaugh Map simplification algorithm
@@ -55,5 +54,7 @@ This application makes use of algorithms and data-structures to power a pattern 
 12. Output groupings onto grid, be careful of wrapping cases, use `drawArc` and `drawRoundRect` where appropriate; use a circularly linked list to traverse colors for RGB and increment pointer each time
 
 
-##Screenshot
+##Screenshots
 ![Screenshot](screenshots/Karnaugh4Variable.png "Screenshot")
+![Screenshot](screenshots/Karnaugh2Variable.png "Screenshot")
+![Screenshot](screenshots/Karnaugh3Variable.png "Screenshot")
