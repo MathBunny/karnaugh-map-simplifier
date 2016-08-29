@@ -14,6 +14,10 @@ public class FivePlusContentPanel extends JPanel implements ActionListener{
     /** tableWidth int This is the width of the table, so the button and combobox can match its dimensions */
     private int tableWidth = 0;
 
+    /**
+     * This method adds the truth table (which is adjustable by variable count)
+     * @param variableNumber int This is the number of variables
+     */
     private void addTruthTable(int variableNumber){
         removeAll();
         DefaultTableModel dm = new DefaultTableModel();
@@ -26,32 +30,35 @@ public class FivePlusContentPanel extends JPanel implements ActionListener{
 
         JLabel truthTableText = new JLabel("Truth Table");
         add(truthTableText);
-        truthTableText.setBounds(40, 8, 100, 30); //adjust this dynamically ???
+        truthTableText.setBounds(30 + 12 * variableNumber, 8, 100, 30); //adjust this dynamically ???
 
 
         JScrollPane scroll = new JScrollPane(table);
         scroll.setBounds(25, 66, 120, 90);
-        scroll.setSize(new Dimension(175, 400));
-        tableWidth = 175;
+        scroll.setSize(new Dimension(85 + 25 * variableNumber, 400));
+        tableWidth = 85 + 25 * variableNumber;
 
         for(int i = 0; i < variableNumber; i++)
             table.getColumnModel().getColumn(i).setPreferredWidth(variableNumber);
-        table.getColumnModel().getColumn(variableNumber).setPreferredWidth(75);
+        table.getColumnModel().getColumn(variableNumber).setPreferredWidth(45 + 5 * variableNumber);
         add(scroll);
-        getVariableSelection(variableNumber);
+        variableSelection(variableNumber);
 
     }
 
-    private void getVariableSelection(int variableNumber){
+    /**
+     * This method generates the combobox for the variable selection.
+     * @param variableNumber int This is the number of variables to be selected by default
+     */
+    private void variableSelection(int variableNumber){
         String[] variables = new String[14];
         for(int x = 2; x <= 15; x++){
             variables[x-2] = x + " variables";
         }
 
         final DefaultComboBoxModel variableSelection = new DefaultComboBoxModel();
-        for (String v : variables){
+        for (String v : variables)
             variableSelection.addElement(v);
-        }
 
         final JComboBox variableCombo = new JComboBox(variableSelection);
         variableCombo.setSelectedIndex(variableNumber-2);
@@ -61,15 +68,19 @@ public class FivePlusContentPanel extends JPanel implements ActionListener{
 
         variableCombo.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                //variableCombo.getSelectedIndex()
                 addTruthTable(variableCombo.getSelectedIndex()+2);
             }
         });
 
         add(variableCombo);
+        repaint();
     }
 
 
+    /** Generates the column table headings, for the truth-table
+     * @param variables int This is the number of variables
+     * @return Object [] Array with the titles
+     */
     private Object [] generateTableColumns (int variables){
         char s = 'A';
         Object [] arr = new Object[variables+1];
@@ -77,8 +88,8 @@ public class FivePlusContentPanel extends JPanel implements ActionListener{
             arr[x] = ((char)(s + x)) + "";
         }
         StringBuilder finalFunction = new StringBuilder("F (");
-        for(int x = 0; x < variables-1; x++){
-            finalFunction.append(((char)('A' + x)) + " ");
+        for(int x = 0; x < variables; x++){
+            finalFunction.append(((char)('A' + x)) + "");
         }
         arr[arr.length-1] = finalFunction.toString().trim() + ")";
         return arr;
