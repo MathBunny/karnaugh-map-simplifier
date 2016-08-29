@@ -8,10 +8,16 @@ import java.awt.*;
  * @version 1.0
  */
 class ButtonRenderer extends JButton implements TableCellRenderer {
+  boolean isFiveVariablePlus = false;
 
   /** This is the class constructor */
   public ButtonRenderer() {
     setOpaque(true);
+  }
+
+  /** This is the class constructor */
+  public ButtonRenderer(boolean isFiveVariablePlus) {
+    this.isFiveVariablePlus = isFiveVariablePlus;
   }
 
   /**
@@ -24,6 +30,7 @@ class ButtonRenderer extends JButton implements TableCellRenderer {
    * @param column int This is the column
    * @return Component
    */
+
   public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column) {
     if (isSelected) {
       //setForeground(table.getSelectionForeground());
@@ -43,9 +50,8 @@ class ButtonRenderer extends JButton implements TableCellRenderer {
           TruthTable.fourVariableTruth[row] = Integer.valueOf((String) value);
         }
         else{
-
         }
-        TruthTable.updateGivenSOP(column); //update the SOP.
+        TruthTable.updateGivenSOP(column, isFiveVariablePlus); //update the SOP.
       }
     } 
     else {

@@ -25,12 +25,12 @@ public class FivePlusContentPanel extends JPanel implements ActionListener{
 
         JTable table = new JTable(dm);
 
-        table.getColumn(generateTableColumns(variableNumber)[variableNumber].toString()).setCellRenderer(new ButtonRenderer());
+        table.getColumn(generateTableColumns(variableNumber)[variableNumber].toString()).setCellRenderer(new ButtonRenderer(true));
         table.getColumn(generateTableColumns(variableNumber)[variableNumber].toString()).setCellEditor(new ButtonEditor(new JCheckBox()));
 
         JLabel truthTableText = new JLabel("Truth Table");
         add(truthTableText);
-        truthTableText.setBounds(30 + 12 * variableNumber, 8, 100, 30); //adjust this dynamically ???
+        truthTableText.setBounds(30 + 12 * variableNumber, 8, 100, 30);
 
 
         JScrollPane scroll = new JScrollPane(table);
@@ -40,17 +40,17 @@ public class FivePlusContentPanel extends JPanel implements ActionListener{
 
         for(int i = 0; i < variableNumber; i++)
             table.getColumnModel().getColumn(i).setPreferredWidth(variableNumber);
+
         table.getColumnModel().getColumn(variableNumber).setPreferredWidth(45 + 5 * variableNumber);
         add(scroll);
-        variableSelection(variableNumber);
-
+        addVariableSelection(variableNumber);
     }
 
     /**
      * This method generates the combobox for the variable selection.
      * @param variableNumber int This is the number of variables to be selected by default
      */
-    private void variableSelection(int variableNumber){
+    private void addVariableSelection(int variableNumber){
         String[] variables = new String[14];
         for(int x = 2; x <= 15; x++){
             variables[x-2] = x + " variables";
@@ -73,7 +73,21 @@ public class FivePlusContentPanel extends JPanel implements ActionListener{
         });
 
         add(variableCombo);
+        simplifyButton();
         repaint();
+        revalidate();
+    }
+
+    private void simplifyButton(){
+        JButton simplify = new JButton("Simplify");
+        simplify.setBounds(25, 466, 400, 90);
+        simplify.setSize(new Dimension(tableWidth, (int) simplify.getPreferredSize().getHeight()));
+        simplify.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                //simplify
+            }
+        });
+        add(simplify);
     }
 
 
