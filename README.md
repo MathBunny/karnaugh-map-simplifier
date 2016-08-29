@@ -56,4 +56,4 @@ This application makes use of algorithms and data-structures to power a pattern 
 
 
 ##Screenshot
-![Screenshot](screenshots/KarnaughScreenshot2.png "Screenshot")
+![Screenshot](screenshots/Karnaugh4Variable.png "Screenshot")

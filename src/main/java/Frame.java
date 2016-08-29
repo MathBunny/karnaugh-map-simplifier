@@ -20,8 +20,19 @@ public class Frame implements ActionListener{ //fix to extend JFrame
   JPanel panel2;
   /** panel3 JPanel This is the JPanel with four variables. */
   JPanel panel3; //try using an array?
+
+  /** panel4 JPanel This is the JPanel for 5+ variables */
   JPanel panel4;
-  
+
+  /** panel5 JPanel This is the JPanel for simulations */
+  JPanel panel5;
+
+  /** panel6 JPanel This is the JPanel for virtual grids */
+  JPanel panel6;
+
+  /** panel7 JPanel This is the JPanel for tools */
+  JPanel panel7;
+
   /** givenEq JTextField This is the array containing the given equation text fields for all JPanels */
   static JTextField [] givenEq;
   /** ans JTextField This is the array containing the answer text fields for all JPanels */
@@ -30,12 +41,6 @@ public class Frame implements ActionListener{ //fix to extend JFrame
   /** This is the main program.
     * @param args String [] This variable passes arguements into the main method. */
   public static void main (String [] args){
-    try {
-      UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
-      UIManager.setLookAndFeel("com.sun.java.swing.plaf.nimbus.NimbusLookAndFeel");
-    } catch(Exception e){
-
-    }
     new Frame();
   }
   
@@ -141,11 +146,26 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     tabbedPane.addTab("4 Variable", icon, panel3,"4 Variable Boolean Expression Simplification");
     tabbedPane.setMnemonicAt(2, KeyEvent.VK_3);
     
-    panel4 = new JPanel(); //normal JPanel
-    panel4.setPreferredSize(new Dimension(1000, 500));
-    
-    tabbedPane.addTab("Virtual Grid", icon, panel4,"Variety of functions");
+    panel4 = new FivePlusContentPanel(); //normal JPanel
+    tabbedPane.addTab("5+ Variables", icon, panel4,"5+ Variable Boolean Expression Simplification");
     tabbedPane.setMnemonicAt(3, KeyEvent.VK_4);
+
+    panel5 = new JPanel();
+    panel5.setPreferredSize(new Dimension(1000, 500));
+    tabbedPane.addTab("Simulation", icon, panel5,"Simulations with Karnaugh Maps");
+    tabbedPane.setMnemonicAt(4, KeyEvent.VK_5);
+
+    panel6 = new JPanel();
+    panel6.setPreferredSize(new Dimension(1000, 500));
+    tabbedPane.addTab("Virtual Grid", icon, panel6,"Virtual Grid for experimentation");
+    tabbedPane.setMnemonicAt(5, KeyEvent.VK_6);
+
+    panel7 = new JPanel();
+    panel7.setPreferredSize(new Dimension(1000, 500));
+    tabbedPane.addTab("Tools", icon, panel7,"Tools");
+    tabbedPane.setMnemonicAt(6, KeyEvent.VK_7);
+
+
     panel.add(tabbedPane);
     
   }

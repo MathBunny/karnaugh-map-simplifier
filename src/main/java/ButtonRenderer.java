@@ -39,8 +39,11 @@ class ButtonRenderer extends JButton implements TableCellRenderer {
         else if (column == 3){
           TruthTable.threeVariableTruth[row] = Integer.valueOf((String) value);
         }
-        else{
+        else if (column == 4){
           TruthTable.fourVariableTruth[row] = Integer.valueOf((String) value);
+        }
+        else{
+
         }
         TruthTable.updateGivenSOP(column); //update the SOP.
       }
