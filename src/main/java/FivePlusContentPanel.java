@@ -14,6 +14,9 @@ public class FivePlusContentPanel extends JPanel implements ActionListener{
     /** tableWidth int This is the width of the table, so the button and combobox can match its dimensions */
     private int tableWidth = 0;
 
+    private JTextArea sol = new JTextArea();
+
+
     /**
      * This method adds the truth table (which is adjustable by variable count)
      * @param variableNumber int This is the number of variables
@@ -74,6 +77,8 @@ public class FivePlusContentPanel extends JPanel implements ActionListener{
 
         add(variableCombo);
         addSimplifyButton();
+        addTextField();
+        addTextboxButtons();
         repaint();
         revalidate();
     }
@@ -90,7 +95,34 @@ public class FivePlusContentPanel extends JPanel implements ActionListener{
                 //simplify
             }
         });
+
+        JButton export = new JButton("Export Results");
+        export.setBounds(500, 466, 400, 90);
+        export.setSize(new Dimension(tableWidth+15, (int) export.getPreferredSize().getHeight()));
+        export.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                //simplify
+            }
+        });
+
         add(simplify);
+        add(export);
+    }
+
+    private void addTextField(){
+        JLabel solLabel = new JLabel("Solution");
+        solLabel.setBounds(700, 12, 100, 20);
+        //solLabel.setSize(solLabel.getPreferredSize());
+        add(solLabel);
+
+        sol.setBounds(500, 66, 66, 20); //a bit more
+        sol.setSize(new Dimension(475, 400));
+
+        JScrollPane scrollPane = new JScrollPane(sol);
+        scrollPane.setBounds(500, 66, 66, 20); //a bit more
+        scrollPane.setSize(new Dimension(475, 400));
+        sol.setEditable(false);
+        add(scrollPane);
     }
 
 
@@ -126,6 +158,28 @@ public class FivePlusContentPanel extends JPanel implements ActionListener{
         return returnArray;
     }
 
+    private void addTextboxButtons(){
+        JButton compress =  new JButton("Compress Text");
+        compress.setBounds(500, 40, 110, 20);
+
+        JButton expand = new JButton("Expand Text");
+        expand.setBounds(620, 40, 110, 20);
+
+        JButton copy = new JButton("Copy Text");
+        copy.setBounds(740, 40, 112, 20);
+
+        JButton count = new JButton("Count Terms");
+        count.setBounds(865, 40, 110, 20);
+
+
+
+        add(compress);
+        add(copy);
+        add(expand);
+        add(count);
+
+    }
+
     /**
      * This is the class constructor, that sets up the size and adds the default truth-table with 5 variables.
      */
@@ -133,7 +187,7 @@ public class FivePlusContentPanel extends JPanel implements ActionListener{
         super();
         setLayout(null);
         setPreferredSize(new Dimension(1000, 500));
-        addTruthTable(5);
+        addTruthTable(15);
     }
 
     /**
