@@ -43,6 +43,7 @@ public class GraycodeReflectedBinaryMappingSOP {
         put("10",new Cell(0, 1, -1));
         put("11",new Cell(1, 1, -1));
     }};
+
     /**
      * This stores the coordinate to binary conversions.
      * There is a pattern, but I hardcoded it anyways:
@@ -54,39 +55,38 @@ public class GraycodeReflectedBinaryMappingSOP {
      */
     HashMap<String, Integer> convertCoordinateToBinary = new HashMap<String, Integer>() {{
         //4 variable SOP
-        put("0|0|4",0b0000);
-        put("1|0|4",0b0001);
-        put("2|0|4",0b0011);
-        put("3|0|4",0b0010);
-        put("0|1|4",0b0100);
-        put("1|1|4",0b0101);
-        put("2|1|4",0b0111);
-        put("3|1|4",0b0110);
-        put("0|2|4",0b1100);
-        put("1|2|4",0b1101);
-        put("2|2|4",0b1111);
-        put("3|2|4",0b1110);
-        put("0|3|4",0b1000);
-        put("1|3|4",0b1001);
-        put("2|3|4",0b1011);
-        put("3|3|4",0b1010);
+        put("0|0|4",Integer.parseInt("0000", 2));
+        put("1|0|4",Integer.parseInt("0001", 2));
+        put("2|0|4",Integer.parseInt("0011", 2));
+        put("3|0|4",Integer.parseInt("0010", 2));
+        put("0|1|4",Integer.parseInt("0100", 2));
+        put("1|1|4",Integer.parseInt("0101", 2));
+        put("2|1|4",Integer.parseInt("0111", 2));
+        put("3|1|4",Integer.parseInt("0110", 2));
+        put("0|2|4",Integer.parseInt("1100", 2));
+        put("1|2|4",Integer.parseInt("1101", 2));
+        put("2|2|4",Integer.parseInt("1111", 2));
+        put("3|2|4",Integer.parseInt("1110", 2));
+        put("0|3|4",Integer.parseInt("1000", 2));
+        put("1|3|4",Integer.parseInt("1001", 2));
+        put("2|3|4",Integer.parseInt("1011", 2));
+        put("3|3|4",Integer.parseInt("1010", 2));
 
 
         //3 variable SOP
-        put("0|0|3",0b000);
-        put("1|0|3",0b000);
-        put("2|0|3",0b000);
-        put("0|1|3",0b000);
-        put("1|1|3",0b000);
-        put("2|1|3",0b000);
-        put("0|2|3",0b000);
-        put("1|2|3",0b000);
-        put("2|2|3",0b000);
+        put("0|0|3",Integer.parseInt("000", 2));
+        put("1|0|3",Integer.parseInt("001", 2));
+        put("0|1|3",Integer.parseInt("010", 2));
+        put("1|1|3",Integer.parseInt("011", 2));
+        put("0|2|3",Integer.parseInt("110", 2));
+        put("1|2|3",Integer.parseInt("111", 2));
+        put("0|3|3",Integer.parseInt("100", 2));
+        put("1|3|3",Integer.parseInt("101", 2));
 
         //2 variable SOP
-        put("0|0|2",0b00);
-        put("1|0|2",0b01);
-        put("0|1|2",0b10);
-        put("1|1|2",0b11);
+        put("0|0|2",Integer.parseInt("0b00", 2));
+        put("1|0|2",Integer.parseInt("0b01", 2));
+        put("0|1|2",Integer.parseInt("0b10", 2));
+        put("1|1|2",Integer.parseInt("0b11", 2));
     }};
 }
