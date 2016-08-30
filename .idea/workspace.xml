@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2a358fb-2a89-4ed6-a890-724b5fe9229c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/SimulationContentPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Coordinate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/GraycodeReflectedBinaryMappingSOP.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Scenario.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/GraycodeMappingSOP.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Frame.java" afterPath="$PROJECT_DIR$/src/main/java/Frame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Solve.java" afterPath="$PROJECT_DIR$/src/main/java/Solve.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Karnaugh-Map-Simplifier.iml" afterPath="$PROJECT_DIR$/Karnaugh-Map-Simplifier.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ContentPanel.java" afterPath="$PROJECT_DIR$/src/main/java/ContentPanel.java" />
     </list>
     <ignored path="Karnaugh-Map-Simplifier.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,45 +33,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Cell.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Cell.java">
+      <file leaf-file-name="ContentPanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ContentPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+            <state relative-caret-position="404">
+              <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
               <folding>
-                <element signature="e#788#789#0" expanded="false" />
-                <element signature="e#808#809#0" expanded="false" />
-                <element signature="e#915#916#0" expanded="false" />
-                <element signature="e#935#936#0" expanded="false" />
-                <element signature="e#1042#1043#0" expanded="false" />
-                <element signature="e#1065#1066#0" expanded="false" />
-                <element signature="e#1208#1209#0" expanded="false" />
-                <element signature="e#1238#1239#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#425#426#0" expanded="false" />
+                <element signature="e#449#450#0" expanded="false" />
+                <element signature="e#561#562#0" expanded="false" />
+                <element signature="e#581#582#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ButtonRenderer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ButtonRenderer.java">
+      <file leaf-file-name="Scenario.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Scenario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="53" column="60" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
-              <folding>
-                <element signature="e#322#323#0" expanded="false" />
-                <element signature="e#347#348#0" expanded="false" />
-                <element signature="e#441#442#0" expanded="false" />
-                <element signature="e#495#496#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DisjointSet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DisjointSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -95,7 +80,12 @@
             <state relative-caret-position="1620">
               <caret line="120" column="54" selection-start-line="120" selection-start-column="54" selection-end-line="120" selection-end-column="54" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2781#2951#0" expanded="false" />
+                <element signature="e#2950#2951#0" expanded="false" />
+                <element signature="e#3444#3574#0" expanded="false" />
+                <element signature="e#3573#3574#0" expanded="false" />
+                <element signature="e#3811#3941#0" expanded="false" />
+                <element signature="e#3940#3941#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -106,21 +96,42 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="35" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solve.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Solve.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-135">
+              <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#1341#1351#0" expanded="false" />
+                <element signature="e#1418#1428#0" expanded="false" />
+                <marker date="1472568723000" expanded="true" signature="882:1135" ph="/**...*/" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solve.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Solve.java">
+      <file leaf-file-name="DrawGroupings.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DrawGroupings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+            <state relative-caret-position="-450">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Coordinate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Coordinate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -131,32 +142,27 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="4350">
               <caret line="308" column="14" selection-start-line="308" selection-start-column="14" selection-end-line="308" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GraycodeMappingSOP.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GraycodeMappingSOP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContentPanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ContentPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1485">
-              <caret line="106" column="24" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
               <folding>
-                <element signature="e#425#426#0" expanded="false" />
-                <element signature="e#449#450#0" expanded="false" />
-                <element signature="e#561#562#0" expanded="false" />
-                <element signature="e#581#582#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#1417#1418#0" expanded="false" />
+                <element signature="e#1438#1439#0" expanded="false" />
+                <element signature="e#9744#9857#0" expanded="false" />
+                <element signature="e#9856#9857#0" expanded="false" />
+                <element signature="e#9939#10055#0" expanded="false" />
+                <element signature="e#10054#10055#0" expanded="false" />
+                <element signature="e#10216#10340#0" expanded="false" />
+                <element signature="e#10339#10340#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraycodeReflectedBinaryMappingSOP.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GraycodeReflectedBinaryMappingSOP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1320">
+              <caret line="88" column="26" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -198,8 +204,6 @@
         <option value="$PROJECT_DIR$/src/main/java/PrefixSum.java" />
         <option value="$PROJECT_DIR$/src/main/java/DisjointSet.java" />
         <option value="$PROJECT_DIR$/src/main/java/Grouping.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GraycodeMappingSOP.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ContentPanel.java" />
         <option value="$PROJECT_DIR$/src/main/java/Settings.java" />
         <option value="$PROJECT_DIR$/src/main/java/ButtonRenderer.java" />
         <option value="$PROJECT_DIR$/src/main/java/TruthTable.java" />
@@ -207,6 +211,11 @@
         <option value="$PROJECT_DIR$/src/main/java/SimulationContentPanel.java" />
         <option value="$PROJECT_DIR$/src/main/java/Frame.java" />
         <option value="$PROJECT_DIR$/src/main/java/Solve.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Coordinate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ContentPanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Scenario.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GraycodeMappingSOP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GraycodeReflectedBinaryMappingSOP.java" />
       </list>
     </option>
   </component>
@@ -224,7 +233,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1280" />
+    <option name="width" value="1784" />
     <option name="height" value="1003" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -370,7 +379,7 @@
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="karnaugh-map-simplifier" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="full.screen.before.presentation.mode" value="false" />
   </component>
@@ -707,7 +716,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="1003" extended-state="0" />
+    <frame x="0" y="23" width="1784" height="1003" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -722,7 +731,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20859376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14966367" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -757,20 +766,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/PrefixSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PrefixSumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ButtonEditor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -847,6 +842,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="e#425#426#0" expanded="false" />
             <element signature="e#449#450#0" expanded="false" />
             <element signature="e#561#562#0" expanded="false" />
@@ -939,6 +935,7 @@
         <state relative-caret-position="60">
           <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="e#425#426#0" expanded="false" />
             <element signature="e#449#450#0" expanded="false" />
             <element signature="e#561#562#0" expanded="false" />
@@ -1062,13 +1059,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DrawGroupings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DrawComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1113,19 +1103,6 @@
         <state relative-caret-position="75">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ContentPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="106" column="24" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
-          <folding>
-            <element signature="e#425#426#0" expanded="false" />
-            <element signature="e#449#450#0" expanded="false" />
-            <element signature="e#561#562#0" expanded="false" />
-            <element signature="e#581#582#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1177,7 +1154,12 @@
         <state relative-caret-position="1620">
           <caret line="120" column="54" selection-start-line="120" selection-start-column="54" selection-end-line="120" selection-end-column="54" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2781#2951#0" expanded="false" />
+            <element signature="e#2950#2951#0" expanded="false" />
+            <element signature="e#3444#3574#0" expanded="false" />
+            <element signature="e#3573#3574#0" expanded="false" />
+            <element signature="e#3811#3941#0" expanded="false" />
+            <element signature="e#3940#3941#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1186,15 +1168,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4350">
           <caret line="308" column="14" selection-start-line="308" selection-start-column="14" selection-end-line="308" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GraycodeMappingSOP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1417#1418#0" expanded="false" />
+            <element signature="e#1438#1439#0" expanded="false" />
+            <element signature="e#9744#9857#0" expanded="false" />
+            <element signature="e#9856#9857#0" expanded="false" />
+            <element signature="e#9939#10055#0" expanded="false" />
+            <element signature="e#10054#10055#0" expanded="false" />
+            <element signature="e#10216#10340#0" expanded="false" />
+            <element signature="e#10339#10340#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1202,19 +1186,66 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="35" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Coordinate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Solve.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+        <state relative-caret-position="-135">
+          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+          <folding>
+            <element signature="e#1341#1351#0" expanded="false" />
+            <element signature="e#1418#1428#0" expanded="false" />
+            <marker date="1472568723000" expanded="true" signature="882:1135" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DrawGroupings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ContentPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#425#426#0" expanded="false" />
+            <element signature="e#449#450#0" expanded="false" />
+            <element signature="e#561#562#0" expanded="false" />
+            <element signature="e#581#582#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Scenario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GraycodeReflectedBinaryMappingSOP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="88" column="26" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1276,6 +1307,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1283,6 +1315,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>junit-4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

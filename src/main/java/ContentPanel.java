@@ -36,6 +36,16 @@ public class ContentPanel extends JPanel{
     dG.drawGroups();
     if (Settings.getRealtime())
       repaint();
+    getSimplifiedExpression(sol);
+  }
+
+  /**
+   * This method gets the simplified expression string.
+   * @param sol LinkedList This is the solution in linkedlist form
+   */
+  public void getSimplifiedExpression(LinkedList<Grouping> sol){
+    String simplifiedExpression = new Scenario(sol).getSimplifiedExpresion();
+    Frame.ans[var-2].setText(simplifiedExpression);
   }
 
   /**
