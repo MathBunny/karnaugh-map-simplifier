@@ -84,9 +84,9 @@ public class GraycodeReflectedBinaryMappingSOP {
         put("1|3|3",Integer.parseInt("101", 2));
 
         //2 variable SOP
-        put("0|0|2",Integer.parseInt("0b00", 2));
-        put("1|0|2",Integer.parseInt("0b01", 2));
-        put("0|1|2",Integer.parseInt("0b10", 2));
-        put("1|1|2",Integer.parseInt("0b11", 2));
+        put("0|0|2",Integer.parseInt("00", 2));
+        put("1|0|2",Integer.parseInt("01", 2));
+        put("0|1|2",Integer.parseInt("10", 2));
+        put("1|1|2",Integer.parseInt("11", 2));
     }};
 }
