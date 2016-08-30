@@ -317,6 +317,7 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     
     a.setVisible(true);
     a.setSize(1024, 600);
+    a.setResizable(false);
     a.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
   }
 }
