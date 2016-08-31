@@ -2,17 +2,29 @@ import java.util.HashSet;
 import java.util.LinkedList;
 
 /**
+ *
  * Created by horatiulazu on 2016-08-30.
  */
 public class Scenario {
+    /** sol LinkedList This is the solution */
     private LinkedList<Grouping> sol = new LinkedList<Grouping>();
+    /** variables int This is the number of variables */
     private int variables;
 
+    /**
+     * This is the class constructor for scenario
+     * @param sol LinkedList This is the solution for the scenario
+     * @param variables int These are the variables
+     */
     public Scenario(LinkedList<Grouping> sol, int variables){
         this.sol = sol;
         this.variables = variables;
     }
 
+    /**
+     * This method returns the simplified expression
+     * @return String This is the simplified expression
+     */
     public String getSimplifiedExpresion(){
         int bits = variables;
         boolean addedBitsPreviously = false;

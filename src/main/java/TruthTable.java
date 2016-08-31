@@ -74,7 +74,9 @@ public class TruthTable{
         output += "+" + getInputEquation(x, variables);
       }
     }
-
+    if (output.equals("")){
+      output = " False";
+    }
     if (!isFiveVariablePlus) {
       if (output.length() >= 1)
         Frame.givenEq[variables - 2].setText(output.substring(1)); //take off additional
