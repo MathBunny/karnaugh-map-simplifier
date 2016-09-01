@@ -191,6 +191,10 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     panel2.repaint();
     panel3.repaint();
 
+    //get # of variables
+    JOptionPane.showMessageDialog(null, "Unsimplified Expression: "
+            + givenEq[Solve.NUM_VARIABLES-2].getText() + "\nSimplified Expression:    " + ans[Solve.NUM_VARIABLES-2].getText(), "Boolean Expression Minimized!", JOptionPane.INFORMATION_MESSAGE);
+
   }
   
   /** This method adds an explanation box for how k-maps work. */
@@ -239,7 +243,7 @@ public class Frame implements ActionListener{ //fix to extend JFrame
       compute[i] = new JButton("Simplify");
       compute[i].addActionListener(this);
       compute[i].setBounds(850, 465, 140, 30);
-      givenEq[i] = new JTextField();
+      givenEq[i] = new JTextField("False");
       givenEq[i].setBounds(140, 465, 270, 30);
       givenEq[i].setEditable(false);
       labelGiven[i] = new JLabel("Given Expression:");

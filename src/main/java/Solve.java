@@ -11,6 +11,8 @@ public class Solve{
   public static LinkedList<Grouping> solution;
   /** matrix int [] [] This is the matrix */
   public static int [] [] matrix;
+  /** NUM_VARIABLES int This is the number of variables */
+  public static int NUM_VARIABLES = 0;
 
   /**
    * This method solves the Karnaugh Map
@@ -22,6 +24,7 @@ public class Solve{
       int [] [] map = convertIncidenceArray((variables == 2) ? (TruthTable.twoVariableTruth) : (variables == 3) ? (TruthTable.threeVariableTruth) : (TruthTable.fourVariableTruth));
       matrix = map;
       solvingHelper(variables, dontCare, map);
+      Solve.NUM_VARIABLES = variables;
       return;
     }
   }
