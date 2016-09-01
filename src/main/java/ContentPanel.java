@@ -44,7 +44,7 @@ public class ContentPanel extends JPanel{
    * @param sol LinkedList This is the solution in linkedlist form
    */
   public void getSimplifiedExpression(LinkedList<Grouping> sol){
-    String simplifiedExpression = new Scenario(sol, var).getSimplifiedExpresion();
+    String simplifiedExpression = new Scenario(sol, var).getSimplifiedExpression();
     Frame.ans[var-2].setText(simplifiedExpression);
   }
 

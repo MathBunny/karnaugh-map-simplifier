@@ -25,7 +25,7 @@ public class Scenario {
      * This method returns the simplified expression
      * @return String This is the simplified expression
      */
-    public String getSimplifiedExpresion(){
+    public String getSimplifiedExpression(){
         int bits = variables;
         boolean addedBitsPreviously = false;
         StringBuilder sB = new StringBuilder("");
