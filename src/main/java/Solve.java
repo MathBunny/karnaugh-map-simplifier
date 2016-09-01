@@ -24,9 +24,8 @@ public class Solve{
       int [] [] map = convertIncidenceArray((variables == 2) ? (TruthTable.twoVariableTruth) : (variables == 3) ? (TruthTable.threeVariableTruth) : (TruthTable.fourVariableTruth));
       matrix = map;
       solvingHelper(variables, dontCare, map);
-      Solve.NUM_VARIABLES = variables;
-      return;
     }
+    Solve.NUM_VARIABLES = variables;
   }
 
   /**
