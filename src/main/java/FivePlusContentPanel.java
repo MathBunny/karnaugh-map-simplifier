@@ -13,7 +13,7 @@ import java.awt.event.ActionListener;
 public class FivePlusContentPanel extends JPanel implements ActionListener{
     /** tableWidth int This is the width of the table, so the button and combobox can match its dimensions */
     private int tableWidth = 0;
-
+    /** sol JTextArea This is the solution field */
     private JTextArea sol = new JTextArea();
 
 
@@ -109,6 +109,9 @@ public class FivePlusContentPanel extends JPanel implements ActionListener{
         add(export);
     }
 
+    /**
+     * This method adds the text fields with solution
+     */
     private void addTextField(){
         JLabel solLabel = new JLabel("Solution");
         solLabel.setBounds(700, 12, 100, 20);
@@ -145,6 +148,7 @@ public class FivePlusContentPanel extends JPanel implements ActionListener{
     }
 
     /** Generate truth table using bitmasking
+     * @param variables int This is the number of variables
      * @return Object [] [] This is the truth table.*/
     private Object [] [] generateTruthTable(int variables){
         Object [] [] returnArray = new Object[(int)(Math.pow(2, variables))][variables +1];
@@ -158,6 +162,9 @@ public class FivePlusContentPanel extends JPanel implements ActionListener{
         return returnArray;
     }
 
+    /**
+     * This method adds the right side buttons
+     */
     private void addTextboxButtons(){
         JButton compress =  new JButton("Compress Text");
         compress.setBounds(500, 40, 110, 20);
@@ -171,13 +178,10 @@ public class FivePlusContentPanel extends JPanel implements ActionListener{
         JButton count = new JButton("Count Terms");
         count.setBounds(865, 40, 110, 20);
 
-
-
         add(compress);
         add(copy);
         add(expand);
         add(count);
-
     }
 
     /**

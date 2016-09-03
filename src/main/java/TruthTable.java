@@ -13,7 +13,7 @@ public class TruthTable{
   /**  fourVariableTruth int [] This variable stores the truth table of the five+ variable truth table. */
   public static int [] fiveOrMoreVariableTruth = new int [225];
 
-  /** @param ignoreFlag boolean This tells the ButtonRenderer if the execution should be ignored or not.*/
+  /** ignoreFlag boolean This tells the ButtonRenderer if the execution should be ignored or not.*/
   static boolean ignoreFlag = false;
   
   /** This method returns the boolean expression from the truthtable.
