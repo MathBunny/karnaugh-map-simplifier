@@ -27,8 +27,7 @@ class DontCareButtonRenderer extends JButton implements TableCellRenderer {
    * @return Component
    */
   @Override
-  public Component getTableCellRendererComponent(JTable table, Object value,
-                                                 boolean isSelected, boolean hasFocus, int row, int column) {
+  public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column) {
     if (isSelected) {
       //setForeground(table.getSelectionForeground());
       setForeground(Color.blue);
@@ -36,9 +35,8 @@ class DontCareButtonRenderer extends JButton implements TableCellRenderer {
       if (DontCare.ignoreFlag == true){ //can get rid of this.
         DontCare.ignoreFlag = false;
       }else{
-        System.out.println("ROW: " + row + " | COL: " + column + "VAL: " + value);
         if (column == 2){
-          DontCare.twoVariableDontCare[row] = Integer.valueOf((String) value); //use SET/GET methods!
+          DontCare.twoVariableDontCare[row] = Integer.valueOf((String) value);
         }
         else if (column == 3){
           DontCare.threeVariableDontCare[row] = Integer.valueOf((String) value);

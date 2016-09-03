@@ -32,7 +32,6 @@ public class DontCareButtonEditor extends ButtonEditor{
   @Override
   public Object getCellEditorValue() { //update this
     if (isPushed) {
-      //JOptionPane.showMessageDialog(button, label + ": Ouch!");
       if (label.equals("N"))
         label = "Y";
       else
