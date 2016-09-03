@@ -2,7 +2,9 @@ import java.util.HashSet;
 import java.util.LinkedList;
 
 /**
- *
+ * This class mimicks a scenario, which is a group of groups.
+ * Scenarios can be used to determine the simplified SOP expression.
+ * @author Horatiu Lazu
  * Created by horatiulazu on 2016-08-30.
  */
 public class Scenario {

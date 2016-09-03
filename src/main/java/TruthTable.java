@@ -4,16 +4,16 @@ import java.util.*;
   * @author Horatiu Lazu */
 public class TruthTable{
   
-  /** @param twoVariableTruth int [] This variable stores the truth table of the two variable truth table. */
+  /**  twoVariableTruth int [] This variable stores the truth table of the two variable truth table. */
   public static int [] twoVariableTruth = new int [4];
-  /** @param threeVariableTruth int [] This variable stores the truth table of the three variable truth table. */
+  /**  threeVariableTruth int [] This variable stores the truth table of the three variable truth table. */
   public static int [] threeVariableTruth = new int [9];
-  /** @param fourVariableTruth int [] This variable stores the truth table of the four variable truth table. */
+  /**  fourVariableTruth int [] This variable stores the truth table of the four variable truth table. */
   public static int [] fourVariableTruth = new int [16]; /* 2D array? */
-  /** @param fourVariableTruth int [] This variable stores the truth table of the five+ variable truth table. */
+  /**  fourVariableTruth int [] This variable stores the truth table of the five+ variable truth table. */
   public static int [] fiveOrMoreVariableTruth = new int [225];
 
-  /** @param ignoreFlag boolean This tells the ButtonRenderer if the execution should be ignored or not.*/
+  /** ignoreFlag boolean This tells the ButtonRenderer if the execution should be ignored or not.*/
   static boolean ignoreFlag = false;
   
   /** This method returns the boolean expression from the truthtable.
