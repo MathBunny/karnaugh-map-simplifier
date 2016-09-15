@@ -3,6 +3,87 @@
   <component name="ChangeListManager">
     <list default="true" id="f2a358fb-2a89-4ed6-a890-724b5fe9229c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/ButtonEditor.html" afterPath="$PROJECT_DIR$/doc/ButtonEditor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/ButtonRenderer.html" afterPath="$PROJECT_DIR$/doc/ButtonRenderer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/Cell.html" afterPath="$PROJECT_DIR$/doc/Cell.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/ContentPanel.html" afterPath="$PROJECT_DIR$/doc/ContentPanel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/Coordinate.html" afterPath="$PROJECT_DIR$/doc/Coordinate.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/DisjointSet.html" afterPath="$PROJECT_DIR$/doc/DisjointSet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/DontCare.html" afterPath="$PROJECT_DIR$/doc/DontCare.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/DontCareButtonEditor.html" afterPath="$PROJECT_DIR$/doc/DontCareButtonEditor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/DontCareButtonRenderer.html" afterPath="$PROJECT_DIR$/doc/DontCareButtonRenderer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/DrawComponent.html" afterPath="$PROJECT_DIR$/doc/DrawComponent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/DrawGroupings.html" afterPath="$PROJECT_DIR$/doc/DrawGroupings.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/FivePlusContentPanel.html" afterPath="$PROJECT_DIR$/doc/FivePlusContentPanel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/Frame.html" afterPath="$PROJECT_DIR$/doc/Frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/GraycodeReflectedBinaryMappingSOP.html" afterPath="$PROJECT_DIR$/doc/GraycodeReflectedBinaryMappingSOP.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/Grouping.html" afterPath="$PROJECT_DIR$/doc/Grouping.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/KarnaughMapRenderer.html" afterPath="$PROJECT_DIR$/doc/KarnaughMapRenderer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/PrefixSum.html" afterPath="$PROJECT_DIR$/doc/PrefixSum.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/PrefixSumTest.html" afterPath="$PROJECT_DIR$/doc/PrefixSumTest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/Scenario.html" afterPath="$PROJECT_DIR$/doc/Scenario.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/ScreenAbout.html" afterPath="$PROJECT_DIR$/doc/ScreenAbout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/Settings.html" afterPath="$PROJECT_DIR$/doc/Settings.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/SimulationContentPanel.html" afterPath="$PROJECT_DIR$/doc/SimulationContentPanel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/Solve.html" afterPath="$PROJECT_DIR$/doc/Solve.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/TruthTable.html" afterPath="$PROJECT_DIR$/doc/TruthTable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/allclasses-frame.html" afterPath="$PROJECT_DIR$/doc/allclasses-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/allclasses-noframe.html" afterPath="$PROJECT_DIR$/doc/allclasses-noframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/ButtonEditor.html" afterPath="$PROJECT_DIR$/doc/class-use/ButtonEditor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/ButtonRenderer.html" afterPath="$PROJECT_DIR$/doc/class-use/ButtonRenderer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/Cell.html" afterPath="$PROJECT_DIR$/doc/class-use/Cell.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/ContentPanel.html" afterPath="$PROJECT_DIR$/doc/class-use/ContentPanel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/Coordinate.html" afterPath="$PROJECT_DIR$/doc/class-use/Coordinate.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/DisjointSet.html" afterPath="$PROJECT_DIR$/doc/class-use/DisjointSet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/DontCare.html" afterPath="$PROJECT_DIR$/doc/class-use/DontCare.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/DontCareButtonEditor.html" afterPath="$PROJECT_DIR$/doc/class-use/DontCareButtonEditor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/DontCareButtonRenderer.html" afterPath="$PROJECT_DIR$/doc/class-use/DontCareButtonRenderer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/DrawComponent.html" afterPath="$PROJECT_DIR$/doc/class-use/DrawComponent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/DrawGroupings.html" afterPath="$PROJECT_DIR$/doc/class-use/DrawGroupings.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/FivePlusContentPanel.html" afterPath="$PROJECT_DIR$/doc/class-use/FivePlusContentPanel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/Frame.html" afterPath="$PROJECT_DIR$/doc/class-use/Frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/GraycodeReflectedBinaryMappingSOP.html" afterPath="$PROJECT_DIR$/doc/class-use/GraycodeReflectedBinaryMappingSOP.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/Grouping.html" afterPath="$PROJECT_DIR$/doc/class-use/Grouping.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/KarnaughMapRenderer.html" afterPath="$PROJECT_DIR$/doc/class-use/KarnaughMapRenderer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/PrefixSum.html" afterPath="$PROJECT_DIR$/doc/class-use/PrefixSum.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/PrefixSumTest.html" afterPath="$PROJECT_DIR$/doc/class-use/PrefixSumTest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/Scenario.html" afterPath="$PROJECT_DIR$/doc/class-use/Scenario.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/ScreenAbout.html" afterPath="$PROJECT_DIR$/doc/class-use/ScreenAbout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/Settings.html" afterPath="$PROJECT_DIR$/doc/class-use/Settings.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/SimulationContentPanel.html" afterPath="$PROJECT_DIR$/doc/class-use/SimulationContentPanel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/Solve.html" afterPath="$PROJECT_DIR$/doc/class-use/Solve.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/TruthTable.html" afterPath="$PROJECT_DIR$/doc/class-use/TruthTable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/constant-values.html" afterPath="$PROJECT_DIR$/doc/constant-values.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/deprecated-list.html" afterPath="$PROJECT_DIR$/doc/deprecated-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/help-doc.html" afterPath="$PROJECT_DIR$/doc/help-doc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-1.html" afterPath="$PROJECT_DIR$/doc/index-files/index-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-10.html" afterPath="$PROJECT_DIR$/doc/index-files/index-10.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-11.html" afterPath="$PROJECT_DIR$/doc/index-files/index-11.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-12.html" afterPath="$PROJECT_DIR$/doc/index-files/index-12.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-13.html" afterPath="$PROJECT_DIR$/doc/index-files/index-13.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-14.html" afterPath="$PROJECT_DIR$/doc/index-files/index-14.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-15.html" afterPath="$PROJECT_DIR$/doc/index-files/index-15.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-16.html" afterPath="$PROJECT_DIR$/doc/index-files/index-16.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-17.html" afterPath="$PROJECT_DIR$/doc/index-files/index-17.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-18.html" afterPath="$PROJECT_DIR$/doc/index-files/index-18.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-19.html" afterPath="$PROJECT_DIR$/doc/index-files/index-19.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-2.html" afterPath="$PROJECT_DIR$/doc/index-files/index-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-20.html" afterPath="$PROJECT_DIR$/doc/index-files/index-20.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-3.html" afterPath="$PROJECT_DIR$/doc/index-files/index-3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-4.html" afterPath="$PROJECT_DIR$/doc/index-files/index-4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-5.html" afterPath="$PROJECT_DIR$/doc/index-files/index-5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-6.html" afterPath="$PROJECT_DIR$/doc/index-files/index-6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-7.html" afterPath="$PROJECT_DIR$/doc/index-files/index-7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-8.html" afterPath="$PROJECT_DIR$/doc/index-files/index-8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-9.html" afterPath="$PROJECT_DIR$/doc/index-files/index-9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index.html" afterPath="$PROJECT_DIR$/doc/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/overview-tree.html" afterPath="$PROJECT_DIR$/doc/overview-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/package-frame.html" afterPath="$PROJECT_DIR$/doc/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/package-summary.html" afterPath="$PROJECT_DIR$/doc/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/package-tree.html" afterPath="$PROJECT_DIR$/doc/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/package-use.html" afterPath="$PROJECT_DIR$/doc/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/serialized-form.html" afterPath="$PROJECT_DIR$/doc/serialized-form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Frame.java" afterPath="$PROJECT_DIR$/src/main/java/Frame.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Settings.java" afterPath="$PROJECT_DIR$/src/main/java/Settings.java" />
     </list>
     <ignored path="Karnaugh-Map-Simplifier.iws" />
@@ -47,11 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Settings.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Settings.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Settings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+            <state relative-caret-position="285">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -67,22 +148,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Frame.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Frame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Frame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2250">
-              <caret line="156" column="26" selection-start-line="156" selection-start-column="26" selection-end-line="156" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1417#1418#0" expanded="false" />
-                <element signature="e#1438#1439#0" expanded="false" />
-                <element signature="e#10173#10174#0" expanded="false" />
-                <element signature="e#10205#10206#0" expanded="false" />
-                <element signature="e#10368#10369#0" expanded="false" />
-                <element signature="e#10403#10404#0" expanded="false" />
-                <element signature="e#10645#10646#0" expanded="false" />
-                <element signature="e#10688#10689#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="1833">
+              <caret line="170" column="2" selection-start-line="170" selection-start-column="2" selection-end-line="170" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -216,8 +287,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Coordinate.java" />
         <option value="$PROJECT_DIR$/src/main/java/TruthTable.java" />
         <option value="$PROJECT_DIR$/src/main/java/FivePlusContentPanel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Frame.java" />
         <option value="$PROJECT_DIR$/src/main/java/Settings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Frame.java" />
       </list>
     </option>
   </component>
@@ -723,17 +794,18 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20580475" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23076923" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23076923" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2280514" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22679046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32655245" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -745,7 +817,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17708333" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32655245" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -810,17 +881,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3030">
           <caret line="209" column="54" selection-start-line="209" selection-start-column="54" selection-end-line="209" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1417#1418#0" expanded="false" />
-            <element signature="e#1438#1439#0" expanded="false" />
-            <element signature="e#10173#10174#0" expanded="false" />
-            <element signature="e#10205#10206#0" expanded="false" />
-            <element signature="e#10368#10369#0" expanded="false" />
-            <element signature="e#10403#10404#0" expanded="false" />
-            <element signature="e#10645#10646#0" expanded="false" />
-            <element signature="e#10688#10689#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -914,17 +975,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3030">
           <caret line="209" column="54" selection-start-line="209" selection-start-column="54" selection-end-line="209" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1417#1418#0" expanded="false" />
-            <element signature="e#1438#1439#0" expanded="false" />
-            <element signature="e#10173#10174#0" expanded="false" />
-            <element signature="e#10205#10206#0" expanded="false" />
-            <element signature="e#10368#10369#0" expanded="false" />
-            <element signature="e#10403#10404#0" expanded="false" />
-            <element signature="e#10645#10646#0" expanded="false" />
-            <element signature="e#10688#10689#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1215,24 +1266,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Frame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2250">
-          <caret line="156" column="26" selection-start-line="156" selection-start-column="26" selection-end-line="156" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1417#1418#0" expanded="false" />
-            <element signature="e#1438#1439#0" expanded="false" />
-            <element signature="e#10173#10174#0" expanded="false" />
-            <element signature="e#10205#10206#0" expanded="false" />
-            <element signature="e#10368#10369#0" expanded="false" />
-            <element signature="e#10403#10404#0" expanded="false" />
-            <element signature="e#10645#10646#0" expanded="false" />
-            <element signature="e#10688#10689#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ButtonRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
@@ -1292,8 +1325,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Settings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        <state relative-caret-position="285">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Frame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1833">
+          <caret line="170" column="2" selection-start-line="170" selection-start-column="2" selection-end-line="170" selection-end-column="2" />
           <folding />
         </state>
       </provider>

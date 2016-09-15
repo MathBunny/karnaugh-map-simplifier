@@ -170,7 +170,7 @@ public class Frame implements ActionListener{ //fix to extend JFrame
   }
   
   /** Generate truth table using bitmasking
-   *  @params variables int This is the number of variables
+   *  @param variables int This is the number of variables
     * @return Object [] [] This is the truth table.*/
   private Object [] [] generateTruthTable(int variables){
     Object [] [] returnArray = new Object[(int)(Math.pow(2, variables))][variables +1];

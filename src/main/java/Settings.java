@@ -1,5 +1,7 @@
 /**
- * Created by horatiulazu on 2016-08-20.
+ * This class stores the settings
+ * @author Horatiu Lazu
+ * @version 1.0
  */
 public class Settings {
     /** REALTIME_GRAPHICS boolean This indicates if real-time graphics should be present */
@@ -9,10 +11,16 @@ public class Settings {
     /** OR_CHARACTER String This contains the or character */
     public static String OR_CHARACTER = "+"; //∨
 
+    /** This method returns real-time setting
+     * @return boolean This indicates if it is real-time
+     */
     public static boolean getRealtime(){
         return REALTIME_GRAPHICS;
     }
 
+    /**
+     * This method toggles real-time
+     */
     public static void toggleRealtime(){
         REALTIME_GRAPHICS = !REALTIME_GRAPHICS;
     }
