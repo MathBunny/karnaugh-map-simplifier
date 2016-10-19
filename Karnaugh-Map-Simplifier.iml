@@ -11,7 +11,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://$USER_HOME$/Downloads/junit-4.12.jar!/" />
@@ -22,6 +22,6 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="junit-4.12" level="project" />
+    <orderEntry type="library" exported="" name="junit-4.12" level="project" />
   </component>
 </module>
