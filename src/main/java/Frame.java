@@ -41,7 +41,7 @@ public class Frame implements ActionListener{ //fix to extend JFrame
   /** This is the main program.
     * @param args String [] This variable passes arguements into the main method. */
   public static void main (String [] args){
-    new Frame();
+    new Frame(true);
   }
   
   protected static ImageIcon createImageIcon(String path) {
@@ -272,7 +272,7 @@ public class Frame implements ActionListener{ //fix to extend JFrame
   }
   
   /** Class constructor, that sets up the frame and calls appropriate methods to add elements to the JFrame. */
-  public Frame(){
+  public Frame(boolean isVisible){
     a = new JFrame("Karnaugh Map Simplification - Horatiu Lazu");
     panel = new JPanel();
     
@@ -319,8 +319,9 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     
     a.add(panel);
     a.setJMenuBar(bar);
-    
-    a.setVisible(true);
+
+    if (isVisible)
+      a.setVisible(true);
     a.setSize(1024, 600);
     a.setResizable(false);
     a.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

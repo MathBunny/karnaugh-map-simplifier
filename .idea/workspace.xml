@@ -2,90 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2a358fb-2a89-4ed6-a890-724b5fe9229c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/CellTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ContentPanelTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/CoordinateTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/ButtonEditor.html" afterPath="$PROJECT_DIR$/doc/ButtonEditor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/ButtonRenderer.html" afterPath="$PROJECT_DIR$/doc/ButtonRenderer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/Cell.html" afterPath="$PROJECT_DIR$/doc/Cell.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/ContentPanel.html" afterPath="$PROJECT_DIR$/doc/ContentPanel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/Coordinate.html" afterPath="$PROJECT_DIR$/doc/Coordinate.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/DisjointSet.html" afterPath="$PROJECT_DIR$/doc/DisjointSet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/DontCare.html" afterPath="$PROJECT_DIR$/doc/DontCare.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/DontCareButtonEditor.html" afterPath="$PROJECT_DIR$/doc/DontCareButtonEditor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/DontCareButtonRenderer.html" afterPath="$PROJECT_DIR$/doc/DontCareButtonRenderer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/DrawComponent.html" afterPath="$PROJECT_DIR$/doc/DrawComponent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/DrawGroupings.html" afterPath="$PROJECT_DIR$/doc/DrawGroupings.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/FivePlusContentPanel.html" afterPath="$PROJECT_DIR$/doc/FivePlusContentPanel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/Frame.html" afterPath="$PROJECT_DIR$/doc/Frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/GraycodeReflectedBinaryMappingSOP.html" afterPath="$PROJECT_DIR$/doc/GraycodeReflectedBinaryMappingSOP.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/Grouping.html" afterPath="$PROJECT_DIR$/doc/Grouping.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/KarnaughMapRenderer.html" afterPath="$PROJECT_DIR$/doc/KarnaughMapRenderer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/PrefixSum.html" afterPath="$PROJECT_DIR$/doc/PrefixSum.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/PrefixSumTest.html" afterPath="$PROJECT_DIR$/doc/PrefixSumTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/Scenario.html" afterPath="$PROJECT_DIR$/doc/Scenario.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/ScreenAbout.html" afterPath="$PROJECT_DIR$/doc/ScreenAbout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/Settings.html" afterPath="$PROJECT_DIR$/doc/Settings.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/SimulationContentPanel.html" afterPath="$PROJECT_DIR$/doc/SimulationContentPanel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/Solve.html" afterPath="$PROJECT_DIR$/doc/Solve.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/TruthTable.html" afterPath="$PROJECT_DIR$/doc/TruthTable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/allclasses-frame.html" afterPath="$PROJECT_DIR$/doc/allclasses-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/allclasses-noframe.html" afterPath="$PROJECT_DIR$/doc/allclasses-noframe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/ButtonEditor.html" afterPath="$PROJECT_DIR$/doc/class-use/ButtonEditor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/ButtonRenderer.html" afterPath="$PROJECT_DIR$/doc/class-use/ButtonRenderer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/Cell.html" afterPath="$PROJECT_DIR$/doc/class-use/Cell.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/ContentPanel.html" afterPath="$PROJECT_DIR$/doc/class-use/ContentPanel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/Coordinate.html" afterPath="$PROJECT_DIR$/doc/class-use/Coordinate.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/DisjointSet.html" afterPath="$PROJECT_DIR$/doc/class-use/DisjointSet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/DontCare.html" afterPath="$PROJECT_DIR$/doc/class-use/DontCare.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/DontCareButtonEditor.html" afterPath="$PROJECT_DIR$/doc/class-use/DontCareButtonEditor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/DontCareButtonRenderer.html" afterPath="$PROJECT_DIR$/doc/class-use/DontCareButtonRenderer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/DrawComponent.html" afterPath="$PROJECT_DIR$/doc/class-use/DrawComponent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/DrawGroupings.html" afterPath="$PROJECT_DIR$/doc/class-use/DrawGroupings.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/FivePlusContentPanel.html" afterPath="$PROJECT_DIR$/doc/class-use/FivePlusContentPanel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/Frame.html" afterPath="$PROJECT_DIR$/doc/class-use/Frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/GraycodeReflectedBinaryMappingSOP.html" afterPath="$PROJECT_DIR$/doc/class-use/GraycodeReflectedBinaryMappingSOP.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/Grouping.html" afterPath="$PROJECT_DIR$/doc/class-use/Grouping.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/KarnaughMapRenderer.html" afterPath="$PROJECT_DIR$/doc/class-use/KarnaughMapRenderer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/PrefixSum.html" afterPath="$PROJECT_DIR$/doc/class-use/PrefixSum.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/PrefixSumTest.html" afterPath="$PROJECT_DIR$/doc/class-use/PrefixSumTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/Scenario.html" afterPath="$PROJECT_DIR$/doc/class-use/Scenario.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/ScreenAbout.html" afterPath="$PROJECT_DIR$/doc/class-use/ScreenAbout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/Settings.html" afterPath="$PROJECT_DIR$/doc/class-use/Settings.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/SimulationContentPanel.html" afterPath="$PROJECT_DIR$/doc/class-use/SimulationContentPanel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/Solve.html" afterPath="$PROJECT_DIR$/doc/class-use/Solve.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/class-use/TruthTable.html" afterPath="$PROJECT_DIR$/doc/class-use/TruthTable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/constant-values.html" afterPath="$PROJECT_DIR$/doc/constant-values.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/deprecated-list.html" afterPath="$PROJECT_DIR$/doc/deprecated-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/help-doc.html" afterPath="$PROJECT_DIR$/doc/help-doc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-1.html" afterPath="$PROJECT_DIR$/doc/index-files/index-1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-10.html" afterPath="$PROJECT_DIR$/doc/index-files/index-10.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-11.html" afterPath="$PROJECT_DIR$/doc/index-files/index-11.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-12.html" afterPath="$PROJECT_DIR$/doc/index-files/index-12.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-13.html" afterPath="$PROJECT_DIR$/doc/index-files/index-13.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-14.html" afterPath="$PROJECT_DIR$/doc/index-files/index-14.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-15.html" afterPath="$PROJECT_DIR$/doc/index-files/index-15.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-16.html" afterPath="$PROJECT_DIR$/doc/index-files/index-16.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-17.html" afterPath="$PROJECT_DIR$/doc/index-files/index-17.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-18.html" afterPath="$PROJECT_DIR$/doc/index-files/index-18.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-19.html" afterPath="$PROJECT_DIR$/doc/index-files/index-19.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-2.html" afterPath="$PROJECT_DIR$/doc/index-files/index-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-20.html" afterPath="$PROJECT_DIR$/doc/index-files/index-20.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-3.html" afterPath="$PROJECT_DIR$/doc/index-files/index-3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-4.html" afterPath="$PROJECT_DIR$/doc/index-files/index-4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-5.html" afterPath="$PROJECT_DIR$/doc/index-files/index-5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-6.html" afterPath="$PROJECT_DIR$/doc/index-files/index-6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-7.html" afterPath="$PROJECT_DIR$/doc/index-files/index-7.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-8.html" afterPath="$PROJECT_DIR$/doc/index-files/index-8.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-9.html" afterPath="$PROJECT_DIR$/doc/index-files/index-9.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index.html" afterPath="$PROJECT_DIR$/doc/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/overview-tree.html" afterPath="$PROJECT_DIR$/doc/overview-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/package-frame.html" afterPath="$PROJECT_DIR$/doc/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/package-summary.html" afterPath="$PROJECT_DIR$/doc/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/package-tree.html" afterPath="$PROJECT_DIR$/doc/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/package-use.html" afterPath="$PROJECT_DIR$/doc/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/serialized-form.html" afterPath="$PROJECT_DIR$/doc/serialized-form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TruthTableTest.java" afterPath="$PROJECT_DIR$/src/test/java/TruthTableTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ButtonEditor.java" afterPath="$PROJECT_DIR$/src/main/java/ButtonEditor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ContentPanel.java" afterPath="$PROJECT_DIR$/src/main/java/ContentPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Coordinate.java" afterPath="$PROJECT_DIR$/src/main/java/Coordinate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Frame.java" afterPath="$PROJECT_DIR$/src/main/java/Frame.java" />
     </list>
     <ignored path="Karnaugh-Map-Simplifier.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -100,7 +23,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Karnaugh-Map-Simplifier$Frame.coverage" NAME="Frame Coverage Results" MODIFIED="1471036857527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/karnaugh-map-simplifier$All_in_Karnaugh_Map_Simplifier.coverage" NAME="All in Karnaugh-Map-Simplifier Coverage Results" MODIFIED="1481909049336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/karnaugh-map-simplifier$All_in_Karnaugh_Map_Simplifier.coverage" NAME="All in Karnaugh-Map-Simplifier Coverage Results" MODIFIED="1481923457464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -110,108 +33,149 @@
     <favorites_list name="Karnaugh-Map-Simplifier" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Frame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Frame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2370">
-              <caret line="164" column="47" selection-start-line="164" selection-start-column="47" selection-end-line="164" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrefixSum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PrefixSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrefixSumTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PrefixSumTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="29" column="115" selection-start-line="29" selection-start-column="115" selection-end-line="29" selection-end-column="115" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Karnaugh-Map-Simplifier.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Karnaugh-Map-Simplifier.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TruthTable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TruthTable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="47" column="3" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TruthTableTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TruthTableTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cell.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Cell.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CellTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CellTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solve.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Solve.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.48883525">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="Cell.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Cell.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ContentPanel.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ContentPanel.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="395">
+                  <caret line="56" column="66" selection-start-line="56" selection-start-column="66" selection-end-line="56" selection-end-column="66" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Grouping.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Grouping.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Coordinate.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Coordinate.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DrawComponent.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/DrawComponent.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DrawGroupings.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/DrawGroupings.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FivePlusContentPanel.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/FivePlusContentPanel.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1605">
+                  <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DisjointSet.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/DisjointSet.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DontCare.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/DontCare.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DontCareButtonEditor.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/DontCareButtonEditor.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="ContentPanelTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/ContentPanelTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="497">
+                  <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#868#878#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Solve.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Solve.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="465">
+                  <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Scenario.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Scenario.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="245">
+                  <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -240,7 +204,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ScreenAbout.java" />
         <option value="$PROJECT_DIR$/src/main/java/KarnaughMapRenderer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Cell.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ButtonEditor.java" />
         <option value="$PROJECT_DIR$/src/main/java/DrawGroupings.java" />
         <option value="$PROJECT_DIR$/src/main/java/DontCare.java" />
         <option value="$PROJECT_DIR$/src/main/java/PrefixSum.java" />
@@ -251,19 +214,22 @@
         <option value="$PROJECT_DIR$/src/main/java/GraycodeMappingSOP.java" />
         <option value="$PROJECT_DIR$/src/main/java/GraycodeReflectedBinaryMappingSOP.java" />
         <option value="$PROJECT_DIR$/src/main/java/Solve.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ContentPanel.java" />
         <option value="$PROJECT_DIR$/src/main/java/Scenario.java" />
         <option value="$PROJECT_DIR$/src/main/java/DontCareButtonRenderer.java" />
         <option value="$PROJECT_DIR$/src/main/java/DontCareButtonEditor.java" />
         <option value="$PROJECT_DIR$/src/main/java/DisjointSet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Coordinate.java" />
         <option value="$PROJECT_DIR$/src/main/java/FivePlusContentPanel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Frame.java" />
         <option value="$PROJECT_DIR$/Karnaugh-Map-Simplifier.iml" />
         <option value="$PROJECT_DIR$/src/test/java/PrefixSumTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/TruthTable.java" />
         <option value="$PROJECT_DIR$/src/test/java/TruthTableTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/CellTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ButtonEditor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Coordinate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CoordinateTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ContentPanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Frame.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ContentPanelTest.java" />
       </list>
     </option>
   </component>
@@ -281,8 +247,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="821" />
+    <option name="width" value="1920" />
+    <option name="height" value="1121" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -295,7 +261,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -311,107 +277,80 @@
     <panes>
       <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="karnaugh-map-simplifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="karnaugh-map-simplifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="karnaugh-map-simplifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="karnaugh-map-simplifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="karnaugh-map-simplifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="karnaugh-map-simplifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="karnaugh-map-simplifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="karnaugh-map-simplifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="karnaugh-map-simplifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="karnaugh-map-simplifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="karnaugh-map-simplifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="karnaugh-map-simplifier">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="karnaugh-map-simplifier">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="test/java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="karnaugh-map-simplifier">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="karnaugh-map-simplifier">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
         <subPane subId="Tests">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
@@ -794,34 +733,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 12h 09m 02s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 16h 10m 06s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 12h 09m 14s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 16h 10m 39s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 12h 09m 44s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 16h 11m 47s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 12h 10m 37s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 16h 12m 35s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 12h 10m 44s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 16h 13m 03s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 12h 10m 55s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 16h 13m 16s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 12h 12m 53s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 16h 13m 26s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 12h 13m 00s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 16h 13m 41s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 12h 24m 10s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 16h 14m 09s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 12h 24m 28s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 16h 24m 21s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -835,23 +774,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="821" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1121" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20580475" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23005319" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22908746" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22739361" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19236112" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.225" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" x="333" y="29" width="960" height="1121" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26595744" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18263888" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13697916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3257979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -897,27 +836,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ButtonRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#322#323#0" expanded="false" />
-            <element signature="e#347#348#0" expanded="false" />
-            <element signature="e#441#442#0" expanded="false" />
-            <element signature="e#495#496#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DontCare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Cell.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -972,6 +890,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1596#1597#0" expanded="false" />
+            <element signature="e#1623#1624#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -979,7 +902,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3030">
           <caret line="209" column="54" selection-start-line="209" selection-start-column="54" selection-end-line="209" selection-end-column="54" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1417#1418#0" expanded="false" />
+            <element signature="e#1442#1443#0" expanded="false" />
+            <element signature="e#10194#10195#0" expanded="false" />
+            <element signature="e#10226#10227#0" expanded="false" />
+            <element signature="e#10389#10390#0" expanded="false" />
+            <element signature="e#10424#10425#0" expanded="false" />
+            <element signature="e#10666#10667#0" expanded="false" />
+            <element signature="e#10709#10710#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1087,31 +1020,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DontCare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DrawGroupings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GraycodeReflectedBinaryMappingSOP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Scenario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1126,104 +1038,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DrawComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DontCareButtonRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DontCareButtonEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ButtonEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ButtonRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="53" column="60" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#322#323#0" expanded="false" />
-            <element signature="e#347#348#0" expanded="false" />
-            <element signature="e#441#442#0" expanded="false" />
-            <element signature="e#495#496#0" expanded="false" />
+            <element signature="e#1596#1597#0" expanded="false" />
+            <element signature="e#1623#1624#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ContentPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="46" column="77" selection-start-line="46" selection-start-column="77" selection-end-line="46" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#425#426#0" expanded="false" />
-            <element signature="e#449#450#0" expanded="false" />
-            <element signature="e#561#562#0" expanded="false" />
-            <element signature="e#581#582#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Coordinate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Grouping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="e#1090#1091#0" expanded="false" />
-            <element signature="e#1119#1120#0" expanded="false" />
-            <element signature="e#1148#1149#0" expanded="false" />
-            <element signature="e#1177#1178#0" expanded="false" />
-            <element signature="e#1204#1205#0" expanded="false" />
-            <element signature="e#1231#1232#0" expanded="false" />
-            <element signature="e#1258#1259#0" expanded="false" />
-            <element signature="e#1285#1286#0" expanded="false" />
-            <element signature="e#2055#2056#0" expanded="false" />
-            <element signature="e#2142#2143#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DisjointSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FivePlusContentPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2670">
-          <caret line="184" column="5" selection-start-line="184" selection-start-column="5" selection-end-line="184" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1243,27 +1062,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Frame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2370">
-          <caret line="164" column="47" selection-start-line="164" selection-start-column="47" selection-end-line="164" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Karnaugh-Map-Simplifier.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-          <folding />
+          <folding>
+            <marker date="1481906723000" expanded="true" signature="89:633" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1279,14 +1084,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Solve.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1307,18 +1104,167 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cell.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CellTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        <state relative-caret-position="375">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CellTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ButtonRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        <state relative-caret-position="105">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ButtonEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-431">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Karnaugh-Map-Simplifier.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CoordinateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="77" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DontCareButtonRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DrawComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DrawGroupings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FivePlusContentPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1605">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Grouping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Frame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="308" column="20" selection-start-line="308" selection-start-column="20" selection-end-line="308" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Scenario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Solve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ContentPanelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#868#878#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ContentPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="56" column="66" selection-start-line="56" selection-start-column="66" selection-end-line="56" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Coordinate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DisjointSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DontCare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DontCareButtonEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>

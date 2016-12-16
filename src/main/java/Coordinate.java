@@ -2,7 +2,6 @@
  * This class encapsulates a coordinate.
  * @author Horatiu Lazu
  * @version 1.0
- * Created by horatiulazu on 2016-08-30.
  */
 public class Coordinate {
     /** x int This is the x value */
