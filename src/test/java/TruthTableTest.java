@@ -1,16 +1,12 @@
 import junit.framework.TestCase;
 
 /**
- * Created by horatiulazu on 2016-12-16.
+ * @author Horatiu Lazu
+ * @version 1.0
  */
 public class TruthTableTest extends TestCase {
     public void setUp() throws Exception {
         super.setUp();
-
-    }
-
-    public void tearDown() throws Exception {
-
     }
 
     public void testGetInputEquation() throws Exception {
@@ -24,17 +20,4 @@ public class TruthTableTest extends TestCase {
         assertEquals(TruthTable.log2(2), 2);
         assertEquals(TruthTable.log2(1), 1);
     }
-
-    public void testInitializeTruthTableValues() throws Exception {
-
-    }
-
-    public void testUpdateGivenSOP() throws Exception {
-
-    }
-
-    public void testPopulateMatrix() throws Exception {
-
-    }
-
 }
