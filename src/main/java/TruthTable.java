@@ -86,8 +86,4 @@ public class TruthTable{
 
     Solve.solveKarnaughMap(variables, false);
   }
-
-  public static void populateMatrix(int num, int variables){
-
-  }
 }
