@@ -1,5 +1,6 @@
 /**
- * Created by horatiulazu on 2016-08-20.
+ *  @author Horatiu Lazu
+ *  @version 1.0
  */
 public class Settings {
     private static boolean REALTIME_GRAPHICS = true;

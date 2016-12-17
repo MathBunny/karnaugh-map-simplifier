@@ -17,7 +17,7 @@ public class ContentPanelTest extends TestCase {
 
     /**
      * Verifies if expression simplification simplifies correctly and appears on JFrame.
-     * This requires X11 compatability to run on Travis CI, hence only run on OSs with GUI.
+     * This requires X11 compatibility to run on Travis CI, hence only run on OSs with GUI.
      * @see: Build #64 / UnitTests:
      * No X11 DISPLAY variable was set, but this program performed an operation which requires it.
      * @throws Exception
