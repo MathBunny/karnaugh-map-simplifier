@@ -8,7 +8,7 @@ import java.awt.event.*;
  * @version 1.0
  */
 
-class ButtonEditor extends DefaultCellEditor {
+public class ButtonEditor extends DefaultCellEditor {
   /** button JButton This is the button used in the cell */
   protected JButton button;
   /** label String This is the string in the button text */

@@ -136,7 +136,7 @@ public class Solve{
   /** This method is used for debugging and outputting the incidence array.
    * @param map int [] [] This is the array to be outputted.
    */
-  public static void toStringMatrix(int [] [] map){
+  public void toStringMatrix(int [] [] map){
     for(int y = 0; y < map[0].length; y++){
       for(int x = 0; x < map.length; x++){
         System.out.print(map[x][y] + " ");

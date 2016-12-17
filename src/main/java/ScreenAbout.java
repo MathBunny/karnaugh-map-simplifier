@@ -65,7 +65,6 @@ public class ScreenAbout extends JFrame implements ActionListener{
 
   /** This checks for a button click.
    * @param arg0 ActionEvent This is an action event reference */
-  @Override
   public void actionPerformed(ActionEvent arg0) {
     setVisible(false);
   }
