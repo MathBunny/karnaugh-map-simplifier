@@ -7,8 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2a358fb-2a89-4ed6-a890-724b5fe9229c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ContentPanelTest.java" afterPath="$PROJECT_DIR$/src/test/java/ContentPanelTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/FourVariableTest.java" afterPath="$PROJECT_DIR$/src/test/java/FourVariableTest.java" />
     </list>
     <ignored path="Karnaugh-Map-Simplifier.iws" />
@@ -60,27 +58,45 @@
           <file leaf-file-name="FourVariableTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/FourVariableTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="327">
-                  <caret line="71" column="47" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
+                <state relative-caret-position="-1593">
+                  <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                   <folding>
-                    <element signature="e#354#395#0" expanded="true" />
-                    <element signature="e#494#515#0" expanded="true" />
-                    <element signature="e#717#738#0" expanded="true" />
-                    <element signature="e#795#805#0" expanded="true" />
-                    <element signature="e#1068#1089#0" expanded="true" />
-                    <element signature="e#1146#1156#0" expanded="true" />
-                    <element signature="e#1421#1442#0" expanded="true" />
-                    <element signature="e#1499#1509#0" expanded="true" />
-                    <element signature="e#1775#1796#0" expanded="true" />
-                    <element signature="e#1853#1863#0" expanded="true" />
-                    <element signature="e#2125#2146#0" expanded="true" />
-                    <element signature="e#2203#2213#0" expanded="true" />
-                    <element signature="e#2492#2513#0" expanded="true" />
-                    <element signature="e#2570#2580#0" expanded="true" />
-                    <element signature="e#2864#2885#0" expanded="true" />
-                    <element signature="e#2942#2952#0" expanded="true" />
-                    <element signature="e#3234#3255#0" expanded="true" />
-                    <element signature="e#3312#3322#0" expanded="true" />
+                    <element signature="e#355#396#0" expanded="true" />
+                    <element signature="e#495#516#0" expanded="true" />
+                    <element signature="e#718#739#0" expanded="true" />
+                    <element signature="e#796#806#0" expanded="true" />
+                    <element signature="e#1069#1090#0" expanded="true" />
+                    <element signature="e#1147#1157#0" expanded="true" />
+                    <element signature="e#1422#1443#0" expanded="true" />
+                    <element signature="e#1500#1510#0" expanded="true" />
+                    <element signature="e#1776#1797#0" expanded="true" />
+                    <element signature="e#1854#1864#0" expanded="true" />
+                    <element signature="e#2126#2147#0" expanded="true" />
+                    <element signature="e#2204#2214#0" expanded="true" />
+                    <element signature="e#2493#2514#0" expanded="true" />
+                    <element signature="e#2571#2581#0" expanded="true" />
+                    <element signature="e#2865#2886#0" expanded="true" />
+                    <element signature="e#2943#2953#0" expanded="true" />
+                    <element signature="e#3235#3256#0" expanded="true" />
+                    <element signature="e#3313#3323#0" expanded="true" />
+                    <element signature="e#3588#3609#0" expanded="true" />
+                    <element signature="e#3666#3676#0" expanded="true" />
+                    <element signature="e#3940#3961#0" expanded="true" />
+                    <element signature="e#4018#4028#0" expanded="true" />
+                    <element signature="e#4292#4313#0" expanded="true" />
+                    <element signature="e#4370#4380#0" expanded="true" />
+                    <element signature="e#4642#4663#0" expanded="true" />
+                    <element signature="e#4720#4730#0" expanded="true" />
+                    <element signature="e#4992#5013#0" expanded="true" />
+                    <element signature="e#5070#5080#0" expanded="true" />
+                    <element signature="e#5340#5361#0" expanded="true" />
+                    <element signature="e#5418#5428#0" expanded="true" />
+                    <element signature="e#5688#5709#0" expanded="true" />
+                    <element signature="e#5766#5776#0" expanded="true" />
+                    <element signature="e#6038#6059#0" expanded="true" />
+                    <element signature="e#6116#6126#0" expanded="true" />
+                    <element signature="e#6386#6407#0" expanded="true" />
+                    <element signature="e#6464#6474#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -845,34 +861,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 14m 40s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 26m 43s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 15m 11s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 26m 52s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 15m 42s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 27m 31s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 16m 37s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 27m 40s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 16m 51s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 28m 14s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 18m 34s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 28m 48s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 18m 46s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 29m 31s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 18m 55s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 31m 12s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 19m 30s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 31m 46s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 19m 45s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 31m 53s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1361,27 +1377,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FourVariableTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="71" column="47" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
+        <state relative-caret-position="-1593">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="e#354#395#0" expanded="true" />
-            <element signature="e#494#515#0" expanded="true" />
-            <element signature="e#717#738#0" expanded="true" />
-            <element signature="e#795#805#0" expanded="true" />
-            <element signature="e#1068#1089#0" expanded="true" />
-            <element signature="e#1146#1156#0" expanded="true" />
-            <element signature="e#1421#1442#0" expanded="true" />
-            <element signature="e#1499#1509#0" expanded="true" />
-            <element signature="e#1775#1796#0" expanded="true" />
-            <element signature="e#1853#1863#0" expanded="true" />
-            <element signature="e#2125#2146#0" expanded="true" />
-            <element signature="e#2203#2213#0" expanded="true" />
-            <element signature="e#2492#2513#0" expanded="true" />
-            <element signature="e#2570#2580#0" expanded="true" />
-            <element signature="e#2864#2885#0" expanded="true" />
-            <element signature="e#2942#2952#0" expanded="true" />
-            <element signature="e#3234#3255#0" expanded="true" />
-            <element signature="e#3312#3322#0" expanded="true" />
+            <element signature="e#355#396#0" expanded="true" />
+            <element signature="e#495#516#0" expanded="true" />
+            <element signature="e#718#739#0" expanded="true" />
+            <element signature="e#796#806#0" expanded="true" />
+            <element signature="e#1069#1090#0" expanded="true" />
+            <element signature="e#1147#1157#0" expanded="true" />
+            <element signature="e#1422#1443#0" expanded="true" />
+            <element signature="e#1500#1510#0" expanded="true" />
+            <element signature="e#1776#1797#0" expanded="true" />
+            <element signature="e#1854#1864#0" expanded="true" />
+            <element signature="e#2126#2147#0" expanded="true" />
+            <element signature="e#2204#2214#0" expanded="true" />
+            <element signature="e#2493#2514#0" expanded="true" />
+            <element signature="e#2571#2581#0" expanded="true" />
+            <element signature="e#2865#2886#0" expanded="true" />
+            <element signature="e#2943#2953#0" expanded="true" />
+            <element signature="e#3235#3256#0" expanded="true" />
+            <element signature="e#3313#3323#0" expanded="true" />
+            <element signature="e#3588#3609#0" expanded="true" />
+            <element signature="e#3666#3676#0" expanded="true" />
+            <element signature="e#3940#3961#0" expanded="true" />
+            <element signature="e#4018#4028#0" expanded="true" />
+            <element signature="e#4292#4313#0" expanded="true" />
+            <element signature="e#4370#4380#0" expanded="true" />
+            <element signature="e#4642#4663#0" expanded="true" />
+            <element signature="e#4720#4730#0" expanded="true" />
+            <element signature="e#4992#5013#0" expanded="true" />
+            <element signature="e#5070#5080#0" expanded="true" />
+            <element signature="e#5340#5361#0" expanded="true" />
+            <element signature="e#5418#5428#0" expanded="true" />
+            <element signature="e#5688#5709#0" expanded="true" />
+            <element signature="e#5766#5776#0" expanded="true" />
+            <element signature="e#6038#6059#0" expanded="true" />
+            <element signature="e#6116#6126#0" expanded="true" />
+            <element signature="e#6386#6407#0" expanded="true" />
+            <element signature="e#6464#6474#0" expanded="true" />
           </folding>
         </state>
       </provider>

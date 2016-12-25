@@ -5,6 +5,7 @@ import java.util.*;
  * @author Horatiu Lazu
  * @version 1.0
  */
+
 public class FourVariableTest implements SimplificationTest{
 
     public HashMap<LinkedList<CompoundedGroupings>, String> getTests (){
@@ -70,6 +71,69 @@ public class FourVariableTest implements SimplificationTest{
         groupsI.add(new Grouping(0, 1, 0, 1));
         compoundedGroupI.add(new CompoundedGroupings(groupsI));
         tests.put(compoundedGroupI, "A'BC'D'");
+
+        // Test J (2x1 box)
+        LinkedList<CompoundedGroupings> compoundedGroupJ = new LinkedList<CompoundedGroupings>();
+        LinkedList<Grouping> groupsJ = new LinkedList<Grouping>();
+        groupsJ.add(new Grouping(0, 0, 1, 0));
+        compoundedGroupJ.add(new CompoundedGroupings(groupsJ));
+        tests.put(compoundedGroupJ, "A'B'C'");
+
+        // Test K (1x2 box)
+        LinkedList<CompoundedGroupings> compoundedGroupK = new LinkedList<CompoundedGroupings>();
+        LinkedList<Grouping> groupsK = new LinkedList<Grouping>();
+        groupsK.add(new Grouping(0, 0, 0, 1));
+        compoundedGroupK.add(new CompoundedGroupings(groupsK));
+        tests.put(compoundedGroupK, "A'C'D'");
+
+        // Test L (1x3 box)
+        LinkedList<CompoundedGroupings> compoundedGroupL = new LinkedList<CompoundedGroupings>();
+        LinkedList<Grouping> groupsL = new LinkedList<Grouping>();
+        groupsL.add(new Grouping(0, 0, 0, 2));
+        compoundedGroupL.add(new CompoundedGroupings(groupsL));
+        tests.put(compoundedGroupL, "C'D'");
+
+        // Test M (3x1 box)
+        LinkedList<CompoundedGroupings> compoundedGroupM = new LinkedList<CompoundedGroupings>();
+        LinkedList<Grouping> groupsM = new LinkedList<Grouping>();
+        groupsM.add(new Grouping(0, 0, 2, 0));
+        compoundedGroupM.add(new CompoundedGroupings(groupsM));
+        tests.put(compoundedGroupM, "A'B'");
+
+        // Test N (3x2 box)
+        LinkedList<CompoundedGroupings> compoundedGroupN = new LinkedList<CompoundedGroupings>();
+        LinkedList<Grouping> groupsN = new LinkedList<Grouping>();
+        groupsN.add(new Grouping(0, 0, 2, 1));
+        compoundedGroupN.add(new CompoundedGroupings(groupsN));
+        tests.put(compoundedGroupN, "A'");
+
+        // Test O (2x3 box)
+        LinkedList<CompoundedGroupings> compoundedGroupO = new LinkedList<CompoundedGroupings>();
+        LinkedList<Grouping> groupsO = new LinkedList<Grouping>();
+        groupsO.add(new Grouping(0, 0, 1, 2));
+        compoundedGroupO.add(new CompoundedGroupings(groupsO));
+        tests.put(compoundedGroupO, "C'");
+
+        // Test P (4x1 box)
+        LinkedList<CompoundedGroupings> compoundedGroupP = new LinkedList<CompoundedGroupings>();
+        LinkedList<Grouping> groupsP = new LinkedList<Grouping>();
+        groupsP.add(new Grouping(0, 0, 3, 0));
+        compoundedGroupP.add(new CompoundedGroupings(groupsP));
+        tests.put(compoundedGroupP, "A'B'");
+
+        // Test Q (4x2 box)
+        LinkedList<CompoundedGroupings> compoundedGroupQ = new LinkedList<CompoundedGroupings>();
+        LinkedList<Grouping> groupsQ = new LinkedList<Grouping>();
+        groupsQ.add(new Grouping(0, 0, 3, 1));
+        compoundedGroupQ.add(new CompoundedGroupings(groupsQ));
+        tests.put(compoundedGroupQ, "A'");
+
+        // Test R (4x3 box)
+        LinkedList<CompoundedGroupings> compoundedGroupR = new LinkedList<CompoundedGroupings>();
+        LinkedList<Grouping> groupsR = new LinkedList<Grouping>();
+        groupsR.add(new Grouping(0, 0, 3, 1));
+        compoundedGroupR.add(new CompoundedGroupings(groupsR));
+        tests.put(compoundedGroupR, "A'");
 
         return tests;
     }
