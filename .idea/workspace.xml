@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Karnaugh-Map-Simplifier:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f2a358fb-2a89-4ed6-a890-724b5fe9229c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/DisjointSetTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/SolveTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/TwoVariableTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Karnaugh_Map_Simplifier_jar/Karnaugh-Map-Simplifier.jar" afterPath="$PROJECT_DIR$/out/artifacts/Karnaugh_Map_Simplifier_jar/Karnaugh-Map-Simplifier.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ScreenAbout.java" afterPath="$PROJECT_DIR$/src/main/java/ScreenAbout.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Settings.java" afterPath="$PROJECT_DIR$/src/main/java/Settings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Solve.java" afterPath="$PROJECT_DIR$/src/main/java/Solve.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ContentPanelTest.java" afterPath="$PROJECT_DIR$/src/test/java/ContentPanelTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ThreeVariableTest.java" afterPath="$PROJECT_DIR$/src/test/java/ThreeVariableTest.java" />
     </list>
     <ignored path="Karnaugh-Map-Simplifier.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,7 +26,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Karnaugh-Map-Simplifier$Frame.coverage" NAME="Frame Coverage Results" MODIFIED="1471036857527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/karnaugh-map-simplifier$All_in_Karnaugh_Map_Simplifier.coverage" NAME="All in Karnaugh-Map-Simplifier Coverage Results" MODIFIED="1481950460372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/karnaugh-map-simplifier$All_in_Karnaugh_Map_Simplifier.coverage" NAME="All in Karnaugh-Map-Simplifier Coverage Results" MODIFIED="1482702279128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -33,34 +36,180 @@
     <favorites_list name="Karnaugh-Map-Simplifier" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.48883525">
+    <splitter split-orientation="horizontal" split-proportion="0.45174372">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="Settings.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/Settings.java">
               <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PrefixSumTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/PrefixSumTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FourVariableTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/FourVariableTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="73" />
+                  <folding>
+                    <element signature="e#355#396#0" expanded="true" />
+                    <element signature="e#495#516#0" expanded="true" />
+                    <element signature="e#718#739#0" expanded="true" />
+                    <element signature="e#796#806#0" expanded="true" />
+                    <element signature="e#1069#1090#0" expanded="true" />
+                    <element signature="e#1147#1157#0" expanded="true" />
+                    <element signature="e#1422#1443#0" expanded="true" />
+                    <element signature="e#1500#1510#0" expanded="true" />
+                    <element signature="e#1776#1797#0" expanded="true" />
+                    <element signature="e#1854#1864#0" expanded="true" />
+                    <element signature="e#2126#2147#0" expanded="true" />
+                    <element signature="e#2204#2214#0" expanded="true" />
+                    <element signature="e#2493#2514#0" expanded="true" />
+                    <element signature="e#2571#2581#0" expanded="true" />
+                    <element signature="e#2865#2886#0" expanded="true" />
+                    <element signature="e#2943#2953#0" expanded="true" />
+                    <element signature="e#3235#3256#0" expanded="true" />
+                    <element signature="e#3313#3323#0" expanded="true" />
+                    <element signature="e#3588#3609#0" expanded="true" />
+                    <element signature="e#3666#3676#0" expanded="true" />
+                    <element signature="e#3940#3961#0" expanded="true" />
+                    <element signature="e#4018#4028#0" expanded="true" />
+                    <element signature="e#4292#4313#0" expanded="true" />
+                    <element signature="e#4370#4380#0" expanded="true" />
+                    <element signature="e#4642#4663#0" expanded="true" />
+                    <element signature="e#4720#4730#0" expanded="true" />
+                    <element signature="e#4992#5013#0" expanded="true" />
+                    <element signature="e#5070#5080#0" expanded="true" />
+                    <element signature="e#5340#5361#0" expanded="true" />
+                    <element signature="e#5418#5428#0" expanded="true" />
+                    <element signature="e#5688#5709#0" expanded="true" />
+                    <element signature="e#5766#5776#0" expanded="true" />
+                    <element signature="e#6038#6059#0" expanded="true" />
+                    <element signature="e#6116#6126#0" expanded="true" />
+                    <element signature="e#6386#6407#0" expanded="true" />
+                    <element signature="e#6464#6474#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ThreeVariableTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/ThreeVariableTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#392#433#0" expanded="true" />
+                    <element signature="e#532#553#0" expanded="true" />
+                    <element signature="e#752#773#0" expanded="true" />
+                    <element signature="e#830#840#0" expanded="true" />
+                    <element signature="e#1105#1126#0" expanded="true" />
+                    <element signature="e#1183#1193#0" expanded="true" />
+                    <element signature="e#1457#1478#0" expanded="true" />
+                    <element signature="e#1535#1545#0" expanded="true" />
+                    <element signature="e#1813#1834#0" expanded="true" />
+                    <element signature="e#1891#1901#0" expanded="true" />
+                    <element signature="e#2163#2184#0" expanded="true" />
+                    <element signature="e#2241#2251#0" expanded="true" />
+                    <element signature="e#2527#2548#0" expanded="true" />
+                    <element signature="e#2605#2615#0" expanded="true" />
+                    <element signature="e#2896#2917#0" expanded="true" />
+                    <element signature="e#2974#2984#0" expanded="true" />
+                    <element signature="e#3262#3283#0" expanded="true" />
+                    <element signature="e#3340#3350#0" expanded="true" />
+                    <element signature="e#3613#3634#0" expanded="true" />
+                    <element signature="e#3691#3701#0" expanded="true" />
+                    <element signature="e#3963#3984#0" expanded="true" />
+                    <element signature="e#4041#4051#0" expanded="true" />
+                    <element signature="e#4328#4349#0" expanded="true" />
+                    <element signature="e#4406#4416#0" expanded="true" />
+                    <element signature="e#4675#4696#0" expanded="true" />
+                    <element signature="e#4753#4763#0" expanded="true" />
+                    <element signature="e#5038#5059#0" expanded="true" />
+                    <element signature="e#5116#5126#0" expanded="true" />
+                    <element signature="e#5385#5406#0" expanded="true" />
+                    <element signature="e#5463#5473#0" expanded="true" />
+                    <element signature="e#5735#5756#0" expanded="true" />
+                    <element signature="e#5813#5823#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TwoVariableTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/TwoVariableTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="392">
+                  <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#389#430#0" expanded="true" />
+                    <element signature="e#529#550#0" expanded="true" />
+                    <element signature="e#741#762#0" expanded="true" />
+                    <element signature="e#819#829#0" expanded="true" />
+                    <element signature="e#1084#1105#0" expanded="true" />
+                    <element signature="e#1162#1172#0" expanded="true" />
+                    <element signature="e#1427#1448#0" expanded="true" />
+                    <element signature="e#1505#1515#0" expanded="true" />
+                    <element signature="e#1780#1801#0" expanded="true" />
+                    <element signature="e#1858#1868#0" expanded="true" />
+                    <element signature="e#2136#2157#0" expanded="true" />
+                    <element signature="e#2214#2224#0" expanded="true" />
+                    <element signature="e#2506#2527#0" expanded="true" />
+                    <element signature="e#2584#2594#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CompoundedGroupings.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/CompoundedGroupings.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+                  <folding>
+                    <element signature="e#240#241#0" expanded="true" />
+                    <element signature="e#269#270#0" expanded="true" />
+                    <element signature="e#304#305#0" expanded="true" />
+                    <element signature="e#355#356#0" expanded="true" />
+                    <element signature="e#417#418#0" expanded="true" />
+                    <element signature="e#453#454#0" expanded="true" />
+                    <element signature="e#492#493#0" expanded="true" />
+                    <element signature="e#521#522#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CoordinateTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/CoordinateTest.java">
+              <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="75">
-                  <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+                  <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="DontCare.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/DontCare.java">
+          <file leaf-file-name="Frame.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Frame.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ContentPanel.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/ContentPanel.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+                <state relative-caret-position="4470">
+                  <caret line="316" column="26" selection-start-line="316" selection-start-column="26" selection-end-line="316" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -69,61 +218,18 @@
           <file leaf-file-name="ScreenAbout.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/ScreenAbout.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
+                <state relative-caret-position="102">
                   <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="DrawComponent.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/DrawComponent.java">
+          <file leaf-file-name="DrawGroupings.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/DrawGroupings.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="45">
-                  <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DontCareButtonRenderer.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/DontCareButtonRenderer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ButtonEditor.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/ButtonEditor.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DisjointSet.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/DisjointSet.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="737">
-                  <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#679#680#0" expanded="true" />
-                    <element signature="e#705#706#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="FivePlusContentPanel.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/FivePlusContentPanel.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+                  <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
                   <folding />
                 </state>
               </provider>
@@ -133,15 +239,24 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="ContentPanelTest.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="ContentPanelTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/ContentPanelTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+                <state relative-caret-position="270">
+                  <caret line="40" column="100" selection-start-line="40" selection-start-column="100" selection-end-line="40" selection-end-column="100" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#1157#1167#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SimplificationTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/SimplificationTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -149,20 +264,18 @@
           <file leaf-file-name="DisjointSetTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/DisjointSetTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="579">
+                <state relative-caret-position="870">
                   <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Solve.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Solve.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/Solve.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+                <state relative-caret-position="375">
+                  <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -173,11 +286,9 @@
           <file leaf-file-name="SolveTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/SolveTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="60">
+                  <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -195,8 +306,8 @@
           <file leaf-file-name="Scenario.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/Scenario.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="630">
-                  <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+                <state relative-caret-position="105">
+                  <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
@@ -209,8 +320,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit3 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -258,10 +369,17 @@
         <option value="$PROJECT_DIR$/src/test/java/X11Headless.java" />
         <option value="$PROJECT_DIR$/src/main/java/Settings.java" />
         <option value="$PROJECT_DIR$/src/main/java/Solve.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SolveTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ScreenAbout.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ContentPanelTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DisjointSetTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FourVariableTestDB.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SolveTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SimplificationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CompoundedGroupings.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FourVariableTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/ContentPanelTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ThreeVariableTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TwoVariableTest.java" />
       </list>
     </option>
   </component>
@@ -289,8 +407,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1121" />
+    <option name="width" value="1440" />
+    <option name="height" value="821" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -317,6 +435,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -408,12 +528,10 @@
       <pane id="ProjectPane">
         <subPane />
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
@@ -798,34 +916,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 23h 42m 33s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 16h 41m 57s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 23h 47m 22s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 16h 44m 42s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 23h 48m 36s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 16h 52m 12s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 23h 51m 12s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 16h 52m 32s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 23h 51m 31s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 16h 52m 41s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 23h 51m 54s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 16h 52m 50s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 23h 53m 18s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 16h 53m 01s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 23h 54m 03s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 16h 53m 22s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 23h 54m 13s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 16h 54m 41s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.16 at 23h 54m 23s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 16h 54m 54s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -839,26 +957,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1121" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="821" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20505345" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22837706" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22770919" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25558794" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2537723" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.225" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" x="333" y="23" width="960" height="1121" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26530612" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.225" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" x="333" y="23" width="960" height="821" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26474622" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1400426" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3257979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13519314" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973786" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -867,6 +984,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3257979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -885,7 +1003,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ContentPanelTest.java</url>
-          <line>57</line>
+          <line>64</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -910,58 +1028,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/PrefixSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PrefixSumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DrawComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ScreenAbout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Frame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3030">
-          <caret line="209" column="54" selection-start-line="209" selection-start-column="54" selection-end-line="209" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ButtonRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DontCare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Cell.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1053,14 +1119,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/KarnaughMapRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1068,14 +1126,6 @@
           <folding>
             <marker date="1481906723000" expanded="true" signature="89:633" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PrefixSumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="29" column="115" selection-start-line="29" selection-start-column="115" selection-end-line="29" selection-end-column="115" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1118,14 +1168,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CoordinateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="77" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Grouping.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1150,14 +1192,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Scenario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/X11Headless.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1174,22 +1208,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DrawGroupings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="72" column="70" selection-start-line="72" selection-start-column="70" selection-end-line="72" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Frame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PrefixSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1198,28 +1216,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SolveTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ContentPanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ScreenAbout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1240,37 +1240,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ContentPanelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1157#1167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ButtonEditor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FivePlusContentPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Settings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
           <folding />
         </state>
       </provider>
@@ -1283,33 +1256,272 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DisjointSetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DisjointSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        <state relative-caret-position="555">
+          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FivePlusContentPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/KarnaughMapRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
           <folding>
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DisjointSetTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DrawGroupings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Frame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4470">
+          <caret line="316" column="26" selection-start-line="316" selection-start-column="26" selection-end-line="316" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ScreenAbout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Solve.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="375">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CoordinateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Scenario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FourVariableTestDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SolveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PrefixSumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SimplificationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CompoundedGroupings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ContentPanelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="40" column="100" selection-start-line="40" selection-start-column="100" selection-end-line="40" selection-end-column="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FourVariableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="73" />
+          <folding>
+            <element signature="e#355#396#0" expanded="true" />
+            <element signature="e#495#516#0" expanded="true" />
+            <element signature="e#718#739#0" expanded="true" />
+            <element signature="e#796#806#0" expanded="true" />
+            <element signature="e#1069#1090#0" expanded="true" />
+            <element signature="e#1147#1157#0" expanded="true" />
+            <element signature="e#1422#1443#0" expanded="true" />
+            <element signature="e#1500#1510#0" expanded="true" />
+            <element signature="e#1776#1797#0" expanded="true" />
+            <element signature="e#1854#1864#0" expanded="true" />
+            <element signature="e#2126#2147#0" expanded="true" />
+            <element signature="e#2204#2214#0" expanded="true" />
+            <element signature="e#2493#2514#0" expanded="true" />
+            <element signature="e#2571#2581#0" expanded="true" />
+            <element signature="e#2865#2886#0" expanded="true" />
+            <element signature="e#2943#2953#0" expanded="true" />
+            <element signature="e#3235#3256#0" expanded="true" />
+            <element signature="e#3313#3323#0" expanded="true" />
+            <element signature="e#3588#3609#0" expanded="true" />
+            <element signature="e#3666#3676#0" expanded="true" />
+            <element signature="e#3940#3961#0" expanded="true" />
+            <element signature="e#4018#4028#0" expanded="true" />
+            <element signature="e#4292#4313#0" expanded="true" />
+            <element signature="e#4370#4380#0" expanded="true" />
+            <element signature="e#4642#4663#0" expanded="true" />
+            <element signature="e#4720#4730#0" expanded="true" />
+            <element signature="e#4992#5013#0" expanded="true" />
+            <element signature="e#5070#5080#0" expanded="true" />
+            <element signature="e#5340#5361#0" expanded="true" />
+            <element signature="e#5418#5428#0" expanded="true" />
+            <element signature="e#5688#5709#0" expanded="true" />
+            <element signature="e#5766#5776#0" expanded="true" />
+            <element signature="e#6038#6059#0" expanded="true" />
+            <element signature="e#6116#6126#0" expanded="true" />
+            <element signature="e#6386#6407#0" expanded="true" />
+            <element signature="e#6464#6474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ThreeVariableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#392#433#0" expanded="true" />
+            <element signature="e#532#553#0" expanded="true" />
+            <element signature="e#752#773#0" expanded="true" />
+            <element signature="e#830#840#0" expanded="true" />
+            <element signature="e#1105#1126#0" expanded="true" />
+            <element signature="e#1183#1193#0" expanded="true" />
+            <element signature="e#1457#1478#0" expanded="true" />
+            <element signature="e#1535#1545#0" expanded="true" />
+            <element signature="e#1813#1834#0" expanded="true" />
+            <element signature="e#1891#1901#0" expanded="true" />
+            <element signature="e#2163#2184#0" expanded="true" />
+            <element signature="e#2241#2251#0" expanded="true" />
+            <element signature="e#2527#2548#0" expanded="true" />
+            <element signature="e#2605#2615#0" expanded="true" />
+            <element signature="e#2896#2917#0" expanded="true" />
+            <element signature="e#2974#2984#0" expanded="true" />
+            <element signature="e#3262#3283#0" expanded="true" />
+            <element signature="e#3340#3350#0" expanded="true" />
+            <element signature="e#3613#3634#0" expanded="true" />
+            <element signature="e#3691#3701#0" expanded="true" />
+            <element signature="e#3963#3984#0" expanded="true" />
+            <element signature="e#4041#4051#0" expanded="true" />
+            <element signature="e#4328#4349#0" expanded="true" />
+            <element signature="e#4406#4416#0" expanded="true" />
+            <element signature="e#4675#4696#0" expanded="true" />
+            <element signature="e#4753#4763#0" expanded="true" />
+            <element signature="e#5038#5059#0" expanded="true" />
+            <element signature="e#5116#5126#0" expanded="true" />
+            <element signature="e#5385#5406#0" expanded="true" />
+            <element signature="e#5463#5473#0" expanded="true" />
+            <element signature="e#5735#5756#0" expanded="true" />
+            <element signature="e#5813#5823#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TwoVariableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#389#430#0" expanded="true" />
+            <element signature="e#529#550#0" expanded="true" />
+            <element signature="e#741#762#0" expanded="true" />
+            <element signature="e#819#829#0" expanded="true" />
+            <element signature="e#1084#1105#0" expanded="true" />
+            <element signature="e#1162#1172#0" expanded="true" />
+            <element signature="e#1427#1448#0" expanded="true" />
+            <element signature="e#1505#1515#0" expanded="true" />
+            <element signature="e#1780#1801#0" expanded="true" />
+            <element signature="e#1858#1868#0" expanded="true" />
+            <element signature="e#2136#2157#0" expanded="true" />
+            <element signature="e#2214#2224#0" expanded="true" />
+            <element signature="e#2506#2527#0" expanded="true" />
+            <element signature="e#2584#2594#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1320,10 +1532,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>Karnaugh-Map-Simplifier:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1371,7 +1585,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
