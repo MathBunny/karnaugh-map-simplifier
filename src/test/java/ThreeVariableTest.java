@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.LinkedList;
 
 /**
- * This class contains tests for three variable simplification
+ * This class stores all ThreeVariableTests to be used in ContentPanelTest
  * @author Horatiu Lazu
  * @version 1.0
  */

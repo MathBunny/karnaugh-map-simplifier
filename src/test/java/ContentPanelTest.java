@@ -7,6 +7,8 @@ import java.util.*;
  * @version 1.0
  */
 public class ContentPanelTest extends TestCase {
+    /** CONTENT_PANEL ContentPanel This is a two variable content panel */
+    private final ContentPanel CONTENT_PANEL_SMALL = new ContentPanel(2);
     /** CONTENT_PANEL ContentPanel This is a three variable content panel */
     private final ContentPanel CONTENT_PANEL = new ContentPanel(3);
     /** CONTENT_PANEL_EXTENDED ContentPanel This is a four variable content panel */
@@ -29,6 +31,15 @@ public class ContentPanelTest extends TestCase {
     public void testGetSimplifiedExpression() throws Exception {
         try {
             new Frame(false);
+
+            /* Two Variable Tests */
+            TwoVariableTest twoVT = new TwoVariableTest();
+            HashMap<LinkedList<CompoundedGroupings>, String> twoVariableTests = twoVT.getTests();
+
+            for(LinkedList<CompoundedGroupings> compoundedGroups : twoVariableTests.keySet()){
+                CONTENT_PANEL_SMALL.getSimplifiedExpression(compoundedGroups.get(0).getGroups());
+                assertEquals(Frame.ans[CONTENT_PANEL_SMALL.getVar() - 2].getText(), twoVariableTests.get(compoundedGroups));
+            }
 
             /* Three Variable Tests */
             ThreeVariableTest tVT = new ThreeVariableTest();
