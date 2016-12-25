@@ -1,6 +1,6 @@
 import junit.framework.TestCase;
 import java.awt.*;
-import java.util.LinkedList;
+import java.util.*;
 
 /**
  * @author Horatiu Lazu
@@ -58,8 +58,18 @@ public class ContentPanelTest extends TestCase {
             assertEquals(Frame.ans[CONTENT_PANEL.getVar() - 2].getText(), "True");
 
 
+            /* Four Variable Tests */
+
+            FourVariableTest fVT = new FourVariableTest();
+            HashMap<LinkedList<CompoundedGroupings>, String> fourVariableTests = fVT.getTests();
+
+            // Execute tests from fourVariableTests
+            for(LinkedList<CompoundedGroupings> compoundedGroups : fourVariableTests.keySet()){
+                CONTENT_PANEL_EXTENDED.getSimplifiedExpression(compoundedGroups.get(0).getGroups());
+                assertEquals(Frame.ans[CONTENT_PANEL_EXTENDED.getVar() - 2].getText(), fourVariableTests.get(compoundedGroups));
+            }
+
             // Test F (four variable no groupings)
-            new Frame(false);
             CONTENT_PANEL_EXTENDED.getSimplifiedExpression(new LinkedList<Grouping>());
             assertEquals(Frame.ans[CONTENT_PANEL_EXTENDED.getVar() - 2].getText(), "False");
 

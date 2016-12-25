@@ -12,7 +12,7 @@ public class CompoundedGroupings {
     }
 
     public CompoundedGroupings(){
-
+        groups = new LinkedList<Grouping>();
     }
 
     public CompoundedGroupings(LinkedList<Grouping> groups){

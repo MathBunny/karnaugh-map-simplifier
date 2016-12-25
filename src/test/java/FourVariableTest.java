@@ -12,22 +12,23 @@ public class FourVariableTest implements SimplificationTest{
 
         // Test A (no group)
         LinkedList<CompoundedGroupings> noGroups = new LinkedList<CompoundedGroupings>();
+        noGroups.add(new CompoundedGroupings());
         tests.put(noGroups, "False");
 
         // Test B (small narrow group)
         LinkedList<CompoundedGroupings> narrowGroupTop = new LinkedList<CompoundedGroupings>();
-        LinkedList<Grouping> groups = new LinkedList<Grouping>();
-        groups.add(new Grouping(0, 0, 0, 3));
-        narrowGroupTop.add(new CompoundedGroupings(groups));
+        LinkedList<Grouping> groupsA = new LinkedList<Grouping>();
+        groupsA.add(new Grouping(0, 0, 0, 3));
+        narrowGroupTop.add(new CompoundedGroupings(groupsA));
         tests.put(narrowGroupTop, "C'D'");
 
         // Test B (small narrow group)
         LinkedList<CompoundedGroupings> wideGroupTop = new LinkedList<CompoundedGroupings>();
-        groups = new LinkedList<Grouping>();
-        groups.add(new Grouping(0, 0, 3, 0));
-        wideGroupTop.add(new CompoundedGroupings(groups));
+        LinkedList<Grouping> groupsB = new LinkedList<Grouping>();
+        groupsB.add(new Grouping(0, 0, 3, 0));
+        wideGroupTop.add(new CompoundedGroupings(groupsB));
         tests.put(wideGroupTop, "A'B'");
 
-        return null;
+        return tests;
     }
 }
