@@ -7,7 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2a358fb-2a89-4ed6-a890-724b5fe9229c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/FourVariableTest.java" afterPath="$PROJECT_DIR$/src/test/java/FourVariableTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ThreeVariableTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ContentPanelTest.java" afterPath="$PROJECT_DIR$/src/test/java/ContentPanelTest.java" />
     </list>
     <ignored path="Karnaugh-Map-Simplifier.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,11 +58,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="FourVariableTest.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="FourVariableTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/FourVariableTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1593">
-                  <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                <state relative-caret-position="1890">
+                  <caret line="126" column="31" selection-start-line="126" selection-start-column="31" selection-end-line="126" selection-end-column="31" />
                   <folding>
                     <element signature="e#355#396#0" expanded="true" />
                     <element signature="e#495#516#0" expanded="true" />
@@ -97,6 +100,50 @@
                     <element signature="e#6116#6126#0" expanded="true" />
                     <element signature="e#6386#6407#0" expanded="true" />
                     <element signature="e#6464#6474#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ThreeVariableTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/ThreeVariableTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#380#421#0" expanded="true" />
+                    <element signature="e#520#541#0" expanded="true" />
+                    <element signature="e#740#761#0" expanded="true" />
+                    <element signature="e#818#828#0" expanded="true" />
+                    <element signature="e#1093#1114#0" expanded="true" />
+                    <element signature="e#1171#1181#0" expanded="true" />
+                    <element signature="e#1445#1466#0" expanded="true" />
+                    <element signature="e#1523#1533#0" expanded="true" />
+                    <element signature="e#1801#1822#0" expanded="true" />
+                    <element signature="e#1879#1889#0" expanded="true" />
+                    <element signature="e#2151#2172#0" expanded="true" />
+                    <element signature="e#2229#2239#0" expanded="true" />
+                    <element signature="e#2515#2536#0" expanded="true" />
+                    <element signature="e#2593#2603#0" expanded="true" />
+                    <element signature="e#2884#2905#0" expanded="true" />
+                    <element signature="e#2962#2972#0" expanded="true" />
+                    <element signature="e#3250#3271#0" expanded="true" />
+                    <element signature="e#3328#3338#0" expanded="true" />
+                    <element signature="e#3601#3622#0" expanded="true" />
+                    <element signature="e#3679#3689#0" expanded="true" />
+                    <element signature="e#3951#3972#0" expanded="true" />
+                    <element signature="e#4029#4039#0" expanded="true" />
+                    <element signature="e#4316#4337#0" expanded="true" />
+                    <element signature="e#4394#4404#0" expanded="true" />
+                    <element signature="e#4663#4684#0" expanded="true" />
+                    <element signature="e#4741#4751#0" expanded="true" />
+                    <element signature="e#5026#5047#0" expanded="true" />
+                    <element signature="e#5104#5114#0" expanded="true" />
+                    <element signature="e#5373#5394#0" expanded="true" />
+                    <element signature="e#5451#5461#0" expanded="true" />
+                    <element signature="e#5723#5744#0" expanded="true" />
+                    <element signature="e#5801#5811#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -173,16 +220,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="FivePlusContentPanel.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/FivePlusContentPanel.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -190,8 +227,8 @@
           <file leaf-file-name="ContentPanelTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/ContentPanelTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="482">
-                  <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+                <state relative-caret-position="237">
+                  <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -323,8 +360,10 @@
         <option value="$PROJECT_DIR$/src/test/java/SolveTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SimplificationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/CompoundedGroupings.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ContentPanelTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/FourVariableTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/ContentPanelTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ThreeVariableTest.java" />
       </list>
     </option>
   </component>
@@ -861,34 +900,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 26m 43s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 16h 38m 31s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 26m 52s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 16h 38m 38s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 27m 31s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 16h 38m 47s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 27m 40s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 16h 38m 57s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 28m 14s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 16h 39m 41s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 28m 48s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 16h 39m 50s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 29m 31s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 16h 41m 11s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 31m 12s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 16h 41m 17s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 31m 46s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 16h 41m 50s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 31m 53s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 16h 41m 57s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -948,7 +987,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ContentPanelTest.java</url>
-          <line>74</line>
+          <line>53</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -973,22 +1012,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Frame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3030">
-          <caret line="209" column="54" selection-start-line="209" selection-start-column="54" selection-end-line="209" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ButtonRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DontCare.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1365,10 +1388,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ContentPanelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+        <state relative-caret-position="237">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1377,8 +1408,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FourVariableTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1593">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="1890">
+          <caret line="126" column="31" selection-start-line="126" selection-start-column="31" selection-end-line="126" selection-end-column="31" />
           <folding>
             <element signature="e#355#396#0" expanded="true" />
             <element signature="e#495#516#0" expanded="true" />
@@ -1416,6 +1447,48 @@
             <element signature="e#6116#6126#0" expanded="true" />
             <element signature="e#6386#6407#0" expanded="true" />
             <element signature="e#6464#6474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ThreeVariableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#380#421#0" expanded="true" />
+            <element signature="e#520#541#0" expanded="true" />
+            <element signature="e#740#761#0" expanded="true" />
+            <element signature="e#818#828#0" expanded="true" />
+            <element signature="e#1093#1114#0" expanded="true" />
+            <element signature="e#1171#1181#0" expanded="true" />
+            <element signature="e#1445#1466#0" expanded="true" />
+            <element signature="e#1523#1533#0" expanded="true" />
+            <element signature="e#1801#1822#0" expanded="true" />
+            <element signature="e#1879#1889#0" expanded="true" />
+            <element signature="e#2151#2172#0" expanded="true" />
+            <element signature="e#2229#2239#0" expanded="true" />
+            <element signature="e#2515#2536#0" expanded="true" />
+            <element signature="e#2593#2603#0" expanded="true" />
+            <element signature="e#2884#2905#0" expanded="true" />
+            <element signature="e#2962#2972#0" expanded="true" />
+            <element signature="e#3250#3271#0" expanded="true" />
+            <element signature="e#3328#3338#0" expanded="true" />
+            <element signature="e#3601#3622#0" expanded="true" />
+            <element signature="e#3679#3689#0" expanded="true" />
+            <element signature="e#3951#3972#0" expanded="true" />
+            <element signature="e#4029#4039#0" expanded="true" />
+            <element signature="e#4316#4337#0" expanded="true" />
+            <element signature="e#4394#4404#0" expanded="true" />
+            <element signature="e#4663#4684#0" expanded="true" />
+            <element signature="e#4741#4751#0" expanded="true" />
+            <element signature="e#5026#5047#0" expanded="true" />
+            <element signature="e#5104#5114#0" expanded="true" />
+            <element signature="e#5373#5394#0" expanded="true" />
+            <element signature="e#5451#5461#0" expanded="true" />
+            <element signature="e#5723#5744#0" expanded="true" />
+            <element signature="e#5801#5811#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -13,7 +13,8 @@ The purpose of this application is to simplify boolean expressions. It accomplis
 * Prime implicant matching is powered by branch-and-bound method
 * Show pairing visualization for up to 4 variables
 * Allow for mapping of pairings and SOP determination
-* Easy to use interface, with ability of real-time 
+* Easy to use interface, with ability of real-time
+* Extensive unit test suite for expression simplification
 
 ##Future Plans
 * Ability to simulate grid by plotting disjoint sets on different levels
