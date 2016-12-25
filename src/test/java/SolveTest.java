@@ -3,6 +3,8 @@ import junit.framework.TestCase;
 import java.util.Arrays;
 
 /**
+ * This class tests the solve mechanism.
+ * For integration solving, see ContentPanelTest.java
  * @author Horatiu Lazu
  */
 public class SolveTest extends TestCase {
