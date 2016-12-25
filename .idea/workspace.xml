@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f2a358fb-2a89-4ed6-a890-724b5fe9229c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/CompoundedGroupings.java" afterPath="$PROJECT_DIR$/src/test/java/CompoundedGroupings.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ContentPanelTest.java" afterPath="$PROJECT_DIR$/src/test/java/ContentPanelTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/FourVariableTest.java" afterPath="$PROJECT_DIR$/src/test/java/FourVariableTest.java" />
     </list>
@@ -61,15 +60,27 @@
           <file leaf-file-name="FourVariableTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/FourVariableTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+                <state relative-caret-position="327">
+                  <caret line="71" column="47" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
                   <folding>
                     <element signature="e#354#395#0" expanded="true" />
                     <element signature="e#494#515#0" expanded="true" />
                     <element signature="e#717#738#0" expanded="true" />
                     <element signature="e#795#805#0" expanded="true" />
-                    <element signature="e#1070#1091#0" expanded="true" />
-                    <element signature="e#1148#1158#0" expanded="true" />
+                    <element signature="e#1068#1089#0" expanded="true" />
+                    <element signature="e#1146#1156#0" expanded="true" />
+                    <element signature="e#1421#1442#0" expanded="true" />
+                    <element signature="e#1499#1509#0" expanded="true" />
+                    <element signature="e#1775#1796#0" expanded="true" />
+                    <element signature="e#1853#1863#0" expanded="true" />
+                    <element signature="e#2125#2146#0" expanded="true" />
+                    <element signature="e#2203#2213#0" expanded="true" />
+                    <element signature="e#2492#2513#0" expanded="true" />
+                    <element signature="e#2570#2580#0" expanded="true" />
+                    <element signature="e#2864#2885#0" expanded="true" />
+                    <element signature="e#2942#2952#0" expanded="true" />
+                    <element signature="e#3234#3255#0" expanded="true" />
+                    <element signature="e#3312#3322#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -163,8 +174,8 @@
           <file leaf-file-name="ContentPanelTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/ContentPanelTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="267">
-                  <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+                <state relative-caret-position="482">
+                  <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -296,8 +307,8 @@
         <option value="$PROJECT_DIR$/src/test/java/SolveTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SimplificationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/CompoundedGroupings.java" />
-        <option value="$PROJECT_DIR$/src/test/java/FourVariableTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ContentPanelTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FourVariableTest.java" />
       </list>
     </option>
   </component>
@@ -834,34 +845,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 11h 07m 53s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 14m 40s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 11h 17m 44s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 15m 11s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 11h 18m 06s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 15m 42s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 00m 38s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 16m 37s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 01m 01s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 16m 51s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 02m 19s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 18m 34s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 05m 45s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 18m 46s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 06m 20s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 18m 55s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 06m 38s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 19m 30s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 06m 43s.xml">
+    <history-entry file="All_in_Karnaugh-Map-Simplifier - 2016.12.25 at 12h 19m 45s.xml">
       <configuration name="All in Karnaugh-Map-Simplifier" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -921,7 +932,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ContentPanelTest.java</url>
-          <line>90</line>
+          <line>74</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -1338,27 +1349,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ContentPanelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FourVariableTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        <state relative-caret-position="327">
+          <caret line="71" column="47" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
           <folding>
             <element signature="e#354#395#0" expanded="true" />
             <element signature="e#494#515#0" expanded="true" />
             <element signature="e#717#738#0" expanded="true" />
             <element signature="e#795#805#0" expanded="true" />
-            <element signature="e#1070#1091#0" expanded="true" />
-            <element signature="e#1148#1158#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ContentPanelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1068#1089#0" expanded="true" />
+            <element signature="e#1146#1156#0" expanded="true" />
+            <element signature="e#1421#1442#0" expanded="true" />
+            <element signature="e#1499#1509#0" expanded="true" />
+            <element signature="e#1775#1796#0" expanded="true" />
+            <element signature="e#1853#1863#0" expanded="true" />
+            <element signature="e#2125#2146#0" expanded="true" />
+            <element signature="e#2203#2213#0" expanded="true" />
+            <element signature="e#2492#2513#0" expanded="true" />
+            <element signature="e#2570#2580#0" expanded="true" />
+            <element signature="e#2864#2885#0" expanded="true" />
+            <element signature="e#2942#2952#0" expanded="true" />
+            <element signature="e#3234#3255#0" expanded="true" />
+            <element signature="e#3312#3322#0" expanded="true" />
           </folding>
         </state>
       </provider>

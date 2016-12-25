@@ -69,22 +69,6 @@ public class ContentPanelTest extends TestCase {
                 assertEquals(Frame.ans[CONTENT_PANEL_EXTENDED.getVar() - 2].getText(), fourVariableTests.get(compoundedGroups));
             }
 
-            // Test F (four variable no groupings)
-            CONTENT_PANEL_EXTENDED.getSimplifiedExpression(new LinkedList<Grouping>());
-            assertEquals(Frame.ans[CONTENT_PANEL_EXTENDED.getVar() - 2].getText(), "False");
-
-            // Tests G (small narrow group)
-            groupingList = new LinkedList<Grouping>();
-            groupingList.add(new Grouping(0, 0, 0, 3));
-            CONTENT_PANEL_EXTENDED.getSimplifiedExpression(groupingList);
-            assertEquals(Frame.ans[CONTENT_PANEL_EXTENDED.getVar() - 2].getText(), "C'D'");
-
-            // Tests H (small wide group)
-            groupingList = new LinkedList<Grouping>();
-            groupingList.add(new Grouping(0, 0, 3, 0));
-            CONTENT_PANEL_EXTENDED.getSimplifiedExpression(groupingList);
-            assertEquals(Frame.ans[CONTENT_PANEL_EXTENDED.getVar() - 2].getText(), "A'B'");
-
         }
         catch(HeadlessException e){
             assert(true);
