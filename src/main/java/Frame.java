@@ -3,6 +3,9 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.table.*;
 import javax.swing.border.*;
+import java.awt.Toolkit;
+import java.awt.datatransfer.StringSelection;
+import java.awt.datatransfer.Clipboard;
 
 /** The purpose of this class is to setup the JFrame with all the assorted GUI elements.
   * @author Horatiu Lazu
@@ -196,6 +199,13 @@ public class Frame implements ActionListener{ //fix to extend JFrame
     JOptionPane.showMessageDialog(null, "Unsimplified Expression: "
             + givenEq[Solve.NUM_VARIABLES-2].getText() + "\nSimplified Expression:    " + ans[Solve.NUM_VARIABLES-2].getText(), "Boolean Expression Minimized!", JOptionPane.INFORMATION_MESSAGE);
 
+    if (Settings.getCopyClipboard()){
+        StringSelection selection = new StringSelection(ans[Solve.NUM_VARIABLES-2].getText());
+        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+        clipboard.setContents(selection, selection);
+        System.out.println("SET!");
+    }
+
   }
   
   /** This method adds an explanation box for how k-maps work. */
@@ -304,7 +314,15 @@ public class Frame implements ActionListener{ //fix to extend JFrame
       }
     });
 
+    JCheckBoxMenuItem copyClipboard = new JCheckBoxMenuItem ("Copy to Clipboard");
+    copyClipboard.addActionListener(new ActionListener() {
+        public void actionPerformed(ActionEvent evt) {
+            Settings.toggleCopyClipboard();
+        }
+    });
+
     settings.add(realtimeUpdate);
+    settings.add(copyClipboard);
     
     help.add(about);
     bar.add(file);
