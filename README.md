@@ -1,12 +1,12 @@
-#Karnaugh-Map-Simplifier
+# Karnaugh-Map-Simplifier
 
 [![Build Status](https://travis-ci.org/MathBunny/karnaugh-map-simplifier.svg?branch=ProjectOrganization)](https://travis-ci.org/MathBunny/karnaugh-map-simplifier)
 [![GitHub issues](https://img.shields.io/github/issues/MathBunny/karnaugh-map-simplifier.svg)](https://github.com/MathBunny/karnaugh-map-simplifier/issues)
 
-##Purpose
+## Purpose
 The purpose of this application is to simplify boolean expressions. It accomplishes the simplification using Quine-McClusky for expressions over 4 variables, and Karnaugh Map for expressions with 4 or less variables. Feel free to contribute! 
 
-##Features & Development
+## Features & Development
 * Allow simplification of boolean expressions from truth-table
 * Converts truth-table to SOP (Sum of Product), then plots on Karnaugh-Map
 * Uses Quine McCluskey method of simplification of 5+ variables
@@ -16,12 +16,12 @@ The purpose of this application is to simplify boolean expressions. It accomplis
 * Easy to use interface, with ability of real-time
 * Extensive unit test suite for expression simplification
 
-##Future Plans
+## Future Plans
 * Ability to simulate grid by plotting disjoint sets on different levels
 
 
 
-##Unique Karnaugh Map simplification algorithm
+## Unique Karnaugh Map simplification algorithm
 This application makes use of algorithms and data-structures to power a pattern recognition engine. For Karnaugh Maps, this application uses a unique non-standardized algorithm. Here's a quick overview of the steps:
 
 1. Gather required information from truth-table and generate matrix and SOP (Sum of Product) expressions
@@ -55,7 +55,7 @@ This application makes use of algorithms and data-structures to power a pattern 
 12. Output groupings onto grid, be careful of wrapping cases, use `drawArc` and `drawRoundRect` where appropriate; use a circularly linked list to traverse colors for RGB and increment pointer each time
 
 
-##Screenshots
+## Screenshots
 ![Screenshot](screenshots/Karnaugh4Variable.png "Screenshot")
 ![Screenshot](screenshots/Karnaugh2Variable.png "Screenshot")
 ![Screenshot](screenshots/Karnaugh3Variable.png "Screenshot")

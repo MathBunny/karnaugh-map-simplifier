@@ -7,11 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2a358fb-2a89-4ed6-a890-724b5fe9229c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/TwoVariableTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Karnaugh_Map_Simplifier_jar/Karnaugh-Map-Simplifier.jar" afterPath="$PROJECT_DIR$/out/artifacts/Karnaugh_Map_Simplifier_jar/Karnaugh-Map-Simplifier.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ContentPanelTest.java" afterPath="$PROJECT_DIR$/src/test/java/ContentPanelTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ThreeVariableTest.java" afterPath="$PROJECT_DIR$/src/test/java/ThreeVariableTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="Karnaugh-Map-Simplifier.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,44 +60,7 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="45">
                   <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="73" />
-                  <folding>
-                    <element signature="e#355#396#0" expanded="true" />
-                    <element signature="e#495#516#0" expanded="true" />
-                    <element signature="e#718#739#0" expanded="true" />
-                    <element signature="e#796#806#0" expanded="true" />
-                    <element signature="e#1069#1090#0" expanded="true" />
-                    <element signature="e#1147#1157#0" expanded="true" />
-                    <element signature="e#1422#1443#0" expanded="true" />
-                    <element signature="e#1500#1510#0" expanded="true" />
-                    <element signature="e#1776#1797#0" expanded="true" />
-                    <element signature="e#1854#1864#0" expanded="true" />
-                    <element signature="e#2126#2147#0" expanded="true" />
-                    <element signature="e#2204#2214#0" expanded="true" />
-                    <element signature="e#2493#2514#0" expanded="true" />
-                    <element signature="e#2571#2581#0" expanded="true" />
-                    <element signature="e#2865#2886#0" expanded="true" />
-                    <element signature="e#2943#2953#0" expanded="true" />
-                    <element signature="e#3235#3256#0" expanded="true" />
-                    <element signature="e#3313#3323#0" expanded="true" />
-                    <element signature="e#3588#3609#0" expanded="true" />
-                    <element signature="e#3666#3676#0" expanded="true" />
-                    <element signature="e#3940#3961#0" expanded="true" />
-                    <element signature="e#4018#4028#0" expanded="true" />
-                    <element signature="e#4292#4313#0" expanded="true" />
-                    <element signature="e#4370#4380#0" expanded="true" />
-                    <element signature="e#4642#4663#0" expanded="true" />
-                    <element signature="e#4720#4730#0" expanded="true" />
-                    <element signature="e#4992#5013#0" expanded="true" />
-                    <element signature="e#5070#5080#0" expanded="true" />
-                    <element signature="e#5340#5361#0" expanded="true" />
-                    <element signature="e#5418#5428#0" expanded="true" />
-                    <element signature="e#5688#5709#0" expanded="true" />
-                    <element signature="e#5766#5776#0" expanded="true" />
-                    <element signature="e#6038#6059#0" expanded="true" />
-                    <element signature="e#6116#6126#0" expanded="true" />
-                    <element signature="e#6386#6407#0" expanded="true" />
-                    <element signature="e#6464#6474#0" expanded="true" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -153,7 +112,7 @@
           <file leaf-file-name="TwoVariableTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/TwoVariableTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="392">
+                <state relative-caret-position="535">
                   <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -179,7 +138,7 @@
           <file leaf-file-name="CompoundedGroupings.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/CompoundedGroupings.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
+                <state relative-caret-position="165">
                   <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
                   <folding>
                     <element signature="e#240#241#0" expanded="true" />
@@ -218,7 +177,7 @@
           <file leaf-file-name="ScreenAbout.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/ScreenAbout.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
+                <state relative-caret-position="120">
                   <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
                   <folding />
                 </state>
@@ -239,7 +198,7 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="ContentPanelTest.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ContentPanelTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/ContentPanelTest.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="270">
@@ -306,8 +265,18 @@
           <file leaf-file-name="Scenario.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/Scenario.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
+                <state relative-caret-position="120">
                   <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="524">
+                  <caret line="57" column="3" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -376,10 +345,10 @@
         <option value="$PROJECT_DIR$/src/test/java/SimplificationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/CompoundedGroupings.java" />
         <option value="$PROJECT_DIR$/src/test/java/FourVariableTest.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/ContentPanelTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ThreeVariableTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/TwoVariableTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -435,8 +404,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -525,9 +495,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -962,14 +931,12 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20505345" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22770919" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2537723" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2526596" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.225" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" x="333" y="23" width="960" height="821" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26474622" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -983,7 +950,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22770919" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.225" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" x="333" y="23" width="960" height="821" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3257979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1123,9 +1092,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding>
-            <marker date="1481906723000" expanded="true" signature="89:633" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1316,7 +1283,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ScreenAbout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="120">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
@@ -1342,20 +1309,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Scenario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="120">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FourVariableTestDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FourVariableTestDB.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/SolveTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1382,7 +1342,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CompoundedGroupings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="165">
           <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
           <folding>
             <element signature="e#240#241#0" expanded="true" />
@@ -1394,14 +1354,6 @@
             <element signature="e#492#493#0" expanded="true" />
             <element signature="e#521#522#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1419,44 +1371,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="73" />
-          <folding>
-            <element signature="e#355#396#0" expanded="true" />
-            <element signature="e#495#516#0" expanded="true" />
-            <element signature="e#718#739#0" expanded="true" />
-            <element signature="e#796#806#0" expanded="true" />
-            <element signature="e#1069#1090#0" expanded="true" />
-            <element signature="e#1147#1157#0" expanded="true" />
-            <element signature="e#1422#1443#0" expanded="true" />
-            <element signature="e#1500#1510#0" expanded="true" />
-            <element signature="e#1776#1797#0" expanded="true" />
-            <element signature="e#1854#1864#0" expanded="true" />
-            <element signature="e#2126#2147#0" expanded="true" />
-            <element signature="e#2204#2214#0" expanded="true" />
-            <element signature="e#2493#2514#0" expanded="true" />
-            <element signature="e#2571#2581#0" expanded="true" />
-            <element signature="e#2865#2886#0" expanded="true" />
-            <element signature="e#2943#2953#0" expanded="true" />
-            <element signature="e#3235#3256#0" expanded="true" />
-            <element signature="e#3313#3323#0" expanded="true" />
-            <element signature="e#3588#3609#0" expanded="true" />
-            <element signature="e#3666#3676#0" expanded="true" />
-            <element signature="e#3940#3961#0" expanded="true" />
-            <element signature="e#4018#4028#0" expanded="true" />
-            <element signature="e#4292#4313#0" expanded="true" />
-            <element signature="e#4370#4380#0" expanded="true" />
-            <element signature="e#4642#4663#0" expanded="true" />
-            <element signature="e#4720#4730#0" expanded="true" />
-            <element signature="e#4992#5013#0" expanded="true" />
-            <element signature="e#5070#5080#0" expanded="true" />
-            <element signature="e#5340#5361#0" expanded="true" />
-            <element signature="e#5418#5428#0" expanded="true" />
-            <element signature="e#5688#5709#0" expanded="true" />
-            <element signature="e#5766#5776#0" expanded="true" />
-            <element signature="e#6038#6059#0" expanded="true" />
-            <element signature="e#6116#6126#0" expanded="true" />
-            <element signature="e#6386#6407#0" expanded="true" />
-            <element signature="e#6464#6474#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1504,7 +1419,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TwoVariableTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
+        <state relative-caret-position="535">
           <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1523,6 +1438,14 @@
             <element signature="e#2506#2527#0" expanded="true" />
             <element signature="e#2584#2594#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="57" column="3" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
