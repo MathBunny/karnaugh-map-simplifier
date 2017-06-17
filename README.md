@@ -8,16 +8,13 @@ Karnaugh Map Simplification Software - visually simplifies expressions using eff
 ## Features & Development
 There are two versions included in this repository. You can find the original simplifier under the `deprecated` folder while a new JavaFX application is under development using Java 8.
 
-Version 1 Features:
+Current Features:
 * Allow simplification of boolean expressions from truth-table
 * Custom UI components (scalable truth-table) for ease of use
 * Converts truth-table to SOP (sum of product) form, then plots on Karnaugh Map
 * Shows pairing visualization for 2-4 variable expressions
 * Outputs simplified expressions algebraically
 * Extensive unit test suite for expression simplification correctness
-
-Version 2 Features (In Development):
-* Easy to navigate interface using JavaFX
 
 ## Future Plans
 * Further optimized boolean algebra expression pairing recognition algorithm
