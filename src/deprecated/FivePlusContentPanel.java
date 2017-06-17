@@ -101,7 +101,7 @@ public class FivePlusContentPanel extends JPanel implements ActionListener{
         export.setSize(new Dimension(tableWidth+15, (int) export.getPreferredSize().getHeight()));
         export.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                //simplify
+                // simplify
             }
         });
 
