@@ -21,6 +21,7 @@ public class Frame extends Application {
         Scene scene = new Scene(root, 960, 640);
 
         stage.setTitle("Karnaugh Map Simplification Software");
+        stage.setResizable(false);
         stage.setScene(scene);
         stage.show();
     }

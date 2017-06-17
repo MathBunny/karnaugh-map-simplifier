@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckMenuItem?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
@@ -70,10 +71,10 @@
           <Menu mnemonicParsing="false" text="File">
             <items>
               <MenuItem mnemonicParsing="false" text="New" />
-                  <MenuItem mnemonicParsing="false" text="Save" />
                   <MenuItem mnemonicParsing="false" text="Save as" />
                   <MenuItem mnemonicParsing="false" text="Export" />
                   <MenuItem mnemonicParsing="false" text="Exit" />
+                  <MenuItem mnemonicParsing="false" text="Save" />
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="Edit">
@@ -85,7 +86,8 @@
           </Menu>
           <Menu mnemonicParsing="false" text="Settings">
             <items>
-              <MenuItem mnemonicParsing="false" text="Real-Time" />
+                  <CheckMenuItem mnemonicParsing="false" text="Real Time" />
+                  <CheckMenuItem mnemonicParsing="false" text="Mathematical Notation" />
             </items>
           </Menu>
             <Menu mnemonicParsing="false" text="Help">
