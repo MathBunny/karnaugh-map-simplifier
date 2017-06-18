@@ -16,7 +16,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FrameController">
    <children>
       <TabPane layoutY="31.0" prefHeight="607.0" prefWidth="960.0" tabClosingPolicy="UNAVAILABLE">
         <tabs>
@@ -95,7 +95,7 @@
                         <KeyCodeCombination alt="UP" code="E" control="UP" meta="DOWN" shift="UP" shortcut="UP" />
                      </accelerator></MenuItem>
                   <SeparatorMenuItem mnemonicParsing="false" />
-                  <MenuItem mnemonicParsing="false" text="Exit">
+                  <MenuItem fx:id="exitMenuItem" mnemonicParsing="false" onAction="#exitMenuItemPressed" text="Exit">
                      <accelerator>
                         <KeyCodeCombination alt="DOWN" code="F4" control="UP" meta="UP" shift="UP" shortcut="UP" />
                      </accelerator></MenuItem>
@@ -137,7 +137,7 @@
           </Menu>
             <Menu mnemonicParsing="false" text="Help">
                <items>
-                  <MenuItem mnemonicParsing="false" text="About" />
+                  <MenuItem fx:id="aboutMenuItem" mnemonicParsing="false" onAction="#aboutMenuItemPressed" text="About" />
                </items>
             </Menu>
         </menus>

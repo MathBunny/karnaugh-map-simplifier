@@ -8,5 +8,4 @@ public class Test extends TestCase{
     public void testTest() throws Exception {
         assertEquals(true, true);
     }
-
 }

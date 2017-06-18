@@ -7,12 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2a358fb-2a89-4ed6-a890-724b5fe9229c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/About.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/AboutController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/FrameController.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Controller.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Karnaugh_Map_Simplifier_jar/Karnaugh-Map-Simplifier.jar" afterPath="$PROJECT_DIR$/out/artifacts/Karnaugh_Map_Simplifier_jar/Karnaugh-Map-Simplifier.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Controller.java" afterPath="$PROJECT_DIR$/src/main/java/Controller.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Frame.java" afterPath="$PROJECT_DIR$/src/main/java/Frame.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/frame.fxml" afterPath="$PROJECT_DIR$/src/main/resources/frame.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Test.java" afterPath="$PROJECT_DIR$/src/test/java/Test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/frame.fxml" afterPath="$PROJECT_DIR$/target/classes/frame.fxml" />
     </list>
     <ignored path="Karnaugh-Map-Simplifier.iws" />
@@ -39,11 +42,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+              <folding>
+                <marker date="1497744634000" expanded="true" signature="10:14" ph="java" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -52,13 +67,48 @@
       <file leaf-file-name="Frame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Frame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+            <state relative-caret-position="150">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="About.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/About.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AboutController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="About.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/About.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -72,13 +122,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Controller.java">
+      <file leaf-file-name="FrameController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FrameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,8 +155,8 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <state relative-caret-position="135">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -129,10 +184,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/DrawComponent.java" />
         <option value="$PROJECT_DIR$/src/main/java/PrefixSumTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/About.java" />
         <option value="$PROJECT_DIR$/src/main/java/GraycodeMapping.java" />
         <option value="$PROJECT_DIR$/src/main/java/KarnaughMapRenderer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Cell.java" />
@@ -173,12 +226,15 @@
         <option value="$PROJECT_DIR$/src/main/java/FivePlusContentPanel.java" />
         <option value="$PROJECT_DIR$/src/main/java/QuineMcCluskey.java" />
         <option value="$PROJECT_DIR$/src/tests/Test.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/frame.fxml" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Frame.java" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/Frame.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FrameController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/About.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AboutController.java" />
       </list>
     </option>
   </component>
@@ -916,25 +972,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/doc/allclasses-frame.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/About.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/javax/imageio/ImageIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19350">
-          <caret line="1386" column="28" selection-start-line="1386" selection-start-column="28" selection-end-line="1386" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doc/ButtonRenderer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1211,14 +1248,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/frame.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1230,31 +1259,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Frame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <marker date="1497744634000" expanded="true" signature="10:14" ph="java" />
           </folding>
         </state>
       </provider>
@@ -1267,10 +1277,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        <state relative-caret-position="135">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/About.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/About.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Frame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FrameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AboutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>

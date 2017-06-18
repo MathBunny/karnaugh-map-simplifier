@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<GridPane hgap="14.0" maxHeight="+Infinity" maxWidth="+Infinity" minHeight="-Infinity" minWidth="-Infinity" vgap="20.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AboutController">
+  <children>
+    <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.valignment="TOP">
+      <image>
+        <!-- place holder -->
+      </image>
+    </ImageView>
+    <VBox maxHeight="+Infinity" maxWidth="+Infinity" minHeight="-Infinity" prefWidth="400.0" spacing="7.0" GridPane.columnIndex="1" GridPane.rowIndex="0">
+      <children>
+        <Label fx:id="messageLabel" text="About Karnaugh Map Simplifier (2.0)" textAlignment="LEFT" wrapText="true">
+          <font>
+            <Font name="System Bold" size="13.0" />
+          </font>
+        </Label>
+        <Label fx:id="detailsLabel" text="This application was created by Horatiu Lazu, a student at the University of Waterloo in Canada." textAlignment="LEFT" wrapText="true">
+          <font>
+            <Font size="12.0" />
+          </font>
+        </Label>
+      </children>
+    </VBox>
+    <HBox maxHeight="-Infinity" maxWidth="+Infinity" minHeight="-Infinity" minWidth="-Infinity" GridPane.columnIndex="1" GridPane.rowIndex="1">
+      <children>
+        <HBox fx:id="actionParent" alignment="CENTER">
+          <children>
+            <Button fx:id="visitWebsiteButton" mnemonicParsing="false" onAction="#visitWebsiteButtonPress" text="Visit Website" HBox.hgrow="NEVER">
+              <HBox.margin>
+                <Insets right="14.0" />
+              </HBox.margin>
+            </Button>
+                  <Button fx:id="visitPersonalWebsiteButton" mnemonicParsing="false" onAction="#visitPersonalWebsiteButtonPress" text="Visit Developer's Website" />
+          </children>
+          <HBox.margin>
+            <Insets />
+          </HBox.margin>
+        </HBox>
+        <Pane maxWidth="+Infinity" HBox.hgrow="ALWAYS" />
+        <HBox fx:id="okParent" alignment="CENTER">
+          <children>
+            <Button fx:id="okButton" minWidth="80.0" mnemonicParsing="false" onAction="#okButtonPress" text="Ok" HBox.hgrow="NEVER">
+              <HBox.margin>
+                <Insets left="14.0" />
+              </HBox.margin>
+            </Button>
+          </children>
+        </HBox>
+      </children>
+    </HBox>
+  </children>
+  <columnConstraints>
+    <ColumnConstraints hgrow="NEVER" maxWidth="-Infinity" minWidth="-Infinity" />
+    <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="+Infinity" minWidth="-Infinity" />
+  </columnConstraints>
+  <padding>
+    <Insets bottom="14.0" left="14.0" right="14.0" top="14.0" />
+  </padding>
+  <rowConstraints>
+    <RowConstraints maxHeight="+Infinity" minHeight="-Infinity" valignment="CENTER" vgrow="ALWAYS" />
+    <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" vgrow="NEVER" />
+  </rowConstraints>
+</GridPane>

@@ -1,5 +1,5 @@
 /**
- * Created by horatiulazu on 2017-06-17.
+ * @author Horatiu Lazu
  */
 
 import javafx.application.Application;
@@ -28,5 +28,6 @@ public class Frame extends Application {
 
     @Override
     public void init(){
+
     }
 }
