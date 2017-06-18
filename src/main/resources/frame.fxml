@@ -20,7 +20,7 @@
    <children>
       <TabPane layoutY="31.0" prefHeight="607.0" prefWidth="960.0" tabClosingPolicy="UNAVAILABLE">
         <tabs>
-          <Tab text="2 Variables">
+          <Tab fx:id="twoVariables" text="2 Variables">
                <content>
                   <Pane prefHeight="200.0" prefWidth="200.0">
                      <children>
@@ -33,12 +33,12 @@
                   </Pane>
                </content>
           </Tab>
-          <Tab text="3 Variables">
+          <Tab fx:id="threeVariables" text="3 Variables">
             <content>
               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
             </content>
           </Tab>
-            <Tab text="4 Variables">
+            <Tab fx:id="fourVariables" text="4 Variables">
                <content>
                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
                </content>
