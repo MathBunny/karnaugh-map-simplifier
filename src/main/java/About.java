@@ -19,8 +19,8 @@ public class About extends Application {
             Stage stage = new Stage();
             Parent root = FXMLLoader.load(getClass().getResource("/about.fxml"));
 
-            Scene scene = new Scene(root, 500, 150);
-            stage.setTitle("About Karnaugh Map Simplifier");
+            Scene scene = new Scene(root, Constants.ABOUT_WIDTH, Constants.ABOUT_HEIGHT);
+            stage.setTitle(Constants.ABOUT_TITLE);
             stage.setResizable(false);
             stage.setScene(scene);
             stage.show();

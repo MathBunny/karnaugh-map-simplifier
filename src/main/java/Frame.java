@@ -18,16 +18,11 @@ public class Frame extends Application {
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/frame.fxml"));
 
-        Scene scene = new Scene(root, 960, 640);
+        Scene scene = new Scene(root, Constants.FRAME_WIDTH, Constants.FRAME_HEIGHT);
 
-        stage.setTitle("Karnaugh Map Simplification Software");
+        stage.setTitle(Constants.FRAME_TITLE);
         stage.setResizable(false);
         stage.setScene(scene);
         stage.show();
-    }
-
-    @Override
-    public void init(){
-
     }
 }
