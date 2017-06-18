@@ -3,22 +3,28 @@
 [![Build Status](https://travis-ci.org/MathBunny/karnaugh-map-simplifier.svg?branch=ProjectOrganization)](https://travis-ci.org/MathBunny/karnaugh-map-simplifier)
 [![GitHub issues](https://img.shields.io/github/issues/MathBunny/karnaugh-map-simplifier.svg)](https://github.com/MathBunny/karnaugh-map-simplifier/issues)
 
-## Purpose
-The purpose of this application is to simplify boolean expressions. It accomplishes the simplification using Quine-McClusky for expressions over 4 variables, and Karnaugh Map for expressions with 4 or less variables. Feel free to contribute! 
+Karnaugh Map Simplification Software - visually simplifies expressions using efficient algorithms.
 
 ## Features & Development
+There are two versions included in this repository. You can find the original simplifier [here](https://github.com/MathBunny/karnaugh-map-simplifier/tree/ClipboardFunctions) or under the deprecated folder while the new JavaFX application is under development using Java 8.
+
+Current Features:
 * Allow simplification of boolean expressions from truth-table
-* Converts truth-table to SOP (Sum of Product), then plots on Karnaugh-Map
-* Uses Quine McCluskey method of simplification of 5+ variables
-* Prime implicant matching is powered by branch-and-bound method
-* Show pairing visualization for up to 4 variables
-* Allow for mapping of pairings and SOP determination
-* Easy to use interface, with ability of real-time
-* Extensive unit test suite for expression simplification
+* Custom UI components (scalable truth-table) for ease of use
+* Converts truth-table to SOP (sum of product) form, then plots on Karnaugh Map
+* Shows pairing visualization for 2-4 variable expressions
+* Outputs simplified expressions algebraically
+* Extensive unit test suite for expression simplification correctness
 
 ## Future Plans
-* Ability to simulate grid by plotting disjoint sets on different levels
-
+* Further optimized boolean algebra expression pairing recognition algorithm
+* Simplify expressions for up to 27 variables using Quine-McCluskey and branch bound method
+* Save, open and export (to PDF) previous sessions including graphics pairing
+* Experimentation mode converting user defined pairings to sum of product form
+* Series of tools including sum of product to product of sum converter
+* Ability to visualize expressions through tree view, and collapse sum of product text fields
+* Database feature to store simplifications locally and view changes in expressions
+* Parameter for truth-tables to include "don't care"
 
 
 ## Unique Karnaugh Map simplification algorithm
