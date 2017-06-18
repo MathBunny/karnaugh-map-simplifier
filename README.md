@@ -6,7 +6,7 @@
 Karnaugh Map Simplification Software - visually simplifies expressions using efficient algorithms.
 
 ## Features & Development
-There are two versions included in this repository. You can find the original simplifier under the `deprecated` folder or [here](https://github.com/MathBunny/karnaugh-map-simplifier/tree/ClipboardFunctions) while the new JavaFX application is under development using Java 8.
+There are two versions included in this repository. You can find the original simplifier [here](https://github.com/MathBunny/karnaugh-map-simplifier/tree/ClipboardFunctions) or under the deprecated folder while the new JavaFX application is under development using Java 8.
 
 Current Features:
 * Allow simplification of boolean expressions from truth-table
